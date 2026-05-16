@@ -1,63 +1,56 @@
 # =============================================================================
 # generate_data.py - Tạo dataset khách hàng giả lập
 # =============================================================================
-# Mô tả: Sử dụng thư viện Faker và NumPy để tạo dataset khách hàng
-#         với 2000 dòng dữ liệu mô phỏng thực tế.
+# Mô tả: Tạo dataset đơn giản với 800 dòng, 5 cột chính
+#         phục vụ bài toán phân cụm khách hàng bằng KMeans
 # Tác giả: Nhóm 08 - Môn Khai Phá Dữ Liệu
 # =============================================================================
 
 import pandas as pd
 import numpy as np
-from faker import Faker
 import random
 import os
-
-# Khởi tạo Faker với locale tiếng Việt
-fake = Faker('vi_VN')
 
 # Đặt seed để kết quả có thể tái tạo (reproducible)
 np.random.seed(42)
 random.seed(42)
-Faker.seed(42)
 
 
-def generate_customer_data(n_customers=2000):
+def generate_customer_data(n_customers=800):
     """
-    Tạo dataset khách hàng giả lập.
+    Tạo dataset khách hàng giả lập đơn giản.
+
+    Dataset gồm 5 cột:
+    - Age: Tuổi khách hàng (18-65)
+    - Gender: Giới tính (Nam/Nữ)
+    - Income: Thu nhập hàng tháng (triệu VNĐ)
+    - SpendingScore: Điểm chi tiêu (1-100)
+    - PurchaseFrequency: Tần suất mua hàng (lần/tháng)
 
     Parameters:
     -----------
     n_customers : int
-        Số lượng khách hàng cần tạo (mặc định: 2000)
+        Số lượng khách hàng cần tạo (mặc định: 800)
 
     Returns:
     --------
     pd.DataFrame
         DataFrame chứa thông tin khách hàng
     """
-
     print(f"🔄 Đang tạo dataset với {n_customers} khách hàng...")
 
-    # --- Định nghĩa các giá trị có thể ---
-    genders = ['Nam', 'Nữ']
-    membership_levels = ['Bronze', 'Silver', 'Gold', 'Platinum']
-    preferred_categories = [
-        'Thời trang', 'Điện tử', 'Thực phẩm',
-        'Mỹ phẩm', 'Gia dụng', 'Sách', 'Thể thao'
-    ]
-
-    # --- Tạo từng cột dữ liệu ---
+    # --- Tạo dữ liệu ---
     data = {
-        # ID khách hàng: KH0001 -> KH2000
+        # ID khách hàng: KH001 -> KH800
         'CustomerID': [f'KH{str(i).zfill(4)}' for i in range(1, n_customers + 1)],
 
         # Giới tính: phân phối ngẫu nhiên
-        'Gender': [random.choice(genders) for _ in range(n_customers)],
+        'Gender': [random.choice(['Nam', 'Nữ']) for _ in range(n_customers)],
 
-        # Tuổi: phân phối chuẩn, trung bình 35, std 12, giới hạn [18, 70]
+        # Tuổi: phân phối chuẩn, trung bình 35, giới hạn [18, 65]
         'Age': np.clip(
             np.random.normal(loc=35, scale=12, size=n_customers).astype(int),
-            18, 70
+            18, 65
         ),
 
         # Thu nhập hàng tháng (triệu VNĐ): phân phối log-normal
@@ -65,56 +58,32 @@ def generate_customer_data(n_customers=2000):
             np.random.lognormal(mean=2.5, sigma=0.6, size=n_customers), 1
         ),
 
-        # Điểm chi tiêu (0-100): phân phối chuẩn
+        # Điểm chi tiêu (1-100): phân phối chuẩn
         'SpendingScore': np.clip(
             np.random.normal(loc=50, scale=20, size=n_customers).astype(int),
             1, 100
         ),
 
-        # Tần suất mua hàng (số lần/tháng): phân phối Poisson
+        # Tần suất mua hàng (lần/tháng): phân phối Poisson
         'PurchaseFrequency': np.clip(
             np.random.poisson(lam=5, size=n_customers),
-            0, 30
+            0, 25
         ),
-
-        # Giá trị đơn hàng trung bình (triệu VNĐ)
-        'AverageOrderValue': np.round(
-            np.random.exponential(scale=2.0, size=n_customers), 2
-        ),
-
-        # Số ngày kể từ lần mua cuối: phân phối exponential
-        'LastPurchaseDays': np.clip(
-            np.random.exponential(scale=30, size=n_customers).astype(int),
-            0, 365
-        ),
-
-        # Cấp độ thành viên
-        'MembershipLevel': random.choices(
-            membership_levels,
-            weights=[40, 30, 20, 10],  # Bronze phổ biến nhất
-            k=n_customers
-        ),
-
-        # Danh mục yêu thích
-        'PreferredCategory': [random.choice(preferred_categories) for _ in range(n_customers)],
     }
 
-    # --- Tạo DataFrame ---
+    # Tạo DataFrame
     df = pd.DataFrame(data)
 
-    # --- Thêm một số missing values để mô phỏng thực tế ---
-    # Khoảng 2% dữ liệu bị thiếu
+    # --- Thêm missing values (~2%) để mô phỏng dữ liệu thực tế ---
     n_missing = int(n_customers * 0.02)
-    missing_cols = ['Age', 'Income', 'SpendingScore', 'AverageOrderValue']
+    for col in ['Age', 'Income', 'SpendingScore']:
+        missing_idx = random.sample(range(n_customers), n_missing)
+        df.loc[missing_idx, col] = np.nan
 
-    for col in missing_cols:
-        missing_indices = random.sample(range(n_customers), n_missing)
-        df.loc[missing_indices, col] = np.nan
-
-    # --- Thêm một số dòng trùng lặp để mô phỏng thực tế ---
-    n_duplicates = int(n_customers * 0.01)  # 1% trùng lặp
-    duplicate_rows = df.sample(n=n_duplicates, random_state=42)
-    df = pd.concat([df, duplicate_rows], ignore_index=True)
+    # --- Thêm dòng trùng lặp (~1%) ---
+    n_dup = int(n_customers * 0.01)
+    dup_rows = df.sample(n=n_dup, random_state=42)
+    df = pd.concat([df, dup_rows], ignore_index=True)
 
     print(f"✅ Dataset đã tạo thành công!")
     print(f"   - Số dòng: {len(df)}")
@@ -126,44 +95,33 @@ def generate_customer_data(n_customers=2000):
 
 
 def save_dataset(df, filename='customers.csv'):
-    """
-    Lưu dataset ra file CSV.
-
-    Parameters:
-    -----------
-    df : pd.DataFrame
-        DataFrame cần lưu
-    filename : str
-        Tên file CSV đầu ra
-    """
-    # Tạo thư mục data nếu chưa có
+    """Lưu dataset ra file CSV trong thư mục data/"""
     data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
     os.makedirs(data_dir, exist_ok=True)
 
     filepath = os.path.join(data_dir, filename)
     df.to_csv(filepath, index=False, encoding='utf-8-sig')
     print(f"💾 Dataset đã lưu tại: {filepath}")
-
     return filepath
 
 
 # =============================================================================
-# MAIN - Chạy trực tiếp file này để tạo dataset
+# MAIN - Chạy file này để tạo dataset
 # =============================================================================
 if __name__ == '__main__':
-    # Tạo dataset
-    df = generate_customer_data(n_customers=2000)
+    # Tạo dataset 800 khách hàng
+    df = generate_customer_data(n_customers=800)
 
-    # Lưu ra file CSV
+    # Lưu file CSV
     save_dataset(df)
 
-    # Hiển thị thông tin dataset
+    # Hiển thị thông tin
     print("\n📊 Thông tin dataset:")
-    print("-" * 50)
+    print("-" * 40)
     print(df.info())
     print("\n📈 Thống kê mô tả:")
-    print("-" * 50)
+    print("-" * 40)
     print(df.describe())
     print("\n🔍 5 dòng đầu tiên:")
-    print("-" * 50)
+    print("-" * 40)
     print(df.head())

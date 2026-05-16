@@ -1,2021 +1,809 @@
-﻿CustomerID,Gender,Age,Income,SpendingScore,PurchaseFrequency,AverageOrderValue,LastPurchaseDays,MembershipLevel,PreferredCategory
-KH0001,Nam,40.0,8.1,32.0,3,0.96,43,Bronze,Thể thao
-KH0002,Nam,33.0,11.2,49.0,7,1.84,1,Silver,Sách
-KH0003,Nữ,42.0,7.6,50.0,8,1.98,55,Bronze,Gia dụng
-KH0004,Nam,53.0,10.1,59.0,6,1.29,85,Bronze,Thời trang
-KH0005,Nam,32.0,3.9,22.0,3,0.27,33,Gold,Mỹ phẩm
-KH0006,Nam,32.0,13.8,61.0,4,0.37,7,Bronze,Điện tử
-KH0007,Nam,53.0,12.2,1.0,5,3.82,13,Silver,Thực phẩm
-KH0008,Nam,44.0,7.5,37.0,3,4.05,19,Bronze,Mỹ phẩm
-KH0009,Nữ,29.0,18.1,40.0,5,2.24,27,Silver,Thể thao
-KH0010,Nam,41.0,21.4,62.0,8,2.18,33,Silver,Điện tử
-KH0011,Nam,29.0,4.6,50.0,8,1.82,24,Silver,Thể thao
-KH0012,Nam,29.0,7.7,21.0,5,0.45,12,Bronze,Thời trang
-KH0013,Nam,37.0,7.7,30.0,5,1.12,66,Bronze,Thực phẩm
-KH0014,Nam,18.0,6.9,53.0,8,2.38,2,Bronze,Gia dụng
-KH0015,Nam,18.0,20.0,48.0,5,1.54,18,Bronze,Gia dụng
-KH0016,Nam,28.0,10.8,38.0,4,0.04,44,Silver,Mỹ phẩm
-KH0017,Nữ,22.0,10.4,40.0,3,6.14,1,Bronze,Thực phẩm
-KH0018,Nam,38.0,3.7,63.0,7,3.73,36,Silver,Điện tử
-KH0019,Nữ,24.0,17.8,39.0,4,0.6,51,Gold,Thời trang
-KH0020,Nữ,18.0,5.8,48.0,4,1.92,32,Bronze,Sách
-KH0021,Nam,52.0,12.6,93.0,5,5.13,0,Bronze,Sách
-KH0022,Nam,32.0,14.4,21.0,3,0.2,5,Silver,Thể thao
-KH0023,Nữ,35.0,27.6,12.0,5,1.4,12,Bronze,Thời trang
-KH0024,Nữ,18.0,5.6,65.0,4,1.22,7,Bronze,Gia dụng
-KH0025,Nữ,28.0,2.0,36.0,6,1.06,98,Gold,Gia dụng
-KH0026,Nam,36.0,13.6,43.0,5,3.61,31,Silver,Thời trang
-KH0027,Nam,21.0,35.9,34.0,5,0.96,10,Silver,Gia dụng
-KH0028,Nữ,39.0,25.6,44.0,2,0.13,79,Bronze,Thời trang
-KH0029,Nam,27.0,13.8,81.0,5,0.14,40,Bronze,Mỹ phẩm
-KH0030,Nam,31.0,9.1,66.0,3,0.09,10,Platinum,Sách
-KH0031,Nữ,27.0,19.8,67.0,3,1.05,14,Bronze,Điện tử
-KH0032,Nam,57.0,6.8,21.0,5,2.53,6,Platinum,Sách
-KH0033,Nữ,34.0,16.2,26.0,4,0.46,106,Bronze,Thể thao
-KH0034,Nữ,22.0,16.5,1.0,3,2.08,21,Bronze,Thực phẩm
-KH0035,Nữ,44.0,23.0,33.0,4,2.32,67,Gold,Mỹ phẩm
-KH0036,Nam,20.0,63.8,69.0,2,0.59,12,Gold,Thực phẩm
-KH0037,Nữ,37.0,15.4,60.0,6,1.84,59,Gold,Thời trang
-KH0038,Nam,18.0,9.0,45.0,7,2.31,1,Platinum,Điện tử
-KH0039,Nữ,19.0,12.0,49.0,3,1.26,120,Silver,Mỹ phẩm
-KH0040,Nam,37.0,4.2,36.0,5,0.82,72,Gold,Sách
-KH0041,Nữ,43.0,8.0,54.0,4,1.93,13,Bronze,Gia dụng
-KH0042,Nữ,37.0,9.5,65.0,6,7.62,44,Bronze,Thực phẩm
-KH0043,Nam,33.0,8.9,17.0,6,1.11,41,Bronze,Thực phẩm
-KH0044,Nam,31.0,13.3,55.0,2,0.99,69,Bronze,Thể thao
-KH0045,Nam,18.0,7.4,68.0,2,1.25,11,Silver,Gia dụng
-KH0046,Nam,26.0,23.9,41.0,5,0.16,18,Silver,Mỹ phẩm
-KH0047,Nữ,29.0,12.2,64.0,2,1.61,60,Bronze,Gia dụng
-KH0048,Nam,47.0,12.1,100.0,7,0.8,45,Bronze,Thực phẩm
-KH0049,Nam,39.0,10.0,47.0,4,0.26,14,Gold,Gia dụng
-KH0050,Nam,18.0,13.4,57.0,5,1.26,56,Silver,Thực phẩm
-KH0051,Nữ,38.0,20.0,35.0,7,0.01,1,Gold,Sách
-KH0052,Nữ,30.0,7.2,53.0,5,1.03,45,Gold,Mỹ phẩm
-KH0053,Nữ,26.0,8.2,59.0,7,0.22,6,Gold,Thể thao
-KH0054,Nữ,42.0,10.2,53.0,1,0.05,10,Bronze,Điện tử
-KH0055,Nam,47.0,5.4,29.0,3,3.48,20,Bronze,Mỹ phẩm
-KH0056,Nữ,46.0,7.5,54.0,4,4.96,17,Bronze,Gia dụng
-KH0057,Nữ,24.0,9.2,79.0,9,0.47,22,Bronze,Thể thao
-KH0058,Nam,31.0,20.6,58.0,4,1.55,23,Gold,Gia dụng
-KH0059,Nữ,38.0,14.3,69.0,5,0.65,12,Gold,Mỹ phẩm
-KH0060,Nam,46.0,13.7,45.0,6,1.36,5,Bronze,Điện tử
-KH0061,Nam,29.0,20.3,64.0,6,1.15,43,Silver,Thực phẩm
-KH0062,Nam,32.0,,55.0,3,0.63,15,Silver,Gia dụng
-KH0063,Nam,21.0,15.4,30.0,3,2.41,21,Gold,Gia dụng
-KH0064,Nữ,20.0,11.5,56.0,5,0.27,31,Bronze,Mỹ phẩm
-KH0065,Nữ,44.0,14.3,30.0,7,0.11,72,Bronze,Thực phẩm
-KH0066,Nữ,51.0,8.6,37.0,6,2.92,36,Bronze,Thực phẩm
-KH0067,Nam,34.0,2.8,53.0,6,2.19,1,Silver,Gia dụng
-KH0068,Nữ,47.0,11.2,55.0,4,1.38,54,Bronze,Thực phẩm
-KH0069,Nam,39.0,28.6,26.0,7,1.26,136,Silver,Thể thao
-KH0070,Nam,27.0,21.2,71.0,4,1.38,19,Platinum,Sách
-KH0071,Nam,39.0,21.7,61.0,8,1.15,104,Bronze,Mỹ phẩm
-KH0072,Nữ,53.0,25.6,35.0,5,1.0,23,Gold,Sách
-KH0073,Nữ,34.0,12.8,19.0,5,1.39,18,Silver,Điện tử
-KH0074,Nữ,53.0,13.7,47.0,4,1.5,12,Gold,Thể thao
-KH0075,Nam,18.0,8.4,41.0,5,2.35,32,Gold,Thể thao
-KH0076,Nam,44.0,10.1,52.0,2,2.48,7,Silver,Sách
-KH0077,Nữ,36.0,17.6,42.0,3,0.95,3,Gold,Thời trang
-KH0078,Nam,31.0,25.1,9.0,7,1.07,0,Bronze,Sách
-KH0079,Nữ,36.0,11.2,42.0,5,0.94,10,Bronze,Điện tử
-KH0080,Nữ,18.0,9.3,43.0,6,1.54,15,Silver,Mỹ phẩm
-KH0081,Nữ,32.0,12.2,62.0,7,1.21,24,Bronze,Thể thao
-KH0082,Nam,39.0,17.5,36.0,2,4.41,10,Gold,Sách
-KH0083,Nữ,52.0,5.1,83.0,7,2.38,124,Platinum,Điện tử
-KH0084,Nam,28.0,3.1,11.0,5,4.58,10,Platinum,Thời trang
-KH0085,Nam,25.0,8.8,76.0,5,2.47,17,Silver,Điện tử
-KH0086,Nữ,28.0,5.9,45.0,7,7.08,3,Gold,Gia dụng
-KH0087,Nữ,45.0,9.0,67.0,6,2.02,9,Bronze,Mỹ phẩm
-KH0088,Nữ,38.0,11.1,51.0,5,6.62,1,Gold,Thể thao
-KH0089,Nữ,28.0,9.3,72.0,0,0.34,24,Bronze,Thực phẩm
-KH0090,Nam,41.0,29.1,42.0,7,0.11,41,Bronze,Thể thao
-KH0091,Nam,36.0,14.8,28.0,5,1.73,6,Bronze,Gia dụng
-KH0092,Nữ,46.0,14.6,78.0,5,8.21,13,Silver,Gia dụng
-KH0093,Nam,26.0,17.7,47.0,6,1.08,0,Bronze,Sách
-KH0094,Nam,31.0,6.2,54.0,8,0.48,54,Bronze,Sách
-KH0095,Nam,30.0,22.7,74.0,4,1.47,45,Bronze,Sách
-KH0096,Nam,18.0,11.6,29.0,6,2.09,1,Silver,Thời trang
-KH0097,Nam,38.0,18.2,61.0,4,0.76,13,Bronze,Điện tử
-KH0098,Nữ,38.0,6.4,38.0,1,2.51,93,Silver,Mỹ phẩm
-KH0099,Nam,35.0,4.8,47.0,3,7.39,14,Platinum,Sách
-KH0100,Nữ,32.0,19.9,51.0,4,4.55,22,Platinum,Thời trang
-KH0101,Nữ,18.0,15.3,19.0,5,0.69,13,Silver,Thể thao
-KH0102,Nữ,29.0,7.1,34.0,4,0.79,27,Bronze,Thời trang
-KH0103,Nữ,30.0,7.2,77.0,5,0.93,114,Silver,Thể thao
-KH0104,Nam,25.0,23.9,67.0,2,1.0,179,Silver,Điện tử
-KH0105,Nam,33.0,6.0,48.0,2,0.21,44,Bronze,Mỹ phẩm
-KH0106,Nữ,39.0,32.6,54.0,5,2.87,15,Gold,Gia dụng
-KH0107,Nữ,57.0,7.1,44.0,5,0.91,20,Silver,Mỹ phẩm
-KH0108,Nam,37.0,17.9,77.0,5,4.24,13,Bronze,Thời trang
-KH0109,Nữ,38.0,10.0,45.0,6,5.23,127,Silver,Thời trang
-KH0110,Nữ,34.0,17.5,54.0,4,0.05,36,Silver,Thực phẩm
-KH0111,Nam,18.0,8.8,72.0,9,8.93,17,Silver,Điện tử
-KH0112,Nữ,34.0,11.0,34.0,7,2.48,0,Platinum,Thực phẩm
-KH0113,Nam,35.0,12.5,81.0,2,1.47,22,Bronze,Thời trang
-KH0114,Nữ,64.0,6.7,19.0,3,0.99,123,Platinum,Gia dụng
-KH0115,Nam,32.0,19.0,82.0,4,1.46,22,Silver,Thời trang
-KH0116,Nam,38.0,9.0,42.0,6,0.78,6,Bronze,Sách
-KH0117,Nữ,34.0,10.6,45.0,7,1.95,0,Silver,Mỹ phẩm
-KH0118,Nam,20.0,6.7,12.0,4,0.2,13,Bronze,Mỹ phẩm
-KH0119,Nam,48.0,2.6,40.0,5,1.94,75,Bronze,Gia dụng
-KH0120,Nữ,44.0,10.9,29.0,5,0.64,170,Gold,Sách
-KH0121,Nam,44.0,51.8,37.0,3,0.04,87,Bronze,Gia dụng
-KH0122,Nam,24.0,19.5,47.0,3,1.61,39,Platinum,Thực phẩm
-KH0123,Nữ,51.0,12.0,69.0,7,1.73,24,Silver,Sách
-KH0124,Nữ,18.0,10.4,54.0,3,1.11,26,Bronze,Gia dụng
-KH0125,Nam,42.0,12.3,56.0,8,0.15,23,Silver,Thời trang
-KH0126,Nam,61.0,16.9,28.0,8,,36,Bronze,Thể thao
-KH0127,Nữ,23.0,6.0,32.0,5,1.89,16,Gold,Thể thao
-KH0128,Nữ,28.0,23.8,85.0,5,0.25,33,Bronze,Điện tử
-KH0129,Nam,36.0,18.7,35.0,3,1.43,3,Platinum,Sách
-KH0130,Nam,28.0,18.7,83.0,3,1.38,9,Silver,Mỹ phẩm
-KH0131,Nam,18.0,15.8,45.0,6,0.12,54,Bronze,Mỹ phẩm
-KH0132,Nam,35.0,12.3,50.0,5,1.87,70,Silver,Thời trang
-KH0133,Nam,22.0,18.2,71.0,4,3.3,23,Bronze,Điện tử
-KH0134,Nữ,40.0,,75.0,6,2.76,0,Silver,Thể thao
-KH0135,Nam,23.0,9.9,47.0,3,0.45,78,Silver,Sách
-KH0136,Nam,53.0,8.6,,12,3.97,36,Gold,Thể thao
-KH0137,Nam,25.0,13.0,48.0,1,0.84,16,Bronze,Gia dụng
-KH0138,Nữ,31.0,30.9,56.0,6,5.86,27,Gold,Thực phẩm
-KH0139,Nam,44.0,5.8,67.0,1,0.15,16,Silver,Điện tử
-KH0140,Nữ,20.0,5.1,50.0,6,1.33,18,Bronze,Thời trang
-KH0141,Nữ,37.0,13.4,62.0,1,1.82,65,Platinum,Thể thao
-KH0142,Nam,50.0,12.6,82.0,4,0.57,5,Platinum,Gia dụng
-KH0143,Nam,18.0,13.5,57.0,3,,3,Gold,Gia dụng
-KH0144,Nữ,37.0,14.1,56.0,3,1.97,0,Platinum,Gia dụng
-KH0145,Nữ,38.0,10.7,19.0,5,0.04,11,Bronze,Sách
-KH0146,Nữ,44.0,29.8,,5,1.87,4,Platinum,Điện tử
-KH0147,Nữ,20.0,4.7,57.0,5,1.35,7,Silver,Gia dụng
-KH0148,Nữ,19.0,7.4,48.0,9,0.44,0,Silver,Điện tử
-KH0149,Nam,41.0,11.5,39.0,3,10.92,7,Bronze,Sách
-KH0150,Nam,38.0,4.5,54.0,3,4.55,12,Platinum,Thời trang
-KH0151,Nam,38.0,11.0,48.0,6,0.69,0,Silver,Thực phẩm
-KH0152,Nam,39.0,33.0,72.0,6,1.56,28,Bronze,Điện tử
-KH0153,Nữ,26.0,12.3,51.0,3,0.76,25,Silver,Sách
-KH0154,Nam,37.0,14.0,35.0,7,2.99,3,Silver,Thời trang
-KH0155,Nam,38.0,5.7,69.0,4,5.33,27,Bronze,Điện tử
-KH0156,Nam,26.0,8.4,45.0,1,0.89,198,Gold,Thời trang
-KH0157,Nam,57.0,9.7,60.0,7,3.28,86,Bronze,Thực phẩm
-KH0158,Nam,40.0,10.1,40.0,7,1.38,0,Bronze,Thể thao
-KH0159,Nam,20.0,26.3,37.0,2,1.01,47,Bronze,Mỹ phẩm
-KH0160,Nam,42.0,17.0,,5,5.57,13,Gold,Thực phẩm
-KH0161,Nam,,6.3,50.0,6,1.43,1,Gold,Sách
-KH0162,Nam,44.0,14.1,59.0,9,1.26,10,Platinum,Mỹ phẩm
-KH0163,Nữ,48.0,16.4,44.0,3,2.23,11,Bronze,Mỹ phẩm
-KH0164,Nam,25.0,24.1,13.0,4,0.61,22,Silver,Gia dụng
-KH0165,Nam,46.0,31.4,41.0,10,0.79,32,Silver,Điện tử
-KH0166,Nữ,39.0,6.6,65.0,4,5.38,41,Gold,Gia dụng
-KH0167,Nữ,44.0,7.5,44.0,4,2.27,8,Silver,Thời trang
-KH0168,Nam,57.0,5.7,45.0,4,3.5,11,Silver,Sách
-KH0169,Nam,32.0,10.6,69.0,7,0.63,11,Bronze,Sách
-KH0170,Nữ,25.0,16.1,35.0,8,1.57,13,Gold,Thời trang
-KH0171,Nam,24.0,22.0,19.0,6,7.11,239,Gold,Thời trang
-KH0172,Nữ,25.0,11.6,46.0,6,0.77,45,Silver,Gia dụng
-KH0173,Nữ,34.0,10.1,40.0,3,0.35,110,Bronze,Thực phẩm
-KH0174,Nam,39.0,13.3,30.0,5,1.43,35,Gold,Sách
-KH0175,Nam,38.0,7.4,46.0,6,0.98,15,Bronze,Thể thao
-KH0176,Nam,44.0,42.7,59.0,2,0.35,14,Bronze,Gia dụng
-KH0177,Nữ,35.0,4.6,49.0,8,4.39,20,Bronze,Gia dụng
-KH0178,Nữ,52.0,13.6,56.0,5,9.36,16,Bronze,Thực phẩm
-KH0179,Nữ,31.0,41.0,86.0,4,1.68,52,Silver,Thực phẩm
-KH0180,Nữ,67.0,12.2,43.0,4,2.98,18,Silver,Thể thao
-KH0181,Nữ,42.0,10.9,55.0,2,3.92,10,Silver,Thực phẩm
-KH0182,Nam,24.0,9.8,39.0,5,2.41,44,Platinum,Điện tử
-KH0183,Nam,22.0,10.9,33.0,5,0.09,57,Bronze,Gia dụng
-KH0184,Nam,40.0,27.8,38.0,4,0.34,16,Silver,Điện tử
-KH0185,Nữ,32.0,3.2,40.0,2,0.15,33,Gold,Mỹ phẩm
-KH0186,Nữ,43.0,30.6,57.0,4,,1,Silver,Mỹ phẩm
-KH0187,Nam,40.0,5.2,96.0,4,0.73,22,Bronze,Gia dụng
-KH0188,Nam,34.0,10.4,35.0,1,1.0,1,Silver,Thời trang
-KH0189,Nam,24.0,9.4,41.0,8,0.55,0,Bronze,Thực phẩm
-KH0190,Nam,18.0,17.3,48.0,4,0.13,28,Bronze,Điện tử
-KH0191,Nữ,,4.7,57.0,10,1.51,10,Silver,Mỹ phẩm
-KH0192,Nam,45.0,16.1,55.0,6,0.64,40,Bronze,Gia dụng
-KH0193,Nữ,37.0,41.0,75.0,3,3.18,67,Gold,Thời trang
-KH0194,Nam,20.0,5.4,1.0,6,0.02,4,Bronze,Gia dụng
-KH0195,Nữ,37.0,13.7,2.0,4,3.7,38,Bronze,Thời trang
-KH0196,Nữ,39.0,8.2,40.0,3,6.19,21,Bronze,Gia dụng
-KH0197,Nam,24.0,15.7,71.0,2,2.52,3,Bronze,Thực phẩm
-KH0198,Nam,36.0,12.3,18.0,3,2.65,31,Bronze,Thực phẩm
-KH0199,Nữ,35.0,8.3,1.0,5,5.42,28,Gold,Thời trang
-KH0200,Nam,,16.3,61.0,3,,21,Bronze,Thể thao
-KH0201,Nam,39.0,36.0,54.0,4,10.43,78,Bronze,Gia dụng
-KH0202,Nam,41.0,10.9,28.0,3,2.97,22,Bronze,Thực phẩm
-KH0203,Nam,47.0,18.8,30.0,6,2.59,139,Bronze,Gia dụng
-KH0204,Nam,47.0,5.6,30.0,5,0.9,21,Platinum,Thể thao
-KH0205,Nam,18.0,6.9,52.0,5,1.58,3,Silver,Thể thao
-KH0206,Nữ,23.0,16.2,37.0,4,2.12,19,Gold,Gia dụng
-KH0207,Nữ,41.0,29.7,59.0,4,1.94,6,Bronze,Thực phẩm
-KH0208,Nữ,41.0,15.1,1.0,6,2.44,27,Bronze,Sách
-KH0209,Nam,41.0,10.1,32.0,4,0.17,35,Silver,Mỹ phẩm
-KH0210,Nữ,70.0,12.2,27.0,6,0.88,18,Silver,Mỹ phẩm
-KH0211,Nam,41.0,,44.0,4,1.14,3,Silver,Gia dụng
-KH0212,Nam,48.0,17.5,39.0,5,0.6,18,Bronze,Mỹ phẩm
-KH0213,Nữ,46.0,20.7,65.0,5,0.38,2,Bronze,Thể thao
-KH0214,Nam,42.0,9.3,12.0,4,0.3,34,Silver,Điện tử
-KH0215,Nữ,31.0,9.2,50.0,5,0.91,46,Silver,Thể thao
-KH0216,Nữ,44.0,14.3,61.0,3,1.36,98,Gold,Thực phẩm
-KH0217,Nữ,25.0,9.4,87.0,4,0.13,4,Gold,Thể thao
-KH0218,Nữ,32.0,11.7,40.0,6,5.85,22,Bronze,Mỹ phẩm
-KH0219,Nữ,29.0,42.9,56.0,6,2.9,25,Silver,Sách
-KH0220,Nữ,35.0,10.5,,1,2.62,76,Gold,Mỹ phẩm
-KH0221,Nam,62.0,9.8,2.0,3,0.38,29,Gold,Gia dụng
-KH0222,Nam,18.0,8.3,66.0,4,1.85,4,Silver,Thể thao
-KH0223,Nữ,43.0,19.0,49.0,6,,17,Platinum,Thời trang
-KH0224,Nam,18.0,10.9,73.0,4,8.09,31,Bronze,Mỹ phẩm
-KH0225,Nam,29.0,8.3,22.0,3,2.75,36,Silver,Thời trang
-KH0226,Nam,48.0,26.9,60.0,14,1.71,59,Silver,Thực phẩm
-KH0227,Nữ,35.0,28.6,87.0,5,3.81,5,Bronze,Thời trang
-KH0228,Nam,22.0,8.5,58.0,4,0.34,90,Bronze,Mỹ phẩm
-KH0229,Nam,26.0,4.0,55.0,5,0.03,1,Bronze,Sách
-KH0230,Nữ,43.0,22.3,50.0,5,2.34,123,Bronze,Thể thao
-KH0231,Nam,26.0,8.1,18.0,7,0.21,58,Bronze,Điện tử
-KH0232,Nam,37.0,,77.0,7,0.25,32,Bronze,Sách
-KH0233,Nam,35.0,3.7,37.0,7,2.73,39,Bronze,Sách
-KH0234,Nam,27.0,20.8,60.0,2,0.63,2,Gold,Điện tử
-KH0235,Nam,60.0,5.9,18.0,5,,1,Bronze,Thể thao
-KH0236,Nam,42.0,18.9,26.0,3,4.99,3,Platinum,Thực phẩm
-KH0237,Nam,18.0,12.3,78.0,7,0.76,2,Gold,Mỹ phẩm
-KH0238,Nữ,37.0,6.9,43.0,2,0.49,23,Silver,Thực phẩm
-KH0239,Nam,27.0,9.5,79.0,6,0.23,7,Silver,Gia dụng
-KH0240,Nam,45.0,18.4,48.0,4,0.28,59,Silver,Gia dụng
-KH0241,Nam,25.0,13.0,13.0,8,0.13,17,Bronze,Thời trang
-KH0242,Nam,33.0,17.3,67.0,5,0.18,35,Bronze,Sách
-KH0243,Nữ,41.0,39.9,38.0,1,1.13,31,Bronze,Thể thao
-KH0244,Nữ,45.0,4.8,63.0,2,0.77,11,Gold,Thực phẩm
-KH0245,Nữ,20.0,32.1,50.0,3,2.45,8,Bronze,Điện tử
-KH0246,Nam,30.0,13.0,19.0,6,4.08,12,Gold,Thực phẩm
-KH0247,Nữ,29.0,7.1,53.0,8,3.07,47,Silver,Thời trang
-KH0248,Nam,27.0,5.5,93.0,4,1.51,26,Silver,Mỹ phẩm
-KH0249,Nữ,56.0,10.9,59.0,3,0.22,8,Gold,Sách
-KH0250,Nữ,39.0,21.2,48.0,6,2.47,51,Silver,Sách
-KH0251,Nam,19.0,11.3,71.0,6,0.9,1,Silver,Thể thao
-KH0252,Nữ,46.0,30.2,54.0,8,0.18,36,Bronze,Thực phẩm
-KH0253,Nữ,60.0,5.1,54.0,6,3.7,17,Silver,Thời trang
-KH0254,Nữ,47.0,12.1,28.0,6,0.83,39,Silver,Gia dụng
-KH0255,Nam,18.0,5.7,54.0,5,0.49,78,Silver,Điện tử
-KH0256,Nam,29.0,15.2,70.0,4,4.1,41,Bronze,Mỹ phẩm
-KH0257,Nữ,50.0,20.7,33.0,5,4.65,17,Bronze,Thực phẩm
-KH0258,Nam,26.0,9.5,78.0,5,0.83,4,Bronze,Thực phẩm
-KH0259,Nam,40.0,2.6,48.0,6,0.88,49,Gold,Điện tử
-KH0260,Nam,44.0,13.7,32.0,11,1.73,18,Silver,Gia dụng
-KH0261,Nữ,23.0,,69.0,8,2.64,2,Platinum,Thực phẩm
-KH0262,Nam,34.0,15.5,44.0,7,0.13,38,Gold,Điện tử
-KH0263,Nữ,18.0,25.6,65.0,7,1.8,10,Bronze,Sách
-KH0264,Nam,22.0,6.4,44.0,4,6.11,1,Bronze,Sách
-KH0265,Nam,31.0,18.3,48.0,8,0.61,69,Gold,Điện tử
-KH0266,Nữ,20.0,24.9,59.0,6,4.79,19,Bronze,Mỹ phẩm
-KH0267,Nữ,54.0,4.2,55.0,2,6.0,9,Platinum,Sách
-KH0268,Nam,18.0,14.8,10.0,4,0.63,37,Bronze,Điện tử
-KH0269,Nữ,29.0,9.0,27.0,0,2.81,65,Platinum,Điện tử
-KH0270,Nữ,,11.6,68.0,6,0.55,0,Bronze,Sách
-KH0271,Nam,52.0,15.0,47.0,0,2.68,34,Gold,Điện tử
-KH0272,Nữ,18.0,9.1,39.0,7,3.19,43,Bronze,Thể thao
-KH0273,Nam,48.0,8.1,22.0,9,0.57,7,Gold,Thực phẩm
-KH0274,Nam,35.0,12.4,28.0,7,2.52,20,Platinum,Điện tử
-KH0275,Nữ,23.0,6.3,9.0,2,3.34,2,Bronze,Điện tử
-KH0276,Nam,40.0,6.4,47.0,4,0.89,41,Gold,Điện tử
-KH0277,Nam,37.0,18.3,38.0,8,0.37,56,Gold,Thể thao
-KH0278,Nam,27.0,6.1,30.0,5,0.19,3,Bronze,Điện tử
-KH0279,Nữ,35.0,18.2,48.0,5,1.71,50,Gold,Thể thao
-KH0280,Nữ,30.0,16.1,57.0,6,7.64,44,Gold,Gia dụng
-KH0281,Nam,36.0,4.3,91.0,2,3.46,12,Silver,Thực phẩm
-KH0282,Nữ,42.0,8.1,19.0,4,1.14,35,Bronze,Điện tử
-KH0283,Nam,54.0,24.9,73.0,7,1.54,0,Bronze,Thể thao
-KH0284,Nữ,20.0,6.8,69.0,3,0.66,80,Bronze,Thời trang
-KH0285,Nữ,60.0,9.2,34.0,6,,23,Bronze,Thời trang
-KH0286,Nữ,18.0,16.1,54.0,2,1.32,29,Silver,Thời trang
-KH0287,Nam,33.0,19.5,40.0,8,1.25,32,Bronze,Sách
-KH0288,Nam,42.0,10.5,53.0,10,1.48,24,Silver,Sách
-KH0289,Nữ,38.0,8.5,80.0,5,6.11,58,Silver,Mỹ phẩm
-KH0290,Nữ,27.0,28.6,62.0,4,1.85,28,Silver,Gia dụng
-KH0291,Nam,32.0,34.6,60.0,4,1.86,71,Silver,Thời trang
-KH0292,Nam,29.0,21.9,41.0,8,0.27,26,Platinum,Thể thao
-KH0293,Nữ,27.0,12.8,20.0,9,11.3,5,Gold,Thể thao
-KH0294,Nam,45.0,7.5,45.0,7,2.96,73,Silver,Gia dụng
-KH0295,Nữ,39.0,,74.0,7,4.19,34,Bronze,Thời trang
-KH0296,Nam,26.0,16.7,19.0,3,1.07,36,Platinum,Thể thao
-KH0297,Nữ,45.0,15.7,28.0,8,1.39,126,Gold,Mỹ phẩm
-KH0298,Nữ,38.0,28.2,52.0,7,1.48,2,Gold,Thực phẩm
-KH0299,Nam,44.0,18.0,30.0,2,0.43,16,Silver,Gia dụng
-KH0300,Nam,42.0,4.9,34.0,5,2.34,8,Platinum,Thực phẩm
-KH0301,Nam,25.0,22.9,41.0,7,4.67,29,Bronze,Mỹ phẩm
-KH0302,Nam,28.0,6.7,22.0,6,0.36,49,Bronze,Gia dụng
-KH0303,Nam,43.0,9.7,30.0,1,0.18,101,Silver,Thể thao
-KH0304,Nữ,42.0,14.2,64.0,3,2.68,18,Bronze,Thực phẩm
-KH0305,Nam,34.0,40.3,23.0,4,0.64,46,Silver,Mỹ phẩm
-KH0306,Nữ,36.0,78.7,18.0,4,1.96,74,Silver,Điện tử
-KH0307,Nam,50.0,17.5,37.0,3,2.38,34,Silver,Thể thao
-KH0308,Nam,27.0,10.9,64.0,7,0.78,8,Silver,Gia dụng
-KH0309,Nữ,41.0,16.8,46.0,9,3.38,28,Platinum,Thực phẩm
-KH0310,Nữ,32.0,20.8,40.0,4,1.6,105,Bronze,Mỹ phẩm
-KH0311,Nam,32.0,10.1,50.0,3,4.07,131,Gold,Điện tử
-KH0312,Nữ,48.0,35.8,15.0,4,2.88,30,Bronze,Thể thao
-KH0313,Nam,44.0,14.0,59.0,4,4.06,65,Bronze,Gia dụng
-KH0314,Nam,44.0,16.4,57.0,6,0.04,6,Bronze,Điện tử
-KH0315,Nam,50.0,18.2,41.0,3,0.56,8,Gold,Thời trang
-KH0316,Nữ,35.0,15.7,70.0,10,0.19,91,Silver,Gia dụng
-KH0317,Nữ,43.0,20.2,27.0,5,1.17,4,Silver,Thể thao
-KH0318,Nam,31.0,8.4,72.0,5,4.41,6,Bronze,Mỹ phẩm
-KH0319,Nam,38.0,8.7,53.0,3,1.26,16,Bronze,Mỹ phẩm
-KH0320,Nam,33.0,6.3,43.0,2,3.79,26,Silver,Gia dụng
-KH0321,Nam,36.0,15.9,49.0,7,0.79,27,Silver,Thời trang
-KH0322,Nữ,42.0,19.4,47.0,5,0.83,10,Silver,Gia dụng
-KH0323,Nam,25.0,16.0,74.0,4,4.52,76,Bronze,Thực phẩm
-KH0324,Nam,60.0,33.3,28.0,6,1.11,73,Platinum,Mỹ phẩm
-KH0325,Nữ,22.0,12.1,34.0,5,3.12,14,Silver,Thể thao
-KH0326,Nữ,20.0,18.2,,4,0.54,17,Bronze,Sách
-KH0327,Nam,48.0,6.3,38.0,7,5.94,36,Platinum,Thể thao
-KH0328,Nữ,44.0,9.7,68.0,4,1.71,32,Bronze,Điện tử
-KH0329,Nam,42.0,18.5,83.0,2,2.85,14,Gold,Mỹ phẩm
-KH0330,Nam,42.0,20.3,41.0,3,0.19,16,Gold,Thời trang
-KH0331,Nữ,34.0,10.2,63.0,8,1.36,12,Bronze,Sách
-KH0332,Nam,24.0,11.7,26.0,5,4.63,8,Bronze,Gia dụng
-KH0333,Nữ,35.0,4.9,65.0,6,4.19,18,Gold,Mỹ phẩm
-KH0334,Nam,26.0,9.8,53.0,2,0.1,34,Silver,Thực phẩm
-KH0335,Nam,46.0,20.8,59.0,3,0.72,40,Bronze,Sách
-KH0336,Nữ,33.0,17.2,37.0,3,1.17,45,Bronze,Thời trang
-KH0337,Nữ,25.0,16.5,16.0,7,0.38,14,Gold,Thời trang
-KH0338,Nữ,31.0,12.6,60.0,5,2.62,43,Silver,Sách
-KH0339,Nam,39.0,12.2,8.0,2,0.41,0,Bronze,Điện tử
-KH0340,Nam,28.0,8.2,43.0,2,0.85,19,Bronze,Mỹ phẩm
-KH0341,Nam,25.0,18.5,68.0,7,2.18,47,Gold,Gia dụng
-KH0342,Nam,37.0,15.7,53.0,8,1.32,29,Bronze,Thời trang
-KH0343,Nữ,37.0,16.4,88.0,4,2.68,19,Bronze,Thực phẩm
-KH0344,Nữ,28.0,8.9,70.0,4,6.5,31,Bronze,Thực phẩm
-KH0345,Nữ,29.0,3.3,36.0,4,0.25,71,Gold,Gia dụng
-KH0346,Nam,37.0,23.5,50.0,3,2.47,25,Platinum,Thể thao
-KH0347,Nữ,18.0,9.1,49.0,4,0.52,48,Gold,Thực phẩm
-KH0348,Nữ,18.0,7.3,18.0,6,1.07,118,Silver,Điện tử
-KH0349,Nữ,26.0,18.5,31.0,5,0.07,36,Silver,Gia dụng
-KH0350,Nữ,32.0,,38.0,5,0.29,25,Bronze,Thực phẩm
-KH0351,Nam,38.0,23.0,9.0,3,0.77,1,Silver,Điện tử
-KH0352,Nam,52.0,17.6,50.0,6,0.84,14,Silver,Thực phẩm
-KH0353,Nữ,45.0,18.4,45.0,4,4.6,25,Gold,Mỹ phẩm
-KH0354,Nam,33.0,5.4,16.0,2,2.71,47,Silver,Gia dụng
-KH0355,Nữ,34.0,25.2,,5,7.16,17,Bronze,Thực phẩm
-KH0356,Nam,22.0,14.2,64.0,7,1.83,96,Silver,Thực phẩm
-KH0357,Nam,34.0,9.8,54.0,8,0.55,9,Bronze,Điện tử
-KH0358,Nữ,31.0,13.3,43.0,0,0.79,40,Gold,Mỹ phẩm
-KH0359,Nữ,38.0,4.2,61.0,5,0.77,16,Gold,Mỹ phẩm
-KH0360,Nữ,25.0,15.6,63.0,4,0.79,19,Silver,Điện tử
-KH0361,Nữ,41.0,6.6,56.0,6,,48,Silver,Mỹ phẩm
-KH0362,Nam,53.0,5.4,33.0,4,1.51,10,Bronze,Sách
-KH0363,Nữ,33.0,4.9,55.0,7,0.97,3,Bronze,Thể thao
-KH0364,Nam,39.0,23.8,73.0,2,0.32,22,Bronze,Thực phẩm
-KH0365,Nữ,43.0,8.4,38.0,3,0.04,22,Gold,Thực phẩm
-KH0366,Nam,30.0,30.6,91.0,3,0.49,47,Gold,Thể thao
-KH0367,Nữ,37.0,8.8,39.0,5,0.23,103,Silver,Mỹ phẩm
-KH0368,Nam,35.0,4.4,50.0,6,3.08,1,Gold,Thực phẩm
-KH0369,Nam,36.0,6.2,36.0,9,0.24,26,Silver,Mỹ phẩm
-KH0370,Nữ,25.0,25.6,54.0,6,2.58,34,Bronze,Điện tử
-KH0371,Nữ,35.0,11.1,15.0,7,0.97,127,Bronze,Gia dụng
-KH0372,Nam,40.0,8.8,39.0,2,0.15,85,Bronze,Điện tử
-KH0373,Nữ,52.0,13.4,28.0,2,3.35,37,Silver,Gia dụng
-KH0374,Nữ,46.0,16.5,52.0,8,1.73,22,Silver,Sách
-KH0375,Nam,60.0,23.8,69.0,8,0.54,5,Platinum,Điện tử
-KH0376,Nữ,25.0,,62.0,8,4.5,14,Bronze,Thể thao
-KH0377,Nữ,45.0,9.8,2.0,7,0.09,26,Bronze,Thời trang
-KH0378,Nữ,37.0,5.5,90.0,6,0.45,38,Bronze,Sách
-KH0379,Nữ,61.0,9.5,55.0,2,2.79,30,Bronze,Thực phẩm
-KH0380,Nữ,25.0,14.2,34.0,7,2.47,37,Bronze,Thể thao
-KH0381,Nữ,24.0,6.8,53.0,6,0.68,16,Silver,Điện tử
-KH0382,Nam,27.0,6.9,53.0,5,0.13,39,Bronze,Gia dụng
-KH0383,Nam,18.0,15.0,36.0,6,3.9,4,Silver,Mỹ phẩm
-KH0384,Nữ,28.0,11.8,53.0,4,0.75,5,Gold,Thể thao
-KH0385,Nữ,25.0,12.4,37.0,4,0.44,5,Platinum,Mỹ phẩm
-KH0386,Nam,36.0,7.7,41.0,4,1.45,66,Silver,Điện tử
-KH0387,Nữ,39.0,10.6,36.0,5,4.82,2,Silver,Điện tử
-KH0388,Nữ,57.0,7.0,21.0,4,0.09,48,Bronze,Thể thao
-KH0389,Nam,46.0,20.8,52.0,7,2.9,7,Bronze,Sách
-KH0390,Nữ,28.0,22.7,61.0,2,1.7,18,Bronze,Điện tử
-KH0391,Nữ,24.0,4.0,60.0,4,1.11,74,Bronze,Mỹ phẩm
-KH0392,Nam,40.0,7.0,66.0,1,2.73,26,Bronze,Thể thao
-KH0393,Nữ,19.0,5.0,56.0,6,6.75,7,Bronze,Thời trang
-KH0394,Nữ,56.0,8.2,39.0,1,0.52,10,Silver,Điện tử
-KH0395,Nữ,49.0,11.6,66.0,6,0.31,75,Silver,Mỹ phẩm
-KH0396,Nữ,29.0,5.1,22.0,6,4.88,16,Silver,Mỹ phẩm
-KH0397,Nữ,18.0,7.0,31.0,0,2.21,26,Silver,Điện tử
-KH0398,Nam,51.0,6.7,30.0,6,1.15,18,Silver,Thể thao
-KH0399,Nữ,33.0,13.8,71.0,1,1.7,14,Platinum,Sách
-KH0400,Nam,49.0,12.7,68.0,4,2.74,7,Platinum,Gia dụng
-KH0401,Nam,18.0,7.9,59.0,6,2.97,34,Bronze,Gia dụng
-KH0402,Nữ,27.0,13.5,71.0,7,5.05,38,Bronze,Sách
-KH0403,Nữ,35.0,8.8,32.0,6,1.11,9,Bronze,Thực phẩm
-KH0404,Nam,35.0,10.4,56.0,3,0.69,46,Bronze,Thể thao
-KH0405,Nam,29.0,33.3,47.0,7,2.04,57,Gold,Mỹ phẩm
-KH0406,Nữ,,27.2,66.0,6,1.07,76,Silver,Thực phẩm
-KH0407,Nam,22.0,5.6,47.0,5,1.81,5,Gold,Thực phẩm
-KH0408,Nam,33.0,20.0,42.0,7,1.09,10,Platinum,Gia dụng
-KH0409,Nam,36.0,19.8,60.0,4,0.33,59,Silver,Thể thao
-KH0410,Nam,41.0,6.1,67.0,7,1.27,6,Bronze,Gia dụng
-KH0411,Nam,43.0,19.9,36.0,1,2.35,0,Bronze,Thời trang
-KH0412,Nam,21.0,30.7,48.0,2,3.21,61,Silver,Mỹ phẩm
-KH0413,Nữ,18.0,6.2,28.0,2,1.36,11,Silver,Thời trang
-KH0414,Nam,50.0,7.0,1.0,6,0.36,16,Silver,Sách
-KH0415,Nữ,38.0,22.4,54.0,8,1.07,17,Silver,Điện tử
-KH0416,Nữ,26.0,14.3,62.0,6,3.09,56,Gold,Thời trang
-KH0417,Nam,53.0,17.0,55.0,0,1.06,12,Silver,Điện tử
-KH0418,Nữ,36.0,14.9,11.0,10,2.38,66,Bronze,Thể thao
-KH0419,Nữ,49.0,15.4,42.0,2,1.42,28,Silver,Thực phẩm
-KH0420,Nữ,35.0,5.5,5.0,5,0.55,22,Gold,Mỹ phẩm
-KH0421,Nam,59.0,22.8,77.0,8,3.18,11,Bronze,Thể thao
-KH0422,Nam,56.0,24.6,28.0,5,0.18,8,Bronze,Sách
-KH0423,Nam,32.0,10.6,75.0,4,1.49,29,Bronze,Thời trang
-KH0424,Nam,46.0,11.9,68.0,3,0.47,17,Bronze,Mỹ phẩm
-KH0425,Nữ,42.0,4.9,31.0,7,0.14,72,Gold,Sách
-KH0426,Nam,51.0,16.6,27.0,7,1.4,20,Silver,Thực phẩm
-KH0427,Nam,23.0,17.2,,3,1.38,21,Gold,Thực phẩm
-KH0428,Nữ,43.0,11.7,33.0,3,2.45,16,Silver,Thực phẩm
-KH0429,Nam,47.0,23.9,52.0,2,2.73,46,Silver,Thực phẩm
-KH0430,Nam,18.0,10.0,40.0,2,2.6,16,Silver,Gia dụng
-KH0431,Nam,20.0,17.1,14.0,7,1.05,9,Bronze,Gia dụng
-KH0432,Nữ,18.0,6.6,5.0,4,2.0,59,Silver,Thể thao
-KH0433,Nam,31.0,12.0,54.0,1,1.72,27,Platinum,Thực phẩm
-KH0434,Nữ,43.0,11.0,38.0,3,1.09,26,Silver,Thực phẩm
-KH0435,Nữ,53.0,13.9,38.0,10,1.82,28,Gold,Thời trang
-KH0436,Nữ,35.0,9.8,63.0,3,5.88,38,Gold,Mỹ phẩm
-KH0437,Nữ,54.0,11.3,73.0,6,0.43,11,Silver,Thời trang
-KH0438,Nữ,18.0,20.0,44.0,4,4.72,1,Bronze,Thực phẩm
-KH0439,Nam,18.0,9.4,43.0,5,0.11,49,Silver,Thể thao
-KH0440,Nữ,34.0,4.6,60.0,3,0.74,4,Gold,Sách
-KH0441,Nữ,39.0,34.8,22.0,7,0.68,38,Silver,Gia dụng
-KH0442,Nữ,34.0,27.9,54.0,5,1.97,2,Bronze,Điện tử
-KH0443,Nam,18.0,5.6,61.0,2,0.28,14,Gold,Gia dụng
-KH0444,Nữ,33.0,18.4,63.0,6,4.28,1,Bronze,Gia dụng
-KH0445,Nữ,19.0,9.0,11.0,3,3.53,22,Bronze,Sách
-KH0446,Nam,43.0,14.3,34.0,2,,31,Gold,Sách
-KH0447,Nữ,39.0,14.5,32.0,7,1.23,5,Bronze,Gia dụng
-KH0448,Nữ,23.0,10.6,51.0,6,5.4,13,Gold,Điện tử
-KH0449,Nam,28.0,7.6,59.0,3,3.55,79,Bronze,Thể thao
-KH0450,Nữ,22.0,8.1,79.0,5,1.38,17,Gold,Thực phẩm
-KH0451,Nam,34.0,7.0,40.0,7,2.42,48,Bronze,Thực phẩm
-KH0452,Nữ,46.0,7.4,40.0,4,1.67,78,Gold,Thực phẩm
-KH0453,Nữ,23.0,11.7,72.0,4,1.77,109,Silver,Sách
-KH0454,Nữ,41.0,7.9,55.0,3,0.8,68,Gold,Gia dụng
-KH0455,Nam,28.0,18.3,75.0,6,1.24,11,Silver,Mỹ phẩm
-KH0456,Nam,25.0,29.7,55.0,4,0.16,98,Silver,Thể thao
-KH0457,Nam,33.0,8.6,26.0,5,0.88,50,Silver,Sách
-KH0458,Nam,22.0,14.1,23.0,7,2.38,54,Gold,Mỹ phẩm
-KH0459,Nữ,28.0,,18.0,4,6.12,0,Gold,Thời trang
-KH0460,Nam,20.0,16.2,63.0,3,6.6,92,Gold,Mỹ phẩm
-KH0461,Nam,58.0,12.8,73.0,1,1.62,45,Silver,Gia dụng
-KH0462,Nam,35.0,19.0,86.0,5,1.87,43,Silver,Thực phẩm
-KH0463,Nữ,26.0,16.3,66.0,8,0.41,2,Silver,Mỹ phẩm
-KH0464,Nữ,37.0,5.8,73.0,5,2.38,7,Bronze,Sách
-KH0465,Nữ,33.0,20.5,38.0,5,0.15,98,Platinum,Điện tử
-KH0466,Nữ,32.0,20.7,26.0,3,0.67,20,Bronze,Thể thao
-KH0467,Nữ,42.0,7.7,67.0,3,2.21,15,Silver,Điện tử
-KH0468,Nam,44.0,12.5,58.0,6,0.74,54,Platinum,Sách
-KH0469,Nam,28.0,18.4,52.0,5,0.1,2,Silver,Thể thao
-KH0470,Nữ,28.0,10.7,57.0,7,3.57,16,Platinum,Thực phẩm
-KH0471,Nữ,31.0,23.2,56.0,6,0.74,14,Gold,Mỹ phẩm
-KH0472,Nam,18.0,50.3,75.0,8,0.13,12,Bronze,Sách
-KH0473,Nữ,18.0,7.6,75.0,8,0.16,11,Gold,Gia dụng
-KH0474,Nữ,51.0,5.3,60.0,8,0.58,7,Silver,Gia dụng
-KH0475,Nam,,14.6,66.0,9,0.39,5,Bronze,Mỹ phẩm
-KH0476,Nữ,32.0,18.8,60.0,5,2.98,30,Bronze,Thể thao
-KH0477,Nữ,41.0,10.6,40.0,3,0.78,75,Silver,Thời trang
-KH0478,Nữ,38.0,29.1,65.0,4,3.27,21,Gold,Thời trang
-KH0479,Nữ,70.0,5.5,22.0,5,0.38,10,Bronze,Điện tử
-KH0480,Nam,48.0,18.5,71.0,6,1.36,5,Bronze,Thực phẩm
-KH0481,Nữ,33.0,8.5,26.0,7,2.33,53,Bronze,Điện tử
-KH0482,Nam,23.0,34.2,55.0,4,2.11,106,Bronze,Thực phẩm
-KH0483,Nữ,18.0,40.3,33.0,6,1.84,12,Gold,Thực phẩm
-KH0484,Nữ,37.0,7.7,,13,5.18,10,Bronze,Sách
-KH0485,Nữ,25.0,8.8,49.0,3,0.52,27,Bronze,Thực phẩm
-KH0486,Nam,18.0,20.4,18.0,7,1.36,44,Silver,Sách
-KH0487,Nữ,27.0,9.7,58.0,7,4.31,18,Silver,Thực phẩm
-KH0488,Nữ,22.0,11.9,38.0,2,0.16,29,Bronze,Gia dụng
-KH0489,Nữ,55.0,12.4,,5,0.12,37,Bronze,Sách
-KH0490,Nam,45.0,3.9,50.0,2,0.53,97,Gold,Mỹ phẩm
-KH0491,Nữ,34.0,12.1,57.0,4,2.0,5,Gold,Thực phẩm
-KH0492,Nam,52.0,8.1,30.0,3,0.6,178,Silver,Mỹ phẩm
-KH0493,Nam,35.0,9.1,38.0,3,0.42,14,Gold,Thể thao
-KH0494,Nữ,24.0,29.0,40.0,1,1.23,38,Silver,Thể thao
-KH0495,Nam,53.0,5.7,67.0,7,1.9,25,Gold,Thực phẩm
-KH0496,Nam,41.0,19.8,83.0,4,0.57,20,Silver,Sách
-KH0497,Nữ,22.0,10.3,33.0,9,0.72,35,Silver,Gia dụng
-KH0498,Nam,32.0,10.3,71.0,4,1.9,15,Silver,Gia dụng
-KH0499,Nữ,24.0,19.6,6.0,6,5.83,4,Gold,Mỹ phẩm
-KH0500,Nam,18.0,14.9,,3,2.25,20,Gold,Mỹ phẩm
-KH0501,Nam,46.0,17.2,30.0,8,3.05,22,Bronze,Điện tử
-KH0502,Nữ,57.0,21.8,22.0,6,0.91,6,Platinum,Điện tử
-KH0503,Nữ,18.0,10.0,18.0,5,0.64,82,Silver,Thể thao
-KH0504,Nữ,41.0,8.4,58.0,3,1.21,7,Silver,Thời trang
-KH0505,Nam,27.0,6.4,45.0,11,3.29,15,Gold,Điện tử
-KH0506,Nữ,29.0,7.4,57.0,7,1.22,5,Gold,Sách
-KH0507,Nữ,27.0,71.5,63.0,6,3.75,23,Bronze,Điện tử
-KH0508,Nữ,24.0,25.7,55.0,6,8.98,11,Platinum,Sách
-KH0509,Nữ,35.0,5.4,63.0,6,0.15,20,Gold,Thực phẩm
-KH0510,Nữ,25.0,5.5,48.0,6,0.09,7,Silver,Sách
-KH0511,Nữ,38.0,16.3,26.0,5,0.32,1,Bronze,Sách
-KH0512,Nữ,34.0,16.9,71.0,8,0.97,45,Bronze,Sách
-KH0513,Nam,32.0,16.9,38.0,6,0.28,30,Silver,Thời trang
-KH0514,Nữ,24.0,10.5,31.0,8,4.09,12,Bronze,Điện tử
-KH0515,Nam,28.0,11.3,46.0,13,0.05,1,Gold,Điện tử
-KH0516,Nam,44.0,14.8,31.0,4,0.76,60,Gold,Mỹ phẩm
-KH0517,Nữ,41.0,12.8,41.0,1,0.41,5,Gold,Thời trang
-KH0518,Nam,23.0,3.2,56.0,4,5.36,80,Gold,Thời trang
-KH0519,Nam,36.0,10.6,56.0,2,2.21,19,Bronze,Thời trang
-KH0520,Nam,44.0,7.3,32.0,7,4.86,12,Silver,Mỹ phẩm
-KH0521,Nam,18.0,13.5,40.0,4,7.17,40,Gold,Gia dụng
-KH0522,Nam,41.0,73.1,71.0,5,1.37,62,Bronze,Thời trang
-KH0523,Nam,27.0,15.2,59.0,8,0.53,13,Platinum,Thời trang
-KH0524,Nam,41.0,10.1,91.0,6,0.43,15,Bronze,Thể thao
-KH0525,Nam,25.0,21.2,73.0,5,0.5,17,Silver,Mỹ phẩm
-KH0526,Nam,18.0,16.3,72.0,2,2.47,76,Platinum,Gia dụng
-KH0527,Nam,18.0,15.7,22.0,6,0.08,35,Silver,Thể thao
-KH0528,Nữ,35.0,17.5,65.0,5,0.11,8,Platinum,Thời trang
-KH0529,Nam,38.0,,48.0,6,1.87,6,Platinum,Thời trang
-KH0530,Nam,24.0,6.2,38.0,3,2.05,7,Gold,Thực phẩm
-KH0531,Nữ,42.0,16.2,53.0,6,2.19,9,Bronze,Gia dụng
-KH0532,Nữ,18.0,7.0,68.0,6,0.93,7,Gold,Điện tử
-KH0533,Nữ,34.0,17.0,60.0,4,3.28,32,Gold,Thời trang
-KH0534,Nam,20.0,7.0,32.0,7,1.53,3,Bronze,Sách
-KH0535,Nam,27.0,9.5,64.0,4,0.22,14,Bronze,Mỹ phẩm
-KH0536,Nam,35.0,10.2,37.0,0,3.19,29,Bronze,Thực phẩm
-KH0537,Nữ,24.0,21.9,54.0,9,6.12,10,Silver,Điện tử
-KH0538,Nam,30.0,21.1,43.0,1,0.12,2,Silver,Điện tử
-KH0539,Nam,47.0,5.8,45.0,6,0.99,2,Bronze,Sách
-KH0540,Nữ,28.0,12.6,65.0,4,1.34,4,Silver,Thực phẩm
-KH0541,Nữ,45.0,8.0,29.0,5,0.32,54,Gold,Mỹ phẩm
-KH0542,Nữ,21.0,5.7,88.0,6,4.05,32,Gold,Sách
-KH0543,Nam,41.0,10.7,13.0,8,0.67,2,Silver,Điện tử
-KH0544,Nam,52.0,10.1,38.0,4,3.06,14,Bronze,Điện tử
-KH0545,Nam,18.0,52.2,57.0,5,2.22,9,Bronze,Gia dụng
-KH0546,Nam,25.0,15.8,61.0,10,1.82,25,Bronze,Thể thao
-KH0547,Nữ,41.0,5.3,47.0,5,0.43,22,Bronze,Điện tử
-KH0548,Nam,32.0,8.7,48.0,7,0.5,19,Silver,Thời trang
-KH0549,Nam,39.0,22.5,58.0,6,0.1,11,Silver,Thời trang
-KH0550,Nữ,27.0,42.7,45.0,4,0.55,4,Silver,Sách
-KH0551,Nữ,36.0,4.7,77.0,3,0.85,40,Bronze,Thực phẩm
-KH0552,Nữ,33.0,3.9,66.0,5,3.58,63,Bronze,Thể thao
-KH0553,Nam,49.0,37.4,67.0,4,0.91,86,Bronze,Thực phẩm
-KH0554,Nữ,38.0,15.4,30.0,4,2.81,1,Gold,Thể thao
-KH0555,Nam,39.0,7.2,48.0,5,1.16,40,Silver,Mỹ phẩm
-KH0556,Nữ,30.0,16.8,43.0,2,3.07,38,Silver,Mỹ phẩm
-KH0557,Nữ,29.0,2.5,29.0,7,7.48,88,Bronze,Thể thao
-KH0558,Nam,29.0,12.2,57.0,3,0.55,8,Bronze,Gia dụng
-KH0559,Nữ,39.0,14.8,39.0,5,3.97,40,Gold,Thực phẩm
-KH0560,Nữ,29.0,21.2,63.0,6,1.94,1,Bronze,Gia dụng
-KH0561,Nữ,38.0,6.6,28.0,8,3.4,29,Bronze,Mỹ phẩm
-KH0562,Nam,59.0,12.8,84.0,5,2.11,12,Bronze,Điện tử
-KH0563,Nữ,45.0,7.0,32.0,3,1.1,43,Bronze,Sách
-KH0564,Nam,31.0,14.2,54.0,3,0.52,59,Gold,Gia dụng
-KH0565,Nữ,49.0,7.1,65.0,5,0.15,13,Gold,Điện tử
-KH0566,Nữ,30.0,9.5,38.0,7,1.53,22,Silver,Gia dụng
-KH0567,Nữ,18.0,6.7,67.0,5,9.28,3,Silver,Gia dụng
-KH0568,Nữ,22.0,18.0,25.0,5,2.68,16,Bronze,Mỹ phẩm
-KH0569,Nữ,18.0,20.4,79.0,10,0.79,13,Silver,Sách
-KH0570,Nữ,30.0,10.6,50.0,2,3.51,6,Silver,Sách
-KH0571,Nam,35.0,12.5,38.0,6,2.93,67,Bronze,Sách
-KH0572,Nam,55.0,5.1,44.0,7,0.66,4,Bronze,Gia dụng
-KH0573,Nữ,38.0,10.2,66.0,4,0.03,30,Bronze,Mỹ phẩm
-KH0574,Nữ,32.0,11.8,38.0,11,0.25,66,Gold,Gia dụng
-KH0575,Nam,44.0,58.7,35.0,5,4.2,72,Platinum,Sách
-KH0576,Nữ,18.0,6.3,45.0,4,3.62,47,Silver,Sách
-KH0577,Nữ,37.0,29.3,26.0,1,0.7,5,Silver,Gia dụng
-KH0578,Nữ,44.0,22.2,86.0,11,0.67,51,Bronze,Thực phẩm
-KH0579,Nam,18.0,,38.0,3,3.15,9,Gold,Thực phẩm
-KH0580,Nữ,48.0,35.0,66.0,2,5.55,76,Bronze,Mỹ phẩm
-KH0581,Nữ,39.0,15.2,54.0,7,3.02,37,Bronze,Gia dụng
-KH0582,Nam,30.0,15.4,30.0,5,1.86,46,Gold,Điện tử
-KH0583,Nữ,42.0,11.8,49.0,1,0.56,2,Bronze,Thể thao
-KH0584,Nam,62.0,25.4,65.0,6,1.49,26,Silver,Thời trang
-KH0585,Nữ,37.0,23.5,46.0,4,0.53,51,Gold,Mỹ phẩm
-KH0586,Nữ,37.0,8.4,73.0,9,3.3,59,Bronze,Thực phẩm
-KH0587,Nữ,29.0,5.5,70.0,4,0.98,0,Silver,Thực phẩm
-KH0588,Nữ,24.0,10.8,68.0,9,3.59,83,Bronze,Mỹ phẩm
-KH0589,Nữ,44.0,7.5,40.0,5,0.96,1,Silver,Thực phẩm
-KH0590,Nam,24.0,11.7,28.0,2,3.48,28,Gold,Điện tử
-KH0591,Nam,35.0,25.6,37.0,8,0.81,35,Bronze,Thực phẩm
-KH0592,Nam,29.0,9.3,53.0,2,1.16,3,Platinum,Thời trang
-KH0593,Nam,40.0,11.9,60.0,7,1.91,1,Bronze,Thời trang
-KH0594,Nữ,39.0,12.6,6.0,9,0.15,46,Gold,Gia dụng
-KH0595,Nữ,47.0,20.3,49.0,3,5.92,14,Gold,Thể thao
-KH0596,Nam,28.0,3.2,53.0,3,1.7,3,Bronze,Thể thao
-KH0597,Nữ,31.0,8.5,44.0,6,1.42,43,Silver,Thể thao
-KH0598,Nữ,23.0,13.8,75.0,7,3.66,56,Bronze,Điện tử
-KH0599,Nữ,29.0,25.0,58.0,2,4.02,26,Bronze,Thực phẩm
-KH0600,Nam,39.0,9.1,76.0,9,1.48,5,Silver,Thực phẩm
-KH0601,Nam,44.0,4.0,45.0,5,5.24,0,Gold,Mỹ phẩm
-KH0602,Nữ,23.0,17.7,68.0,5,0.13,36,Gold,Gia dụng
-KH0603,Nam,45.0,8.3,82.0,3,0.24,23,Bronze,Thời trang
-KH0604,Nữ,51.0,6.0,76.0,6,1.82,31,Bronze,Sách
-KH0605,Nam,39.0,8.4,28.0,6,0.87,50,Bronze,Mỹ phẩm
-KH0606,Nữ,57.0,10.9,44.0,4,1.25,17,Silver,Thể thao
-KH0607,Nữ,25.0,8.5,43.0,6,0.8,3,Bronze,Mỹ phẩm
-KH0608,Nữ,20.0,3.2,59.0,8,1.04,84,Gold,Thực phẩm
-KH0609,Nữ,18.0,20.9,63.0,4,3.46,23,Bronze,Thời trang
-KH0610,Nữ,52.0,26.2,33.0,6,1.8,28,Bronze,Thể thao
-KH0611,Nữ,42.0,18.0,51.0,4,11.86,81,Bronze,Mỹ phẩm
-KH0612,Nữ,34.0,6.2,9.0,9,3.09,80,Bronze,Thể thao
-KH0613,Nữ,38.0,10.8,78.0,5,0.64,25,Gold,Thực phẩm
-KH0614,Nữ,21.0,12.1,39.0,7,0.61,10,Silver,Gia dụng
-KH0615,Nữ,64.0,17.4,51.0,2,0.82,175,Silver,Điện tử
-KH0616,Nữ,36.0,18.2,43.0,4,3.71,34,Bronze,Thể thao
-KH0617,Nam,36.0,7.8,72.0,4,0.06,15,Silver,Thời trang
-KH0618,Nam,43.0,12.8,1.0,7,0.52,24,Platinum,Gia dụng
-KH0619,Nam,40.0,16.0,,3,4.71,16,Bronze,Thực phẩm
-KH0620,Nữ,37.0,29.2,47.0,4,2.04,65,Silver,Điện tử
-KH0621,Nam,25.0,18.6,40.0,3,0.51,19,Bronze,Mỹ phẩm
-KH0622,Nam,40.0,19.6,84.0,3,0.49,52,Bronze,Gia dụng
-KH0623,Nam,57.0,12.8,32.0,2,3.97,55,Platinum,Mỹ phẩm
-KH0624,Nam,51.0,28.4,65.0,10,4.48,52,Platinum,Mỹ phẩm
-KH0625,Nữ,54.0,15.6,57.0,3,0.59,38,Bronze,Điện tử
-KH0626,Nữ,28.0,7.3,75.0,2,1.09,57,Bronze,Điện tử
-KH0627,Nữ,23.0,28.3,36.0,6,3.6,14,Gold,Sách
-KH0628,Nam,33.0,18.5,35.0,4,2.95,3,Gold,Sách
-KH0629,Nam,35.0,9.3,71.0,6,3.36,55,Silver,Sách
-KH0630,Nữ,48.0,9.1,58.0,2,1.46,20,Silver,Mỹ phẩm
-KH0631,Nam,18.0,14.6,19.0,4,,4,Silver,Thể thao
-KH0632,Nữ,53.0,16.1,39.0,9,0.79,3,Silver,Mỹ phẩm
-KH0633,Nam,33.0,13.7,57.0,10,0.34,5,Bronze,Điện tử
-KH0634,Nữ,29.0,14.7,66.0,5,2.47,41,Bronze,Thực phẩm
-KH0635,Nam,22.0,33.8,36.0,2,1.55,37,Bronze,Thời trang
-KH0636,Nam,,23.2,1.0,3,3.86,6,Platinum,Mỹ phẩm
-KH0637,Nữ,44.0,13.7,60.0,7,0.17,56,Platinum,Sách
-KH0638,Nam,35.0,21.4,25.0,6,3.71,9,Bronze,Điện tử
-KH0639,Nam,19.0,6.6,9.0,4,0.69,47,Bronze,Gia dụng
-KH0640,Nữ,,15.5,1.0,2,2.13,20,Silver,Thể thao
-KH0641,Nam,30.0,36.1,66.0,7,0.08,39,Gold,Thể thao
-KH0642,Nữ,55.0,10.7,52.0,6,1.88,14,Silver,Gia dụng
-KH0643,Nam,31.0,7.3,45.0,7,2.53,12,Silver,Thể thao
-KH0644,Nam,18.0,8.2,77.0,7,0.92,55,Bronze,Sách
-KH0645,Nữ,32.0,6.3,62.0,3,0.49,1,Silver,Sách
-KH0646,Nữ,31.0,7.6,82.0,3,1.54,110,Platinum,Thực phẩm
-KH0647,Nữ,18.0,9.8,22.0,4,3.58,31,Bronze,Thực phẩm
-KH0648,Nữ,34.0,5.2,49.0,5,0.78,16,Bronze,Sách
-KH0649,Nữ,32.0,12.3,17.0,2,0.58,29,Platinum,Sách
-KH0650,Nam,43.0,20.9,45.0,4,0.65,3,Bronze,Gia dụng
-KH0651,Nam,57.0,7.1,45.0,7,5.96,21,Silver,Thể thao
-KH0652,Nữ,48.0,30.3,62.0,5,0.89,126,Bronze,Thực phẩm
-KH0653,Nữ,31.0,16.6,50.0,6,0.01,8,Silver,Mỹ phẩm
-KH0654,Nam,21.0,22.6,62.0,4,3.04,38,Silver,Điện tử
-KH0655,Nam,65.0,8.2,64.0,9,2.4,17,Bronze,Thể thao
-KH0656,Nữ,35.0,20.3,93.0,2,0.28,31,Bronze,Thời trang
-KH0657,Nữ,35.0,6.3,43.0,6,8.39,6,Bronze,Điện tử
-KH0658,Nam,34.0,20.8,31.0,4,1.87,19,Bronze,Điện tử
-KH0659,Nam,37.0,13.5,54.0,3,1.39,117,Silver,Thực phẩm
-KH0660,Nam,33.0,17.0,33.0,6,0.96,6,Bronze,Thời trang
-KH0661,Nam,28.0,6.0,79.0,7,4.58,30,Silver,Sách
-KH0662,Nữ,28.0,7.1,44.0,8,0.56,25,Gold,Mỹ phẩm
-KH0663,Nam,34.0,17.4,38.0,9,0.67,24,Bronze,Gia dụng
-KH0664,Nam,28.0,6.9,40.0,5,0.26,28,Bronze,Mỹ phẩm
-KH0665,Nam,26.0,16.1,64.0,4,2.85,20,Gold,Thực phẩm
-KH0666,Nữ,36.0,,46.0,3,1.81,0,Gold,Sách
-KH0667,Nam,31.0,20.3,37.0,7,,69,Gold,Gia dụng
-KH0668,Nữ,53.0,5.8,,4,0.49,52,Bronze,Mỹ phẩm
-KH0669,Nữ,18.0,17.0,32.0,8,2.11,5,Gold,Điện tử
-KH0670,Nữ,48.0,17.7,50.0,8,2.9,15,Bronze,Thực phẩm
-KH0671,Nữ,49.0,8.0,63.0,1,,44,Silver,Thời trang
-KH0672,Nữ,18.0,17.3,17.0,5,3.23,117,Silver,Điện tử
-KH0673,Nữ,30.0,14.2,59.0,4,0.86,90,Bronze,Thời trang
-KH0674,Nam,30.0,8.8,28.0,3,2.84,68,Platinum,Gia dụng
-KH0675,Nam,18.0,6.7,66.0,2,0.07,5,Silver,Thời trang
-KH0676,Nam,25.0,3.8,30.0,8,1.6,73,Silver,Điện tử
-KH0677,Nam,21.0,,63.0,8,6.98,63,Silver,Thời trang
-KH0678,Nữ,56.0,4.8,72.0,3,7.95,14,Bronze,Thực phẩm
-KH0679,Nam,46.0,12.9,67.0,4,0.66,15,Gold,Thực phẩm
-KH0680,Nam,50.0,10.4,55.0,12,1.16,18,Bronze,Điện tử
-KH0681,Nam,,18.3,45.0,3,0.13,32,Bronze,Sách
-KH0682,Nam,21.0,10.2,38.0,3,4.13,9,Gold,Mỹ phẩm
-KH0683,Nam,28.0,10.0,79.0,4,1.68,0,Gold,Sách
-KH0684,Nam,40.0,18.9,36.0,3,0.97,4,Silver,Thời trang
-KH0685,Nam,20.0,14.9,29.0,4,0.24,17,Bronze,Điện tử
-KH0686,Nữ,43.0,14.7,63.0,6,5.87,9,Gold,Thời trang
-KH0687,Nữ,32.0,16.1,34.0,4,1.51,43,Bronze,Điện tử
-KH0688,Nữ,30.0,4.8,30.0,3,0.67,3,Gold,Thời trang
-KH0689,Nữ,43.0,19.2,21.0,8,0.86,74,Bronze,Mỹ phẩm
-KH0690,Nam,40.0,17.6,40.0,2,0.63,67,Bronze,Điện tử
-KH0691,Nam,30.0,6.6,48.0,3,1.84,71,Bronze,Thực phẩm
-KH0692,Nữ,48.0,10.5,54.0,7,5.32,40,Platinum,Mỹ phẩm
-KH0693,Nữ,22.0,11.9,69.0,3,3.89,3,Bronze,Thực phẩm
-KH0694,Nữ,42.0,11.2,60.0,7,1.23,17,Platinum,Thể thao
-KH0695,Nam,42.0,14.9,46.0,5,3.5,4,Bronze,Thể thao
-KH0696,Nam,31.0,28.8,46.0,2,1.1,131,Gold,Mỹ phẩm
-KH0697,Nữ,38.0,23.3,60.0,9,0.58,12,Gold,Thực phẩm
-KH0698,Nam,19.0,5.5,,4,8.2,26,Silver,Mỹ phẩm
-KH0699,Nữ,46.0,17.7,52.0,3,0.72,45,Bronze,Sách
-KH0700,Nam,32.0,27.0,40.0,1,0.78,76,Bronze,Thể thao
-KH0701,Nam,28.0,15.4,,2,9.15,42,Platinum,Thời trang
-KH0702,Nam,47.0,23.4,21.0,6,0.29,33,Bronze,Thực phẩm
-KH0703,Nữ,26.0,40.7,63.0,10,2.86,18,Gold,Thời trang
-KH0704,Nam,18.0,22.5,61.0,6,5.49,27,Silver,Thể thao
-KH0705,Nam,18.0,14.1,61.0,6,1.43,2,Bronze,Thể thao
-KH0706,Nam,42.0,22.8,47.0,2,0.01,64,Silver,Điện tử
-KH0707,Nam,19.0,13.3,78.0,4,0.94,23,Bronze,Thời trang
-KH0708,Nữ,56.0,12.4,40.0,5,0.24,1,Bronze,Thực phẩm
-KH0709,Nữ,18.0,9.9,69.0,8,1.08,75,Silver,Thể thao
-KH0710,Nữ,55.0,31.1,49.0,5,3.12,20,Bronze,Mỹ phẩm
-KH0711,Nam,37.0,7.5,37.0,3,1.16,60,Silver,Thời trang
-KH0712,Nữ,33.0,30.6,61.0,1,1.13,58,Gold,Gia dụng
-KH0713,Nữ,28.0,16.4,58.0,7,1.63,50,Gold,Mỹ phẩm
-KH0714,Nữ,39.0,,57.0,7,1.74,1,Gold,Điện tử
-KH0715,Nữ,34.0,15.2,51.0,4,3.88,8,Bronze,Điện tử
-KH0716,Nữ,48.0,3.5,49.0,4,0.74,62,Bronze,Thể thao
-KH0717,Nữ,36.0,17.7,97.0,4,3.45,68,Silver,Thực phẩm
-KH0718,Nam,36.0,20.7,73.0,9,1.67,18,Bronze,Thể thao
-KH0719,Nam,30.0,8.5,64.0,1,0.71,17,Bronze,Mỹ phẩm
-KH0720,Nữ,34.0,,52.0,3,0.7,5,Gold,Thể thao
-KH0721,Nữ,38.0,39.3,70.0,4,0.9,103,Gold,Thời trang
-KH0722,Nữ,18.0,9.0,60.0,3,1.95,7,Bronze,Thời trang
-KH0723,Nam,18.0,6.5,50.0,3,0.52,6,Bronze,Thể thao
-KH0724,Nam,43.0,29.6,43.0,8,5.06,32,Platinum,Sách
-KH0725,Nam,37.0,39.5,48.0,11,1.71,8,Platinum,Điện tử
-KH0726,Nam,32.0,12.2,1.0,4,5.05,83,Gold,Mỹ phẩm
-KH0727,Nữ,35.0,22.4,54.0,2,0.1,0,Gold,Thể thao
-KH0728,Nam,39.0,27.2,40.0,3,0.84,0,Silver,Mỹ phẩm
-KH0729,Nam,,7.8,81.0,4,0.05,21,Gold,Điện tử
-KH0730,Nữ,25.0,9.1,50.0,2,0.64,20,Bronze,Sách
-KH0731,Nữ,37.0,25.5,26.0,7,3.96,5,Platinum,Thời trang
-KH0732,Nữ,23.0,33.5,49.0,2,0.07,20,Bronze,Điện tử
-KH0733,Nam,39.0,17.1,29.0,11,1.15,15,Silver,Mỹ phẩm
-KH0734,Nữ,18.0,7.2,59.0,5,0.25,66,Silver,Sách
-KH0735,Nữ,47.0,40.1,55.0,5,1.08,0,Silver,Thể thao
-KH0736,Nam,40.0,8.9,69.0,4,3.65,112,Bronze,Thời trang
-KH0737,Nữ,38.0,10.0,34.0,4,1.95,29,Bronze,Gia dụng
-KH0738,Nữ,46.0,15.0,50.0,4,2.67,4,Gold,Sách
-KH0739,Nữ,54.0,31.0,22.0,3,0.86,1,Bronze,Điện tử
-KH0740,Nữ,47.0,20.3,64.0,5,5.78,23,Gold,Mỹ phẩm
-KH0741,Nữ,18.0,15.6,60.0,9,2.47,8,Bronze,Mỹ phẩm
-KH0742,Nam,19.0,16.1,59.0,5,1.1,10,Bronze,Sách
-KH0743,Nam,27.0,12.5,50.0,2,1.11,8,Platinum,Thực phẩm
-KH0744,Nữ,35.0,17.0,58.0,6,5.02,31,Silver,Thực phẩm
-KH0745,Nữ,41.0,,82.0,7,1.72,24,Platinum,Điện tử
-KH0746,Nữ,26.0,10.2,44.0,5,2.45,2,Platinum,Sách
-KH0747,Nữ,37.0,14.1,52.0,7,1.08,22,Bronze,Sách
-KH0748,Nữ,25.0,6.1,28.0,7,0.51,46,Bronze,Thời trang
-KH0749,Nam,27.0,15.4,32.0,8,2.57,2,Bronze,Sách
-KH0750,Nữ,18.0,10.8,51.0,7,1.87,66,Bronze,Gia dụng
-KH0751,Nam,23.0,34.9,72.0,3,1.39,25,Gold,Gia dụng
-KH0752,Nữ,18.0,31.3,44.0,4,1.96,90,Silver,Thời trang
-KH0753,Nữ,23.0,9.2,45.0,4,0.47,4,Gold,Thực phẩm
-KH0754,Nữ,47.0,11.1,41.0,3,3.16,151,Silver,Mỹ phẩm
-KH0755,Nam,23.0,11.7,39.0,7,5.92,31,Gold,Sách
-KH0756,Nữ,66.0,9.3,55.0,7,4.43,25,Silver,Thực phẩm
-KH0757,Nam,40.0,13.7,20.0,3,0.78,21,Silver,Điện tử
-KH0758,Nữ,37.0,7.7,75.0,7,1.04,0,Silver,Thực phẩm
-KH0759,Nữ,24.0,6.2,36.0,8,3.3,84,Bronze,Thời trang
-KH0760,Nam,43.0,17.7,64.0,3,1.81,30,Silver,Thể thao
-KH0761,Nam,28.0,17.8,24.0,4,1.59,2,Bronze,Sách
-KH0762,Nữ,36.0,7.5,63.0,7,5.22,0,Silver,Điện tử
-KH0763,Nữ,65.0,20.8,63.0,1,1.54,1,Bronze,Thời trang
-KH0764,Nữ,33.0,8.3,57.0,4,1.45,28,Bronze,Điện tử
-KH0765,Nam,48.0,14.2,30.0,2,0.09,28,Gold,Sách
-KH0766,Nam,26.0,19.9,54.0,2,0.14,20,Platinum,Mỹ phẩm
-KH0767,Nữ,34.0,11.9,26.0,5,0.01,10,Bronze,Thực phẩm
-KH0768,Nam,56.0,16.0,44.0,6,4.89,22,Gold,Thời trang
-KH0769,Nữ,27.0,8.9,70.0,5,1.05,21,Bronze,Điện tử
-KH0770,Nữ,56.0,10.8,65.0,4,1.26,0,Silver,Thể thao
-KH0771,Nữ,43.0,10.8,50.0,5,3.73,9,Bronze,Thực phẩm
-KH0772,Nam,28.0,7.8,30.0,7,1.88,1,Platinum,Gia dụng
-KH0773,Nam,42.0,11.0,62.0,4,1.88,69,Bronze,Thời trang
-KH0774,Nam,46.0,4.8,50.0,2,0.7,38,Gold,Mỹ phẩm
-KH0775,Nam,42.0,9.1,3.0,9,3.59,166,Bronze,Thể thao
-KH0776,Nữ,18.0,10.3,65.0,4,0.36,10,Bronze,Điện tử
-KH0777,Nam,26.0,10.4,49.0,3,,63,Silver,Thời trang
-KH0778,Nữ,32.0,10.5,74.0,4,0.43,27,Bronze,Thời trang
-KH0779,Nam,34.0,11.7,28.0,4,0.62,18,Bronze,Gia dụng
-KH0780,Nam,42.0,16.2,1.0,6,0.66,7,Bronze,Thể thao
-KH0781,Nam,37.0,20.6,55.0,4,2.22,40,Gold,Sách
-KH0782,Nữ,18.0,8.2,55.0,6,0.49,70,Silver,Mỹ phẩm
-KH0783,Nam,39.0,5.9,16.0,9,2.26,8,Silver,Sách
-KH0784,Nam,42.0,6.5,30.0,3,0.19,5,Gold,Gia dụng
-KH0785,Nữ,41.0,9.1,100.0,3,0.32,35,Bronze,Điện tử
-KH0786,Nữ,47.0,9.9,43.0,8,1.42,113,Gold,Thực phẩm
-KH0787,Nữ,45.0,7.7,,6,5.1,41,Bronze,Thể thao
-KH0788,Nữ,40.0,5.6,36.0,1,3.93,10,Gold,Thời trang
-KH0789,Nữ,34.0,9.3,8.0,7,6.93,16,Silver,Điện tử
-KH0790,Nữ,18.0,13.6,46.0,5,2.1,14,Bronze,Điện tử
-KH0791,Nam,40.0,17.4,44.0,7,2.25,57,Gold,Mỹ phẩm
-KH0792,Nữ,37.0,8.7,42.0,5,1.96,44,Bronze,Thời trang
-KH0793,Nam,38.0,9.5,47.0,2,1.95,26,Gold,Sách
-KH0794,Nữ,19.0,7.0,55.0,6,0.32,9,Platinum,Gia dụng
-KH0795,Nam,22.0,12.0,46.0,7,1.57,83,Bronze,Thực phẩm
-KH0796,Nam,47.0,7.3,24.0,5,0.98,31,Bronze,Thể thao
-KH0797,Nam,34.0,17.2,59.0,6,1.17,105,Bronze,Sách
-KH0798,Nữ,43.0,4.2,11.0,5,1.48,26,Gold,Thời trang
-KH0799,Nữ,35.0,9.8,8.0,6,0.27,51,Bronze,Thời trang
-KH0800,Nữ,35.0,14.6,64.0,3,0.89,50,Platinum,Thực phẩm
-KH0801,Nữ,46.0,13.6,60.0,4,0.13,12,Gold,Sách
-KH0802,Nam,28.0,61.3,48.0,5,7.79,99,Silver,Điện tử
-KH0803,Nữ,36.0,,22.0,8,0.25,0,Silver,Sách
-KH0804,Nữ,29.0,6.7,35.0,10,0.6,43,Bronze,Gia dụng
-KH0805,Nữ,29.0,11.5,44.0,5,4.44,101,Bronze,Thể thao
-KH0806,Nam,31.0,4.2,18.0,3,1.32,12,Gold,Thời trang
-KH0807,Nữ,37.0,11.6,35.0,7,0.29,31,Bronze,Điện tử
-KH0808,Nữ,29.0,7.4,63.0,2,0.97,24,Bronze,Mỹ phẩm
-KH0809,Nữ,50.0,21.1,78.0,6,0.25,43,Gold,Điện tử
-KH0810,Nữ,24.0,8.8,41.0,6,0.45,60,Bronze,Thực phẩm
-KH0811,Nữ,32.0,11.4,65.0,6,0.11,27,Bronze,Gia dụng
-KH0812,Nữ,29.0,8.3,11.0,5,1.15,50,Silver,Thể thao
-KH0813,Nữ,52.0,34.6,63.0,0,3.29,11,Silver,Sách
-KH0814,Nam,37.0,10.0,33.0,6,1.76,7,Platinum,Thể thao
-KH0815,Nam,47.0,36.6,56.0,4,1.86,16,Bronze,Thực phẩm
-KH0816,Nữ,18.0,19.9,45.0,6,0.45,33,Silver,Thể thao
-KH0817,Nam,38.0,16.3,76.0,3,0.84,6,Platinum,Mỹ phẩm
-KH0818,Nữ,45.0,15.2,32.0,6,3.73,34,Bronze,Sách
-KH0819,Nam,35.0,15.4,62.0,3,0.18,15,Platinum,Điện tử
-KH0820,Nữ,47.0,3.8,44.0,5,3.9,47,Bronze,Thời trang
-KH0821,Nữ,28.0,10.3,,2,1.32,1,Silver,Sách
-KH0822,Nữ,51.0,20.2,46.0,4,3.63,33,Gold,Mỹ phẩm
-KH0823,Nữ,62.0,11.8,33.0,7,0.77,31,Bronze,Thực phẩm
-KH0824,Nam,30.0,5.2,49.0,6,0.83,84,Gold,Sách
-KH0825,Nữ,29.0,11.8,48.0,7,2.79,37,Gold,Điện tử
-KH0826,Nam,52.0,33.9,54.0,6,3.07,47,Bronze,Thực phẩm
-KH0827,Nam,53.0,25.7,51.0,2,0.52,70,Platinum,Thời trang
-KH0828,Nữ,28.0,11.7,65.0,0,7.21,33,Bronze,Mỹ phẩm
-KH0829,Nam,29.0,21.6,68.0,4,0.18,10,Platinum,Sách
-KH0830,Nữ,31.0,9.8,28.0,5,0.14,61,Silver,Mỹ phẩm
-KH0831,Nam,18.0,,67.0,2,1.81,41,Gold,Gia dụng
-KH0832,Nữ,23.0,7.0,26.0,3,,16,Silver,Thực phẩm
-KH0833,Nam,22.0,31.1,61.0,6,6.48,37,Bronze,Gia dụng
-KH0834,Nam,25.0,10.3,62.0,9,1.04,60,Silver,Sách
-KH0835,Nữ,34.0,10.5,11.0,6,0.05,111,Bronze,Mỹ phẩm
-KH0836,Nam,37.0,10.2,51.0,4,1.85,91,Platinum,Điện tử
-KH0837,Nam,53.0,38.2,40.0,2,0.68,11,Bronze,Gia dụng
-KH0838,Nữ,23.0,32.3,34.0,6,1.13,16,Silver,Điện tử
-KH0839,Nữ,46.0,46.1,77.0,7,1.34,3,Bronze,Gia dụng
-KH0840,Nữ,32.0,11.1,36.0,2,0.13,8,Silver,Thực phẩm
-KH0841,Nữ,34.0,14.5,33.0,6,1.33,64,Silver,Thực phẩm
-KH0842,Nam,43.0,4.9,51.0,8,1.11,13,Silver,Sách
-KH0843,Nữ,21.0,29.6,63.0,4,2.49,29,Silver,Mỹ phẩm
-KH0844,Nữ,39.0,6.0,47.0,6,2.08,32,Gold,Thực phẩm
-KH0845,Nữ,36.0,13.9,73.0,6,0.41,45,Silver,Thể thao
-KH0846,Nữ,40.0,6.3,60.0,1,0.46,6,Bronze,Thể thao
-KH0847,Nam,38.0,8.6,,7,0.58,10,Bronze,Gia dụng
-KH0848,Nam,64.0,7.4,39.0,6,0.39,17,Silver,Thể thao
-KH0849,Nam,27.0,8.5,38.0,5,2.14,13,Silver,Gia dụng
-KH0850,Nữ,28.0,8.8,59.0,3,10.38,122,Gold,Điện tử
-KH0851,Nam,27.0,8.8,1.0,7,2.11,54,Bronze,Thời trang
-KH0852,Nam,28.0,20.1,100.0,4,1.87,19,Platinum,Gia dụng
-KH0853,Nữ,27.0,6.3,60.0,2,1.06,63,Silver,Điện tử
-KH0854,Nam,49.0,13.9,52.0,7,0.75,12,Bronze,Mỹ phẩm
-KH0855,Nam,52.0,25.3,73.0,5,4.84,46,Bronze,Thực phẩm
-KH0856,Nữ,28.0,9.0,96.0,8,6.95,7,Gold,Thể thao
-KH0857,Nam,25.0,7.9,67.0,7,1.37,44,Silver,Thực phẩm
-KH0858,Nữ,40.0,10.6,68.0,5,0.69,18,Gold,Gia dụng
-KH0859,Nam,28.0,24.7,52.0,4,2.94,3,Bronze,Thực phẩm
-KH0860,Nam,42.0,13.7,47.0,3,0.28,9,Silver,Mỹ phẩm
-KH0861,Nữ,37.0,8.9,40.0,9,2.9,15,Bronze,Thời trang
-KH0862,Nam,18.0,16.3,33.0,4,3.42,41,Bronze,Thể thao
-KH0863,Nữ,53.0,6.3,36.0,8,0.27,2,Bronze,Sách
-KH0864,Nữ,56.0,18.3,22.0,4,7.53,32,Silver,Gia dụng
-KH0865,Nữ,27.0,15.6,48.0,2,8.47,37,Bronze,Mỹ phẩm
-KH0866,Nữ,30.0,10.1,16.0,2,5.52,31,Gold,Sách
-KH0867,Nam,38.0,7.4,53.0,5,1.37,42,Bronze,Điện tử
-KH0868,Nam,39.0,7.2,49.0,8,0.56,5,Gold,Thời trang
-KH0869,Nữ,42.0,16.8,52.0,5,1.74,26,Silver,Gia dụng
-KH0870,Nam,59.0,25.5,39.0,6,1.09,84,Bronze,Thể thao
-KH0871,Nam,32.0,8.3,100.0,3,0.46,28,Silver,Thực phẩm
-KH0872,Nam,25.0,16.0,77.0,5,1.1,28,Bronze,Thể thao
-KH0873,Nam,18.0,3.5,25.0,8,2.18,40,Bronze,Gia dụng
-KH0874,Nữ,26.0,8.6,54.0,4,0.15,12,Bronze,Điện tử
-KH0875,Nam,34.0,12.0,37.0,5,0.81,36,Bronze,Thực phẩm
-KH0876,Nữ,56.0,7.1,29.0,1,0.04,74,Silver,Sách
-KH0877,Nam,28.0,6.9,23.0,5,2.77,0,Gold,Thời trang
-KH0878,Nam,37.0,8.2,58.0,6,2.05,61,Gold,Sách
-KH0879,Nữ,34.0,14.5,36.0,3,0.13,7,Gold,Gia dụng
-KH0880,Nữ,49.0,10.9,69.0,6,6.69,18,Platinum,Thể thao
-KH0881,Nữ,65.0,3.2,69.0,5,0.05,57,Silver,Mỹ phẩm
-KH0882,Nữ,28.0,3.4,77.0,5,1.78,52,Platinum,Điện tử
-KH0883,Nam,29.0,8.5,,6,3.0,66,Bronze,Gia dụng
-KH0884,Nữ,47.0,16.0,59.0,6,3.1,84,Platinum,Sách
-KH0885,Nữ,43.0,2.3,62.0,7,0.07,17,Platinum,Mỹ phẩm
-KH0886,Nam,57.0,9.0,40.0,6,4.74,32,Bronze,Thể thao
-KH0887,Nam,42.0,8.9,34.0,5,5.01,14,Bronze,Gia dụng
-KH0888,Nữ,30.0,28.0,82.0,6,1.65,12,Bronze,Điện tử
-KH0889,Nữ,42.0,9.7,54.0,6,1.32,16,Gold,Gia dụng
-KH0890,Nữ,48.0,15.3,62.0,5,0.09,40,Bronze,Thực phẩm
-KH0891,Nữ,44.0,13.3,33.0,10,1.65,20,Silver,Thực phẩm
-KH0892,Nữ,41.0,3.4,,4,1.05,50,Gold,Mỹ phẩm
-KH0893,Nữ,47.0,19.3,38.0,8,2.96,41,Bronze,Sách
-KH0894,Nữ,49.0,13.9,47.0,6,1.03,0,Silver,Thực phẩm
-KH0895,Nam,51.0,16.5,28.0,4,2.3,29,Bronze,Thời trang
-KH0896,Nữ,42.0,128.5,49.0,5,0.21,17,Platinum,Thời trang
-KH0897,Nữ,32.0,3.5,16.0,4,0.29,18,Gold,Gia dụng
-KH0898,Nam,36.0,34.3,27.0,6,0.3,51,Gold,Sách
-KH0899,Nam,49.0,10.3,63.0,2,0.09,23,Platinum,Thời trang
-KH0900,Nữ,25.0,14.5,62.0,2,1.56,65,Silver,Thời trang
-KH0901,Nữ,39.0,11.9,42.0,9,3.16,37,Bronze,Thể thao
-KH0902,Nữ,30.0,9.4,29.0,1,1.89,24,Bronze,Điện tử
-KH0903,Nữ,35.0,8.7,29.0,3,1.71,42,Bronze,Điện tử
-KH0904,Nam,50.0,14.8,42.0,4,2.28,1,Silver,Thể thao
-KH0905,Nữ,37.0,4.9,62.0,3,0.83,0,Bronze,Thời trang
-KH0906,Nữ,35.0,19.1,68.0,2,0.9,2,Silver,Điện tử
-KH0907,Nam,18.0,9.5,40.0,6,0.75,17,Bronze,Thời trang
-KH0908,Nam,43.0,6.2,26.0,2,2.49,8,Silver,Mỹ phẩm
-KH0909,Nữ,42.0,9.3,55.0,7,0.35,124,Gold,Điện tử
-KH0910,Nữ,60.0,25.9,33.0,10,0.03,23,Bronze,Thời trang
-KH0911,Nam,31.0,8.8,39.0,1,1.81,32,Bronze,Thời trang
-KH0912,Nữ,37.0,15.1,76.0,2,,9,Gold,Gia dụng
-KH0913,Nam,37.0,7.9,66.0,4,1.88,11,Gold,Sách
-KH0914,Nam,,19.2,53.0,4,3.05,12,Bronze,Thể thao
-KH0915,Nữ,33.0,18.4,24.0,8,2.23,35,Bronze,Mỹ phẩm
-KH0916,Nam,38.0,36.9,54.0,6,1.38,19,Gold,Sách
-KH0917,Nam,42.0,11.0,71.0,2,2.53,21,Bronze,Mỹ phẩm
-KH0918,Nam,37.0,18.2,42.0,6,3.48,26,Bronze,Gia dụng
-KH0919,Nữ,29.0,12.9,77.0,8,0.51,43,Silver,Gia dụng
-KH0920,Nữ,37.0,26.5,75.0,8,0.82,2,Bronze,Sách
-KH0921,Nam,47.0,7.9,83.0,2,0.51,45,Bronze,Gia dụng
-KH0922,Nữ,22.0,19.0,56.0,5,1.2,24,Gold,Thực phẩm
-KH0923,Nam,36.0,10.8,61.0,4,4.33,33,Silver,Thời trang
-KH0924,Nam,26.0,11.7,78.0,3,0.85,11,Silver,Thực phẩm
-KH0925,Nữ,49.0,12.9,58.0,8,0.94,15,Bronze,Điện tử
-KH0926,Nữ,18.0,14.2,39.0,3,3.94,7,Bronze,Gia dụng
-KH0927,Nữ,28.0,11.4,41.0,7,1.45,116,Platinum,Sách
-KH0928,Nam,39.0,13.9,54.0,2,1.53,20,Gold,Thời trang
-KH0929,Nam,53.0,,24.0,1,3.94,166,Silver,Thời trang
-KH0930,Nam,34.0,22.0,47.0,5,1.35,20,Silver,Điện tử
-KH0931,Nữ,28.0,20.5,71.0,4,2.29,7,Silver,Sách
-KH0932,Nữ,57.0,9.3,6.0,4,0.18,21,Bronze,Mỹ phẩm
-KH0933,Nam,18.0,7.1,80.0,4,0.39,1,Gold,Thể thao
-KH0934,Nữ,,21.6,72.0,3,1.04,70,Silver,Thời trang
-KH0935,Nữ,40.0,20.6,40.0,0,1.37,51,Gold,Mỹ phẩm
-KH0936,Nữ,28.0,29.5,60.0,2,6.75,38,Silver,Thể thao
-KH0937,Nữ,22.0,8.5,50.0,3,7.06,28,Bronze,Sách
-KH0938,Nam,43.0,10.6,74.0,4,3.81,26,Silver,Thời trang
-KH0939,Nữ,37.0,4.6,69.0,2,0.76,171,Gold,Thực phẩm
-KH0940,Nam,28.0,9.6,21.0,6,6.65,9,Bronze,Gia dụng
-KH0941,Nam,19.0,22.2,61.0,5,2.34,45,Gold,Sách
-KH0942,Nam,45.0,9.2,45.0,1,1.0,26,Bronze,Mỹ phẩm
-KH0943,Nữ,42.0,17.9,51.0,8,2.42,111,Bronze,Thể thao
-KH0944,Nữ,33.0,10.9,35.0,6,0.03,52,Bronze,Thực phẩm
-KH0945,Nam,57.0,,,1,0.32,195,Gold,Thể thao
-KH0946,Nữ,22.0,6.1,70.0,9,3.54,26,Silver,Sách
-KH0947,Nam,18.0,12.8,35.0,3,2.07,6,Gold,Thời trang
-KH0948,Nữ,26.0,2.0,23.0,9,0.91,21,Gold,Thể thao
-KH0949,Nam,34.0,10.9,42.0,4,,37,Silver,Gia dụng
-KH0950,Nữ,37.0,4.6,58.0,3,4.71,44,Bronze,Thực phẩm
-KH0951,Nữ,32.0,25.1,54.0,7,2.0,0,Bronze,Gia dụng
-KH0952,Nữ,39.0,19.4,75.0,5,1.02,21,Gold,Thời trang
-KH0953,Nữ,19.0,16.1,65.0,6,0.26,8,Silver,Sách
-KH0954,Nữ,,30.3,69.0,3,0.7,62,Silver,Thời trang
-KH0955,Nam,34.0,6.9,56.0,7,7.66,4,Bronze,Thể thao
-KH0956,Nam,48.0,34.8,22.0,5,1.15,32,Silver,Thực phẩm
-KH0957,Nữ,39.0,21.3,46.0,8,1.28,9,Bronze,Thời trang
-KH0958,Nam,40.0,10.6,71.0,7,1.38,13,Bronze,Điện tử
-KH0959,Nữ,41.0,24.1,48.0,3,4.31,84,Bronze,Gia dụng
-KH0960,Nam,,6.3,60.0,5,1.85,8,Bronze,Thời trang
-KH0961,Nam,42.0,7.4,43.0,9,2.37,2,Silver,Thời trang
-KH0962,Nữ,50.0,8.5,29.0,5,0.99,2,Platinum,Sách
-KH0963,Nữ,37.0,8.9,47.0,6,0.06,21,Gold,Điện tử
-KH0964,Nữ,,6.5,56.0,4,5.35,30,Silver,Gia dụng
-KH0965,Nam,33.0,25.4,36.0,6,5.96,11,Gold,Mỹ phẩm
-KH0966,Nam,52.0,10.4,45.0,6,5.96,35,Bronze,Điện tử
-KH0967,Nam,26.0,15.1,31.0,5,5.75,1,Bronze,Điện tử
-KH0968,Nam,56.0,8.7,72.0,6,3.38,58,Bronze,Gia dụng
-KH0969,Nữ,34.0,4.1,44.0,4,2.31,50,Silver,Sách
-KH0970,Nữ,18.0,14.3,79.0,4,3.72,127,Bronze,Điện tử
-KH0971,Nam,36.0,3.9,80.0,7,1.84,82,Gold,Gia dụng
-KH0972,Nam,26.0,11.7,48.0,7,0.29,13,Gold,Sách
-KH0973,Nam,45.0,5.4,29.0,5,0.99,15,Bronze,Điện tử
-KH0974,Nam,27.0,,8.0,3,7.1,41,Silver,Gia dụng
-KH0975,Nữ,29.0,21.0,20.0,3,0.87,4,Silver,Sách
-KH0976,Nữ,18.0,13.0,22.0,3,4.05,11,Bronze,Gia dụng
-KH0977,Nữ,29.0,26.0,77.0,2,0.2,3,Silver,Mỹ phẩm
-KH0978,Nữ,18.0,7.3,52.0,6,0.81,18,Gold,Sách
-KH0979,Nam,18.0,16.9,57.0,3,0.86,24,Bronze,Thời trang
-KH0980,Nữ,44.0,13.7,5.0,3,0.11,7,Bronze,Thể thao
-KH0981,Nam,44.0,,26.0,11,0.25,0,Gold,Sách
-KH0982,Nữ,40.0,26.1,67.0,4,0.43,38,Gold,Gia dụng
-KH0983,Nữ,23.0,18.9,55.0,10,3.64,0,Silver,Thực phẩm
-KH0984,Nữ,34.0,14.5,47.0,8,0.13,108,Gold,Sách
-KH0985,Nam,34.0,4.5,61.0,3,0.71,7,Bronze,Mỹ phẩm
-KH0986,Nữ,21.0,6.8,82.0,7,0.02,32,Silver,Sách
-KH0987,Nam,53.0,11.3,45.0,5,2.38,17,Gold,Sách
-KH0988,Nữ,45.0,12.9,,3,1.94,1,Bronze,Mỹ phẩm
-KH0989,Nữ,32.0,6.2,53.0,5,2.07,19,Bronze,Thời trang
-KH0990,Nam,35.0,51.8,97.0,6,0.94,21,Bronze,Điện tử
-KH0991,Nữ,37.0,30.3,8.0,5,0.47,57,Bronze,Thể thao
-KH0992,Nam,18.0,17.5,63.0,5,2.55,39,Bronze,Điện tử
-KH0993,Nữ,32.0,12.7,47.0,2,3.33,2,Gold,Gia dụng
-KH0994,Nữ,26.0,10.7,61.0,6,0.3,7,Bronze,Mỹ phẩm
-KH0995,Nam,22.0,6.9,36.0,5,1.33,11,Bronze,Gia dụng
-KH0996,Nữ,31.0,12.8,49.0,4,0.57,3,Platinum,Thực phẩm
-KH0997,Nữ,56.0,14.2,64.0,7,,18,Platinum,Sách
-KH0998,Nam,42.0,5.8,100.0,5,2.65,124,Bronze,Điện tử
-KH0999,Nam,28.0,,66.0,6,1.54,21,Platinum,Gia dụng
-KH1000,Nữ,41.0,11.1,33.0,6,0.49,40,Gold,Gia dụng
-KH1001,Nam,51.0,3.9,41.0,6,0.74,34,Gold,Mỹ phẩm
-KH1002,Nam,46.0,7.3,40.0,3,6.8,56,Silver,Thực phẩm
-KH1003,Nam,35.0,9.5,14.0,5,3.78,7,Silver,Thực phẩm
-KH1004,Nam,27.0,37.8,43.0,4,4.24,42,Silver,Gia dụng
-KH1005,Nữ,43.0,17.0,64.0,8,1.23,63,Silver,Thực phẩm
-KH1006,Nam,39.0,5.5,24.0,3,1.96,5,Bronze,Thể thao
-KH1007,Nam,45.0,16.3,70.0,2,0.95,12,Bronze,Thực phẩm
-KH1008,Nam,42.0,4.8,59.0,1,0.16,105,Platinum,Mỹ phẩm
-KH1009,Nam,47.0,23.3,35.0,7,1.03,45,Silver,Thể thao
-KH1010,Nam,28.0,9.2,47.0,3,1.8,9,Silver,Sách
-KH1011,Nam,50.0,11.5,81.0,2,0.68,24,Platinum,Mỹ phẩm
-KH1012,Nam,37.0,27.0,64.0,4,3.77,15,Silver,Thể thao
-KH1013,Nữ,59.0,5.6,50.0,6,,20,Silver,Sách
-KH1014,Nam,26.0,5.3,45.0,2,0.91,13,Bronze,Thực phẩm
-KH1015,Nam,55.0,8.6,51.0,7,0.27,9,Bronze,Gia dụng
-KH1016,Nữ,37.0,22.7,39.0,4,1.04,33,Bronze,Điện tử
-KH1017,Nam,27.0,4.9,7.0,10,0.08,45,Silver,Gia dụng
-KH1018,Nam,29.0,2.2,90.0,8,0.64,62,Silver,Gia dụng
-KH1019,Nữ,31.0,9.3,53.0,6,1.02,5,Bronze,Điện tử
-KH1020,Nam,40.0,17.0,57.0,7,1.3,51,Bronze,Mỹ phẩm
-KH1021,Nam,41.0,25.0,48.0,3,1.57,8,Bronze,Thể thao
-KH1022,Nam,28.0,9.2,35.0,4,0.64,16,Gold,Gia dụng
-KH1023,Nam,34.0,9.5,46.0,8,1.48,69,Silver,Sách
-KH1024,Nam,60.0,24.3,18.0,5,1.42,18,Silver,Thực phẩm
-KH1025,Nữ,55.0,4.0,95.0,4,0.76,6,Bronze,Thực phẩm
-KH1026,Nam,40.0,9.6,25.0,4,3.55,5,Bronze,Mỹ phẩm
-KH1027,Nữ,35.0,13.7,29.0,5,1.58,19,Silver,Mỹ phẩm
-KH1028,Nam,36.0,16.0,41.0,5,0.81,43,Platinum,Mỹ phẩm
-KH1029,Nam,42.0,9.0,75.0,4,5.89,176,Silver,Thời trang
-KH1030,Nữ,22.0,12.4,50.0,3,3.73,46,Bronze,Sách
-KH1031,Nam,31.0,2.7,25.0,6,8.1,62,Gold,Thời trang
-KH1032,Nam,18.0,8.2,75.0,8,2.36,41,Silver,Thực phẩm
-KH1033,Nữ,39.0,16.0,64.0,5,0.95,67,Gold,Gia dụng
-KH1034,Nam,42.0,6.8,60.0,5,0.66,2,Bronze,Thời trang
-KH1035,Nam,29.0,12.6,64.0,3,2.18,79,Silver,Gia dụng
-KH1036,Nữ,53.0,15.9,97.0,5,7.91,15,Bronze,Điện tử
-KH1037,Nữ,20.0,9.9,93.0,5,1.97,76,Bronze,Thực phẩm
-KH1038,Nữ,18.0,13.5,36.0,10,4.27,2,Bronze,Thời trang
-KH1039,Nam,37.0,6.8,82.0,4,0.8,37,Bronze,Thực phẩm
-KH1040,Nữ,47.0,10.8,57.0,4,1.04,39,Bronze,Điện tử
-KH1041,Nam,55.0,,59.0,9,4.73,173,Silver,Điện tử
-KH1042,Nam,29.0,13.4,16.0,5,2.83,43,Bronze,Thể thao
-KH1043,Nữ,47.0,8.6,46.0,4,7.97,14,Gold,Thực phẩm
-KH1044,Nữ,34.0,13.9,33.0,2,2.98,24,Silver,Thời trang
-KH1045,Nam,32.0,18.7,66.0,4,1.19,13,Bronze,Thể thao
-KH1046,Nam,45.0,3.6,71.0,4,1.51,6,Silver,Thể thao
-KH1047,Nữ,42.0,24.4,8.0,5,4.62,8,Bronze,Sách
-KH1048,Nữ,18.0,10.0,49.0,2,1.6,7,Silver,Thể thao
-KH1049,Nữ,52.0,15.7,72.0,8,0.59,23,Gold,Thực phẩm
-KH1050,Nam,51.0,25.0,46.0,3,1.14,70,Silver,Gia dụng
-KH1051,Nữ,27.0,5.3,64.0,5,1.45,73,Gold,Gia dụng
-KH1052,Nữ,39.0,8.0,57.0,4,0.2,1,Bronze,Gia dụng
-KH1053,Nam,40.0,10.2,56.0,5,2.72,2,Bronze,Gia dụng
-KH1054,Nam,38.0,7.6,44.0,7,0.23,8,Bronze,Gia dụng
-KH1055,Nữ,28.0,34.5,25.0,6,1.04,8,Silver,Điện tử
-KH1056,Nam,26.0,7.3,27.0,7,3.27,2,Platinum,Thời trang
-KH1057,Nam,34.0,8.7,64.0,3,1.26,14,Silver,Thời trang
-KH1058,Nam,49.0,13.8,50.0,8,3.69,26,Platinum,Mỹ phẩm
-KH1059,Nữ,41.0,5.9,47.0,3,0.84,25,Silver,Thực phẩm
-KH1060,Nữ,30.0,9.6,41.0,6,6.32,23,Bronze,Điện tử
-KH1061,Nữ,44.0,14.7,43.0,6,0.47,12,Bronze,Điện tử
-KH1062,Nữ,18.0,10.0,70.0,6,0.08,36,Bronze,Thực phẩm
-KH1063,Nữ,48.0,11.5,43.0,3,4.12,52,Gold,Thực phẩm
-KH1064,Nữ,18.0,8.9,23.0,1,2.79,12,Bronze,Gia dụng
-KH1065,Nam,30.0,4.9,64.0,6,0.53,2,Silver,Điện tử
-KH1066,Nam,21.0,14.8,45.0,5,8.37,10,Silver,Điện tử
-KH1067,Nam,19.0,34.9,50.0,2,1.4,4,Silver,Thực phẩm
-KH1068,Nữ,48.0,12.3,82.0,4,6.03,18,Platinum,Thể thao
-KH1069,Nữ,29.0,13.9,49.0,10,1.41,5,Bronze,Thực phẩm
-KH1070,Nam,39.0,18.5,55.0,3,1.28,18,Platinum,Thời trang
-KH1071,Nữ,34.0,5.7,26.0,11,1.19,7,Silver,Gia dụng
-KH1072,Nữ,40.0,33.8,45.0,2,0.82,40,Platinum,Mỹ phẩm
-KH1073,Nữ,35.0,13.8,62.0,3,1.53,0,Bronze,Gia dụng
-KH1074,Nữ,19.0,32.4,18.0,3,1.2,24,Bronze,Điện tử
-KH1075,Nữ,46.0,7.8,54.0,2,0.07,5,Bronze,Sách
-KH1076,Nam,29.0,36.3,52.0,3,0.6,0,Bronze,Thời trang
-KH1077,Nữ,18.0,19.4,50.0,6,0.48,61,Bronze,Sách
-KH1078,Nữ,29.0,17.0,70.0,6,4.04,33,Silver,Thực phẩm
-KH1079,Nữ,53.0,14.0,56.0,7,1.83,3,Bronze,Thể thao
-KH1080,Nữ,45.0,10.5,79.0,3,2.89,32,Gold,Mỹ phẩm
-KH1081,Nữ,30.0,25.0,30.0,5,6.29,28,Bronze,Điện tử
-KH1082,Nam,30.0,13.3,52.0,2,2.07,19,Silver,Mỹ phẩm
-KH1083,Nữ,31.0,3.7,51.0,5,8.1,16,Bronze,Thể thao
-KH1084,Nam,59.0,6.2,28.0,4,0.75,65,Gold,Sách
-KH1085,Nam,39.0,10.9,69.0,1,0.41,8,Gold,Sách
-KH1086,Nam,40.0,14.7,96.0,3,1.03,15,Bronze,Gia dụng
-KH1087,Nam,47.0,11.8,49.0,3,1.27,11,Silver,Thể thao
-KH1088,Nữ,37.0,25.3,60.0,8,4.51,44,Silver,Thời trang
-KH1089,Nam,31.0,3.8,51.0,10,1.64,74,Gold,Gia dụng
-KH1090,Nữ,32.0,13.3,35.0,4,0.69,56,Silver,Sách
-KH1091,Nam,34.0,4.1,13.0,5,2.71,47,Platinum,Thực phẩm
-KH1092,Nam,34.0,19.2,,6,1.41,129,Bronze,Thời trang
-KH1093,Nữ,,11.5,22.0,3,0.35,35,Gold,Sách
-KH1094,Nam,35.0,15.7,84.0,11,1.72,41,Silver,Thể thao
-KH1095,Nữ,43.0,7.3,47.0,5,4.85,121,Gold,Gia dụng
-KH1096,Nữ,34.0,26.3,43.0,5,3.7,0,Bronze,Mỹ phẩm
-KH1097,Nữ,35.0,22.8,67.0,3,1.77,30,Bronze,Thời trang
-KH1098,Nam,18.0,17.3,27.0,7,0.95,40,Silver,Thể thao
-KH1099,Nữ,45.0,11.3,34.0,2,0.18,74,Silver,Thời trang
-KH1100,Nữ,39.0,17.3,51.0,5,1.27,64,Platinum,Thể thao
-KH1101,Nữ,46.0,8.0,70.0,4,2.79,55,Bronze,Thực phẩm
-KH1102,Nam,18.0,20.4,60.0,6,0.89,87,Bronze,Thực phẩm
-KH1103,Nam,60.0,32.8,54.0,4,0.54,23,Gold,Thể thao
-KH1104,Nam,33.0,23.2,51.0,5,5.36,0,Gold,Mỹ phẩm
-KH1105,Nữ,48.0,7.9,58.0,3,3.45,0,Gold,Mỹ phẩm
-KH1106,Nam,22.0,15.1,54.0,5,2.03,23,Gold,Thể thao
-KH1107,Nam,42.0,5.6,29.0,6,0.29,17,Gold,Thời trang
-KH1108,Nữ,22.0,17.2,50.0,3,0.31,18,Bronze,Thể thao
-KH1109,Nữ,27.0,16.0,28.0,7,0.22,15,Silver,Thể thao
-KH1110,Nam,57.0,4.0,51.0,4,1.92,74,Silver,Điện tử
-KH1111,Nữ,32.0,6.1,40.0,2,0.25,13,Silver,Sách
-KH1112,Nam,37.0,10.3,100.0,12,3.7,58,Bronze,Sách
-KH1113,Nữ,45.0,10.2,49.0,4,9.91,69,Silver,Thể thao
-KH1114,Nam,40.0,5.9,21.0,2,0.91,20,Silver,Gia dụng
-KH1115,Nữ,36.0,15.4,47.0,7,1.21,17,Silver,Thời trang
-KH1116,Nam,39.0,14.2,,1,2.49,42,Silver,Sách
-KH1117,Nam,63.0,10.8,83.0,0,5.53,36,Bronze,Thể thao
-KH1118,Nữ,34.0,7.7,38.0,3,4.49,11,Gold,Sách
-KH1119,Nữ,37.0,22.9,18.0,10,0.12,3,Silver,Mỹ phẩm
-KH1120,Nữ,47.0,32.9,66.0,2,0.37,9,Bronze,Thời trang
-KH1121,Nữ,48.0,9.1,22.0,9,2.81,4,Silver,Thực phẩm
-KH1122,Nam,49.0,8.4,41.0,3,2.34,10,Bronze,Gia dụng
-KH1123,Nam,42.0,16.4,,6,0.29,9,Bronze,Thời trang
-KH1124,Nam,21.0,9.8,48.0,5,1.39,30,Bronze,Thực phẩm
-KH1125,Nữ,54.0,11.2,63.0,3,3.04,92,Gold,Gia dụng
-KH1126,Nam,21.0,19.0,36.0,8,0.49,34,Bronze,Gia dụng
-KH1127,Nam,38.0,3.9,44.0,4,4.1,78,Gold,Điện tử
-KH1128,Nam,25.0,26.9,49.0,5,0.11,45,Gold,Thực phẩm
-KH1129,Nam,34.0,12.7,52.0,4,3.05,39,Silver,Gia dụng
-KH1130,Nam,38.0,9.5,51.0,4,1.91,16,Platinum,Sách
-KH1131,Nữ,38.0,11.5,58.0,3,0.76,11,Bronze,Điện tử
-KH1132,Nữ,40.0,11.9,66.0,5,2.55,56,Bronze,Điện tử
-KH1133,Nữ,54.0,4.3,57.0,3,3.05,70,Gold,Thời trang
-KH1134,Nữ,40.0,29.9,59.0,7,5.43,18,Gold,Sách
-KH1135,Nam,32.0,12.5,18.0,2,0.92,0,Bronze,Sách
-KH1136,Nữ,46.0,15.9,51.0,7,2.32,47,Gold,Mỹ phẩm
-KH1137,Nữ,49.0,21.6,59.0,4,,10,Silver,Mỹ phẩm
-KH1138,Nữ,20.0,6.6,64.0,3,1.49,0,Bronze,Thể thao
-KH1139,Nam,42.0,16.2,,3,4.42,49,Silver,Gia dụng
-KH1140,Nam,43.0,10.4,36.0,8,0.01,21,Platinum,Gia dụng
-KH1141,Nam,31.0,20.2,38.0,10,0.66,34,Silver,Gia dụng
-KH1142,Nam,51.0,3.4,60.0,5,1.55,73,Silver,Thời trang
-KH1143,Nam,33.0,11.5,70.0,8,0.39,23,Silver,Điện tử
-KH1144,Nam,36.0,8.5,41.0,1,4.77,20,Bronze,Mỹ phẩm
-KH1145,Nữ,32.0,15.8,68.0,6,2.09,10,Bronze,Thực phẩm
-KH1146,Nữ,35.0,16.2,52.0,2,1.3,10,Gold,Thể thao
-KH1147,Nữ,21.0,8.0,47.0,4,3.37,47,Bronze,Mỹ phẩm
-KH1148,Nữ,18.0,7.9,45.0,4,1.2,17,Gold,Điện tử
-KH1149,Nữ,54.0,11.4,64.0,8,1.64,5,Silver,Điện tử
-KH1150,Nữ,24.0,7.1,56.0,7,0.01,2,Gold,Thực phẩm
-KH1151,Nữ,23.0,20.2,95.0,4,0.91,19,Silver,Thời trang
-KH1152,Nam,18.0,9.8,32.0,7,0.3,18,Silver,Mỹ phẩm
-KH1153,Nam,27.0,2.1,60.0,5,2.34,31,Bronze,Gia dụng
-KH1154,Nữ,19.0,9.7,39.0,7,1.3,19,Gold,Sách
-KH1155,Nữ,54.0,6.5,32.0,3,0.72,4,Bronze,Thời trang
-KH1156,Nam,47.0,4.6,49.0,4,1.26,21,Bronze,Gia dụng
-KH1157,Nữ,26.0,5.8,52.0,8,0.47,71,Bronze,Mỹ phẩm
-KH1158,Nữ,62.0,13.0,100.0,7,5.18,5,Bronze,Thực phẩm
-KH1159,Nữ,46.0,27.0,46.0,2,0.11,35,Bronze,Thời trang
-KH1160,Nam,31.0,14.7,27.0,2,4.01,27,Bronze,Mỹ phẩm
-KH1161,Nam,18.0,8.5,55.0,6,1.43,41,Bronze,Gia dụng
-KH1162,Nữ,62.0,16.0,,8,1.93,4,Silver,Mỹ phẩm
-KH1163,Nam,,9.2,48.0,4,0.72,85,Bronze,Thể thao
-KH1164,Nam,18.0,8.0,50.0,6,6.8,29,Platinum,Sách
-KH1165,Nam,47.0,6.1,65.0,8,0.66,56,Silver,Điện tử
-KH1166,Nữ,64.0,4.3,69.0,6,1.78,8,Bronze,Thể thao
-KH1167,Nam,51.0,9.6,39.0,4,10.05,40,Silver,Điện tử
-KH1168,Nam,41.0,13.4,46.0,6,4.26,45,Silver,Mỹ phẩm
-KH1169,Nữ,42.0,11.5,34.0,6,1.54,15,Platinum,Gia dụng
-KH1170,Nữ,45.0,9.5,27.0,4,9.29,14,Silver,Điện tử
-KH1171,Nữ,44.0,6.9,56.0,4,2.42,32,Silver,Mỹ phẩm
-KH1172,Nam,38.0,17.5,24.0,5,0.47,2,Bronze,Mỹ phẩm
-KH1173,Nam,36.0,5.5,41.0,9,1.04,39,Gold,Sách
-KH1174,Nữ,34.0,19.4,30.0,5,0.81,1,Bronze,Gia dụng
-KH1175,Nữ,25.0,6.7,60.0,6,0.84,6,Gold,Điện tử
-KH1176,Nam,31.0,7.8,86.0,9,,32,Bronze,Gia dụng
-KH1177,Nam,18.0,,23.0,3,1.76,3,Bronze,Gia dụng
-KH1178,Nữ,33.0,9.0,12.0,10,0.08,107,Bronze,Sách
-KH1179,Nam,23.0,21.9,47.0,7,4.2,60,Gold,Gia dụng
-KH1180,Nữ,21.0,16.6,50.0,6,0.7,29,Gold,Điện tử
-KH1181,Nam,37.0,21.9,54.0,5,11.67,51,Bronze,Điện tử
-KH1182,Nữ,51.0,16.7,41.0,5,6.17,65,Bronze,Thời trang
-KH1183,Nam,46.0,6.3,45.0,9,5.64,9,Bronze,Thực phẩm
-KH1184,Nữ,18.0,10.0,57.0,7,3.33,56,Bronze,Thể thao
-KH1185,Nam,23.0,7.6,70.0,7,0.5,6,Silver,Mỹ phẩm
-KH1186,Nữ,46.0,27.1,10.0,5,1.52,15,Silver,Thực phẩm
-KH1187,Nam,23.0,5.9,42.0,2,0.51,24,Gold,Sách
-KH1188,Nữ,32.0,20.8,54.0,5,0.6,37,Platinum,Gia dụng
-KH1189,Nữ,41.0,20.8,31.0,4,1.89,0,Silver,Thời trang
-KH1190,Nữ,23.0,36.5,84.0,7,,10,Silver,Thời trang
-KH1191,Nữ,36.0,9.5,37.0,3,6.98,28,Bronze,Sách
-KH1192,Nữ,18.0,18.7,49.0,3,5.02,13,Bronze,Mỹ phẩm
-KH1193,Nam,27.0,47.9,61.0,6,0.96,44,Gold,Mỹ phẩm
-KH1194,Nữ,38.0,8.4,38.0,3,1.45,31,Bronze,Thực phẩm
-KH1195,Nam,18.0,4.8,13.0,5,1.26,8,Silver,Thực phẩm
-KH1196,Nữ,40.0,3.9,41.0,3,4.28,4,Platinum,Điện tử
-KH1197,Nam,34.0,18.7,70.0,8,2.33,29,Gold,Thực phẩm
-KH1198,Nữ,41.0,3.9,43.0,3,0.65,17,Gold,Thực phẩm
-KH1199,Nữ,37.0,9.7,33.0,7,1.18,5,Bronze,Gia dụng
-KH1200,Nam,51.0,15.8,68.0,5,1.12,11,Gold,Sách
-KH1201,Nữ,36.0,13.6,43.0,6,6.4,10,Gold,Thời trang
-KH1202,Nam,29.0,15.7,39.0,4,0.39,3,Silver,Thể thao
-KH1203,Nam,36.0,13.9,52.0,6,0.19,23,Bronze,Thực phẩm
-KH1204,Nữ,41.0,26.2,65.0,7,4.25,43,Bronze,Điện tử
-KH1205,Nữ,35.0,6.9,97.0,10,4.54,25,Silver,Thực phẩm
-KH1206,Nam,35.0,8.1,66.0,7,4.11,52,Silver,Gia dụng
-KH1207,Nữ,26.0,7.7,73.0,6,1.43,4,Silver,Thể thao
-KH1208,Nữ,27.0,20.0,39.0,4,2.16,17,Bronze,Thể thao
-KH1209,Nữ,18.0,20.9,29.0,6,1.66,28,Platinum,Mỹ phẩm
-KH1210,Nam,55.0,16.0,,2,0.14,33,Platinum,Gia dụng
-KH1211,Nữ,20.0,24.8,,2,1.81,35,Gold,Điện tử
-KH1212,Nam,26.0,6.0,28.0,3,0.03,39,Silver,Mỹ phẩm
-KH1213,Nam,26.0,33.1,46.0,9,,31,Silver,Thời trang
-KH1214,Nam,45.0,30.4,57.0,4,5.39,2,Bronze,Thể thao
-KH1215,Nam,31.0,18.9,57.0,7,0.72,35,Silver,Điện tử
-KH1216,Nữ,49.0,35.5,60.0,8,5.62,38,Silver,Điện tử
-KH1217,Nữ,26.0,4.5,55.0,6,0.58,150,Bronze,Sách
-KH1218,Nam,38.0,8.9,39.0,3,0.76,35,Bronze,Thực phẩm
-KH1219,Nam,24.0,7.8,39.0,6,1.98,34,Bronze,Điện tử
-KH1220,Nam,60.0,18.8,26.0,3,2.87,21,Bronze,Thể thao
-KH1221,Nam,20.0,6.5,85.0,7,,60,Silver,Sách
-KH1222,Nữ,38.0,19.2,50.0,6,,172,Platinum,Thể thao
-KH1223,Nam,42.0,27.7,45.0,2,0.08,45,Silver,Thời trang
-KH1224,Nam,39.0,18.5,31.0,1,5.11,28,Bronze,Thời trang
-KH1225,Nam,32.0,14.4,100.0,2,0.44,2,Silver,Sách
-KH1226,Nam,33.0,6.7,28.0,5,,38,Bronze,Thời trang
-KH1227,Nam,35.0,7.3,41.0,4,1.02,36,Bronze,Điện tử
-KH1228,Nữ,33.0,25.8,58.0,5,3.58,44,Gold,Gia dụng
-KH1229,Nữ,46.0,19.4,62.0,8,2.23,3,Gold,Điện tử
-KH1230,Nữ,61.0,11.9,69.0,4,0.39,31,Silver,Thể thao
-KH1231,Nữ,28.0,9.5,86.0,6,5.0,10,Bronze,Thể thao
-KH1232,Nữ,18.0,3.6,60.0,3,0.56,42,Bronze,Thể thao
-KH1233,Nam,33.0,6.4,28.0,4,0.56,8,Bronze,Thực phẩm
-KH1234,Nữ,65.0,38.4,44.0,8,3.37,34,Silver,Thời trang
-KH1235,Nam,25.0,5.7,56.0,5,0.22,10,Bronze,Thực phẩm
-KH1236,Nữ,54.0,13.6,91.0,7,0.5,0,Platinum,Sách
-KH1237,Nữ,55.0,22.3,22.0,2,1.4,30,Silver,Thể thao
-KH1238,Nữ,28.0,,74.0,5,3.55,3,Gold,Thời trang
-KH1239,Nữ,41.0,13.6,53.0,10,0.32,32,Silver,Thực phẩm
-KH1240,Nam,54.0,21.4,66.0,4,1.59,77,Platinum,Mỹ phẩm
-KH1241,Nữ,30.0,12.3,47.0,5,2.48,104,Gold,Mỹ phẩm
-KH1242,Nam,32.0,68.1,33.0,3,3.94,8,Bronze,Thời trang
-KH1243,Nữ,28.0,4.5,65.0,3,5.48,49,Gold,Thực phẩm
-KH1244,Nữ,22.0,23.0,63.0,8,3.07,13,Silver,Điện tử
-KH1245,Nữ,27.0,11.0,69.0,3,2.12,69,Silver,Sách
-KH1246,Nam,20.0,19.4,49.0,7,1.14,46,Silver,Gia dụng
-KH1247,Nam,35.0,15.9,38.0,8,0.24,2,Platinum,Điện tử
-KH1248,Nữ,25.0,7.8,18.0,4,2.47,15,Bronze,Điện tử
-KH1249,Nữ,37.0,14.0,66.0,5,9.85,12,Bronze,Gia dụng
-KH1250,Nam,18.0,4.0,58.0,6,2.67,46,Bronze,Gia dụng
-KH1251,Nam,38.0,17.5,30.0,1,0.03,15,Silver,Thể thao
-KH1252,Nữ,45.0,14.6,39.0,2,1.37,34,Silver,Thực phẩm
-KH1253,Nữ,18.0,17.9,40.0,3,1.91,27,Bronze,Gia dụng
-KH1254,Nam,39.0,23.0,20.0,4,2.34,111,Silver,Mỹ phẩm
-KH1255,Nữ,49.0,15.2,33.0,4,2.54,83,Gold,Gia dụng
-KH1256,Nam,20.0,13.3,27.0,4,1.63,16,Gold,Sách
-KH1257,Nữ,55.0,7.2,41.0,3,0.51,38,Silver,Điện tử
-KH1258,Nữ,40.0,7.9,35.0,5,5.7,53,Platinum,Sách
-KH1259,Nam,26.0,24.8,17.0,5,2.39,68,Platinum,Sách
-KH1260,Nam,34.0,28.8,90.0,2,0.54,2,Gold,Sách
-KH1261,Nữ,41.0,10.6,75.0,6,0.78,10,Silver,Thời trang
-KH1262,Nam,35.0,12.5,34.0,3,5.1,11,Bronze,Mỹ phẩm
-KH1263,Nữ,,7.1,55.0,4,4.37,17,Bronze,Gia dụng
-KH1264,Nam,23.0,,58.0,3,1.04,5,Gold,Sách
-KH1265,Nam,37.0,18.2,73.0,6,0.08,20,Silver,Gia dụng
-KH1266,Nam,18.0,39.0,33.0,4,0.1,32,Gold,Thời trang
-KH1267,Nam,33.0,7.2,71.0,1,0.67,20,Bronze,Thực phẩm
-KH1268,Nữ,24.0,9.7,39.0,9,1.98,32,Silver,Điện tử
-KH1269,Nữ,26.0,14.0,23.0,7,1.76,2,Silver,Thời trang
-KH1270,Nam,49.0,18.0,64.0,5,2.01,62,Bronze,Thực phẩm
-KH1271,Nữ,48.0,10.7,75.0,4,2.53,83,Bronze,Điện tử
-KH1272,Nữ,42.0,7.2,,2,0.04,28,Silver,Thể thao
-KH1273,Nữ,21.0,20.7,26.0,4,0.22,63,Silver,Sách
-KH1274,Nữ,31.0,18.8,63.0,5,0.89,4,Silver,Gia dụng
-KH1275,Nữ,49.0,7.0,41.0,4,0.34,47,Silver,Thực phẩm
-KH1276,Nữ,36.0,27.5,65.0,6,0.16,3,Bronze,Thời trang
-KH1277,Nam,62.0,24.6,20.0,3,2.05,15,Bronze,Mỹ phẩm
-KH1278,Nữ,39.0,13.2,24.0,7,3.38,11,Silver,Sách
-KH1279,Nam,37.0,12.8,34.0,5,2.79,26,Silver,Thời trang
-KH1280,Nữ,31.0,17.0,51.0,6,3.4,10,Silver,Thời trang
-KH1281,Nam,36.0,7.3,37.0,7,2.19,30,Gold,Mỹ phẩm
-KH1282,Nữ,33.0,12.4,63.0,2,2.66,13,Bronze,Sách
-KH1283,Nữ,43.0,3.3,70.0,6,0.63,59,Platinum,Thực phẩm
-KH1284,Nữ,46.0,20.6,61.0,4,9.93,30,Bronze,Sách
-KH1285,Nam,25.0,4.8,82.0,6,0.4,7,Platinum,Thể thao
-KH1286,Nữ,19.0,30.0,58.0,3,0.48,12,Gold,Sách
-KH1287,Nam,18.0,10.0,25.0,6,0.68,56,Platinum,Thực phẩm
-KH1288,Nam,41.0,10.7,77.0,8,7.4,14,Bronze,Thể thao
-KH1289,Nữ,21.0,8.4,37.0,3,8.89,23,Gold,Thời trang
-KH1290,Nữ,,10.2,68.0,7,3.17,31,Bronze,Thời trang
-KH1291,Nữ,39.0,28.5,81.0,15,1.98,12,Bronze,Thực phẩm
-KH1292,Nam,64.0,2.7,59.0,7,1.47,10,Bronze,Thể thao
-KH1293,Nam,34.0,26.2,20.0,6,7.05,19,Platinum,Sách
-KH1294,Nữ,45.0,14.9,31.0,3,2.38,7,Bronze,Mỹ phẩm
-KH1295,Nữ,35.0,5.9,76.0,2,5.79,10,Bronze,Điện tử
-KH1296,Nữ,33.0,6.4,46.0,5,0.76,1,Silver,Mỹ phẩm
-KH1297,Nam,46.0,33.3,51.0,6,0.81,10,Bronze,Gia dụng
-KH1298,Nam,31.0,6.9,65.0,6,3.86,11,Gold,Sách
-KH1299,Nữ,38.0,6.1,63.0,4,0.32,97,Silver,Thời trang
-KH1300,Nữ,38.0,24.1,55.0,1,5.83,26,Bronze,Thực phẩm
-KH1301,Nam,26.0,14.9,45.0,6,1.42,46,Gold,Mỹ phẩm
-KH1302,Nữ,46.0,6.9,43.0,8,5.22,1,Gold,Thể thao
-KH1303,Nữ,32.0,13.9,67.0,2,0.82,3,Bronze,Gia dụng
-KH1304,Nam,25.0,6.6,61.0,2,2.52,50,Silver,Gia dụng
-KH1305,Nam,41.0,23.6,44.0,2,1.32,29,Silver,Thời trang
-KH1306,Nữ,24.0,23.0,71.0,5,1.97,6,Silver,Điện tử
-KH1307,Nữ,35.0,16.8,47.0,7,1.4,15,Silver,Điện tử
-KH1308,Nam,34.0,15.1,32.0,7,6.83,23,Bronze,Gia dụng
-KH1309,Nam,48.0,35.0,34.0,9,2.36,55,Silver,Mỹ phẩm
-KH1310,Nam,40.0,12.2,30.0,4,0.58,1,Gold,Gia dụng
-KH1311,Nam,34.0,6.0,44.0,7,4.81,27,Platinum,Sách
-KH1312,Nam,44.0,16.0,74.0,5,0.7,37,Gold,Thời trang
-KH1313,Nữ,51.0,42.6,33.0,7,0.93,114,Gold,Thời trang
-KH1314,Nam,41.0,6.6,53.0,7,0.22,49,Silver,Điện tử
-KH1315,Nam,35.0,9.8,36.0,3,4.6,9,Bronze,Gia dụng
-KH1316,Nữ,19.0,15.6,44.0,5,0.67,37,Bronze,Thực phẩm
-KH1317,Nam,22.0,11.8,19.0,5,0.6,43,Gold,Thực phẩm
-KH1318,Nữ,31.0,6.8,45.0,5,5.06,39,Bronze,Mỹ phẩm
-KH1319,Nam,27.0,23.9,46.0,5,3.27,51,Gold,Mỹ phẩm
-KH1320,Nam,,49.0,60.0,8,0.3,70,Bronze,Sách
-KH1321,Nam,35.0,13.7,54.0,2,,3,Bronze,Điện tử
-KH1322,Nam,41.0,7.1,26.0,6,4.88,3,Silver,Thời trang
-KH1323,Nữ,34.0,4.8,71.0,6,0.16,47,Bronze,Thực phẩm
-KH1324,Nam,40.0,14.2,54.0,6,3.49,8,Bronze,Sách
-KH1325,Nữ,35.0,23.6,53.0,1,1.59,1,Bronze,Thực phẩm
-KH1326,Nữ,18.0,16.2,49.0,10,2.21,15,Platinum,Thực phẩm
-KH1327,Nam,23.0,12.2,39.0,5,1.36,51,Silver,Sách
-KH1328,Nữ,33.0,8.6,54.0,3,2.39,4,Silver,Thực phẩm
-KH1329,Nữ,20.0,6.3,59.0,0,0.07,33,Silver,Điện tử
-KH1330,Nữ,42.0,20.1,15.0,7,2.88,0,Silver,Gia dụng
-KH1331,Nam,53.0,21.1,,4,0.07,3,Silver,Thực phẩm
-KH1332,Nam,49.0,4.8,44.0,6,1.22,12,Bronze,Thể thao
-KH1333,Nữ,32.0,31.6,55.0,4,0.33,2,Platinum,Thời trang
-KH1334,Nữ,52.0,17.2,73.0,2,3.47,56,Silver,Sách
-KH1335,Nam,36.0,28.2,34.0,4,0.75,59,Gold,Thực phẩm
-KH1336,Nữ,30.0,5.4,40.0,9,1.21,42,Bronze,Mỹ phẩm
-KH1337,Nữ,27.0,5.4,39.0,4,1.12,8,Platinum,Thể thao
-KH1338,Nữ,31.0,11.1,33.0,5,2.96,22,Gold,Thời trang
-KH1339,Nữ,30.0,16.5,43.0,8,1.31,6,Bronze,Gia dụng
-KH1340,Nữ,37.0,35.8,65.0,2,3.11,9,Bronze,Thực phẩm
-KH1341,Nữ,36.0,18.6,28.0,2,0.15,21,Platinum,Điện tử
-KH1342,Nam,35.0,10.5,58.0,5,0.43,39,Bronze,Điện tử
-KH1343,Nam,40.0,6.6,15.0,4,1.6,2,Bronze,Thực phẩm
-KH1344,Nam,49.0,25.5,38.0,8,5.88,10,Silver,Mỹ phẩm
-KH1345,Nữ,46.0,6.8,43.0,6,0.16,78,Bronze,Sách
-KH1346,Nam,18.0,32.4,83.0,9,0.09,16,Gold,Điện tử
-KH1347,Nữ,18.0,10.3,44.0,7,0.34,83,Gold,Thời trang
-KH1348,Nữ,46.0,31.6,5.0,2,2.05,142,Bronze,Sách
-KH1349,Nam,18.0,18.3,10.0,8,1.02,22,Silver,Mỹ phẩm
-KH1350,Nam,32.0,11.2,50.0,3,3.49,10,Gold,Gia dụng
-KH1351,Nữ,20.0,8.9,62.0,5,0.15,46,Silver,Sách
-KH1352,Nam,18.0,9.9,57.0,4,0.44,5,Silver,Gia dụng
-KH1353,Nam,41.0,15.8,53.0,5,,8,Bronze,Thể thao
-KH1354,Nữ,44.0,12.8,73.0,4,1.97,46,Bronze,Sách
-KH1355,Nữ,28.0,8.5,39.0,8,2.31,17,Gold,Sách
-KH1356,Nam,18.0,11.0,67.0,0,0.27,6,Bronze,Điện tử
-KH1357,Nữ,28.0,12.8,17.0,7,5.76,31,Bronze,Mỹ phẩm
-KH1358,Nam,39.0,3.4,,4,0.83,39,Silver,Điện tử
-KH1359,Nam,18.0,16.0,13.0,5,2.5,4,Bronze,Gia dụng
-KH1360,Nữ,37.0,6.8,44.0,2,1.49,9,Bronze,Điện tử
-KH1361,Nữ,34.0,6.1,49.0,3,0.5,7,Gold,Mỹ phẩm
-KH1362,Nam,41.0,4.4,52.0,3,3.74,14,Bronze,Thực phẩm
-KH1363,Nữ,36.0,,51.0,1,3.41,43,Silver,Gia dụng
-KH1364,Nam,23.0,5.4,31.0,3,1.01,37,Bronze,Thực phẩm
-KH1365,Nữ,49.0,8.0,46.0,4,1.78,32,Silver,Mỹ phẩm
-KH1366,Nữ,33.0,39.3,20.0,4,0.6,0,Bronze,Gia dụng
-KH1367,Nam,34.0,8.9,77.0,7,2.34,4,Silver,Điện tử
-KH1368,Nữ,23.0,13.6,43.0,9,0.74,7,Silver,Điện tử
-KH1369,Nam,29.0,15.5,40.0,1,3.72,9,Gold,Sách
-KH1370,Nữ,24.0,13.2,81.0,3,0.49,4,Silver,Điện tử
-KH1371,Nam,32.0,11.6,25.0,5,0.03,15,Gold,Gia dụng
-KH1372,Nam,55.0,5.9,,1,0.63,2,Silver,Gia dụng
-KH1373,Nữ,18.0,29.1,28.0,3,0.42,41,Silver,Sách
-KH1374,Nam,,36.0,48.0,5,1.42,46,Bronze,Thể thao
-KH1375,Nữ,52.0,4.4,58.0,7,0.46,25,Gold,Điện tử
-KH1376,Nam,32.0,6.6,64.0,4,2.88,2,Silver,Thể thao
-KH1377,Nam,26.0,10.3,100.0,6,0.55,66,Silver,Điện tử
-KH1378,Nam,47.0,6.8,5.0,4,2.45,101,Gold,Thực phẩm
-KH1379,Nữ,27.0,16.5,62.0,3,1.73,6,Gold,Sách
-KH1380,Nữ,56.0,7.9,38.0,5,8.57,36,Platinum,Sách
-KH1381,Nam,43.0,44.7,38.0,4,18.44,55,Bronze,Gia dụng
-KH1382,Nữ,29.0,24.9,37.0,4,4.07,23,Silver,Điện tử
-KH1383,Nữ,60.0,13.8,31.0,4,2.85,11,Bronze,Mỹ phẩm
-KH1384,Nam,27.0,22.6,83.0,5,0.98,19,Silver,Thể thao
-KH1385,Nam,43.0,23.7,66.0,4,2.8,21,Platinum,Điện tử
-KH1386,Nam,38.0,8.7,50.0,8,6.28,15,Silver,Sách
-KH1387,Nữ,50.0,7.5,77.0,3,0.05,79,Silver,Gia dụng
-KH1388,Nam,53.0,12.8,19.0,5,1.54,40,Bronze,Điện tử
-KH1389,Nam,35.0,20.4,23.0,4,0.49,8,Bronze,Thực phẩm
-KH1390,Nữ,25.0,13.2,6.0,3,1.63,26,Bronze,Thời trang
-KH1391,Nam,40.0,4.7,36.0,5,1.26,35,Bronze,Gia dụng
-KH1392,Nữ,26.0,7.5,53.0,5,1.71,4,Silver,Gia dụng
-KH1393,Nam,59.0,11.7,52.0,5,1.6,13,Silver,Sách
-KH1394,Nữ,36.0,11.6,52.0,2,6.44,70,Platinum,Thời trang
-KH1395,Nam,30.0,39.8,21.0,4,1.61,25,Gold,Điện tử
-KH1396,Nam,37.0,5.3,66.0,4,3.74,7,Bronze,Thực phẩm
-KH1397,Nam,18.0,16.5,54.0,7,0.77,3,Gold,Thể thao
-KH1398,Nữ,23.0,29.8,64.0,2,1.15,21,Platinum,Điện tử
-KH1399,Nữ,49.0,47.6,12.0,3,1.27,23,Silver,Sách
-KH1400,Nam,27.0,9.6,56.0,4,0.65,12,Silver,Thời trang
-KH1401,Nam,22.0,16.4,26.0,5,0.96,29,Platinum,Thể thao
-KH1402,Nữ,,17.1,42.0,7,1.83,2,Bronze,Thực phẩm
-KH1403,Nam,49.0,13.7,60.0,5,1.74,4,Bronze,Mỹ phẩm
-KH1404,Nam,43.0,11.5,51.0,3,,23,Gold,Mỹ phẩm
-KH1405,Nam,46.0,15.8,32.0,2,0.87,1,Gold,Thực phẩm
-KH1406,Nữ,25.0,2.7,50.0,5,0.76,63,Gold,Mỹ phẩm
-KH1407,Nữ,18.0,18.3,19.0,7,1.89,4,Bronze,Sách
-KH1408,Nam,53.0,13.1,73.0,5,0.29,33,Silver,Thể thao
-KH1409,Nữ,31.0,10.7,45.0,5,0.58,14,Silver,Sách
-KH1410,Nam,31.0,41.6,72.0,7,0.09,15,Bronze,Sách
-KH1411,Nữ,50.0,8.1,39.0,7,0.15,43,Gold,Thực phẩm
-KH1412,Nam,41.0,9.6,39.0,10,0.56,20,Gold,Điện tử
-KH1413,Nam,40.0,40.2,34.0,4,0.04,38,Bronze,Thể thao
-KH1414,Nữ,,7.4,67.0,4,0.56,21,Bronze,Điện tử
-KH1415,Nam,27.0,8.8,35.0,0,2.13,26,Silver,Thời trang
-KH1416,Nam,46.0,11.2,62.0,3,0.13,42,Bronze,Điện tử
-KH1417,Nữ,35.0,20.2,42.0,3,1.15,28,Gold,Điện tử
-KH1418,Nữ,38.0,13.8,10.0,2,4.89,28,Platinum,Thời trang
-KH1419,Nam,53.0,5.6,38.0,9,3.13,46,Bronze,Thể thao
-KH1420,Nữ,41.0,8.9,26.0,8,0.73,89,Gold,Gia dụng
-KH1421,Nữ,41.0,8.5,50.0,8,5.18,14,Bronze,Gia dụng
-KH1422,Nữ,47.0,11.6,,4,0.8,25,Bronze,Thực phẩm
-KH1423,Nam,30.0,15.7,68.0,10,0.15,2,Bronze,Gia dụng
-KH1424,Nữ,24.0,15.7,48.0,3,10.25,13,Silver,Gia dụng
-KH1425,Nam,22.0,4.2,46.0,2,4.08,15,Silver,Gia dụng
-KH1426,Nữ,18.0,23.1,63.0,2,1.25,54,Gold,Điện tử
-KH1427,Nam,59.0,14.2,69.0,2,2.2,21,Silver,Gia dụng
-KH1428,Nam,21.0,28.0,49.0,6,2.22,39,Silver,Điện tử
-KH1429,Nữ,32.0,15.9,34.0,2,0.43,0,Silver,Điện tử
-KH1430,Nam,31.0,23.6,14.0,9,0.45,18,Gold,Sách
-KH1431,Nam,,16.1,36.0,8,1.27,69,Bronze,Thời trang
-KH1432,Nữ,44.0,27.3,37.0,4,4.85,7,Bronze,Thực phẩm
-KH1433,Nữ,,,52.0,4,0.02,0,Gold,Thời trang
-KH1434,Nam,28.0,11.5,43.0,3,3.05,17,Platinum,Sách
-KH1435,Nữ,32.0,47.6,63.0,9,0.12,36,Gold,Thể thao
-KH1436,Nữ,38.0,20.8,37.0,10,1.3,18,Bronze,Mỹ phẩm
-KH1437,Nam,32.0,17.2,48.0,5,2.03,18,Platinum,Điện tử
-KH1438,Nam,54.0,5.7,73.0,5,2.32,33,Silver,Gia dụng
-KH1439,Nam,40.0,5.6,56.0,9,0.12,8,Silver,Thể thao
-KH1440,Nữ,43.0,14.5,48.0,2,1.08,41,Silver,Gia dụng
-KH1441,Nam,42.0,13.3,37.0,5,1.75,4,Silver,Mỹ phẩm
-KH1442,Nữ,49.0,8.4,37.0,5,0.14,15,Gold,Sách
-KH1443,Nam,37.0,13.3,32.0,8,0.29,32,Silver,Sách
-KH1444,Nam,19.0,31.6,39.0,6,2.18,52,Gold,Thực phẩm
-KH1445,Nam,39.0,18.5,65.0,6,1.47,47,Gold,Điện tử
-KH1446,Nam,27.0,6.1,45.0,7,0.35,38,Gold,Thể thao
-KH1447,Nữ,28.0,11.4,23.0,5,1.53,13,Gold,Mỹ phẩm
-KH1448,Nữ,42.0,7.5,85.0,5,4.88,3,Silver,Mỹ phẩm
-KH1449,Nữ,49.0,9.7,56.0,7,0.03,7,Silver,Mỹ phẩm
-KH1450,Nữ,35.0,9.5,21.0,4,2.06,60,Gold,Điện tử
-KH1451,Nữ,38.0,9.1,41.0,4,0.15,58,Silver,Điện tử
-KH1452,Nam,55.0,5.7,52.0,6,0.01,90,Bronze,Điện tử
-KH1453,Nam,37.0,11.3,84.0,6,0.33,2,Silver,Điện tử
-KH1454,Nữ,66.0,8.7,27.0,4,1.1,23,Bronze,Thời trang
-KH1455,Nữ,,2.1,69.0,3,3.24,31,Gold,Mỹ phẩm
-KH1456,Nam,18.0,41.8,77.0,3,0.66,37,Silver,Thể thao
-KH1457,Nữ,44.0,23.4,37.0,10,1.97,30,Gold,Thời trang
-KH1458,Nữ,39.0,9.7,44.0,6,,44,Gold,Thực phẩm
-KH1459,Nam,50.0,12.3,29.0,6,0.53,13,Bronze,Mỹ phẩm
-KH1460,Nữ,43.0,6.0,45.0,4,1.44,5,Platinum,Điện tử
-KH1461,Nữ,,33.7,49.0,1,3.19,6,Gold,Sách
-KH1462,Nữ,20.0,38.0,63.0,5,3.57,0,Silver,Sách
-KH1463,Nữ,32.0,,71.0,7,3.75,12,Silver,Điện tử
-KH1464,Nữ,24.0,22.5,35.0,4,0.83,2,Silver,Thể thao
-KH1465,Nữ,28.0,13.5,10.0,3,3.15,11,Silver,Điện tử
-KH1466,Nam,42.0,5.5,49.0,5,0.48,29,Gold,Thời trang
-KH1467,Nữ,55.0,9.5,55.0,7,2.68,67,Silver,Điện tử
-KH1468,Nữ,39.0,13.2,54.0,9,5.93,54,Silver,Mỹ phẩm
-KH1469,Nữ,20.0,9.3,43.0,2,0.03,8,Silver,Thể thao
-KH1470,Nữ,40.0,10.7,52.0,6,1.16,4,Bronze,Gia dụng
-KH1471,Nam,49.0,11.5,80.0,2,2.09,6,Gold,Mỹ phẩm
-KH1472,Nữ,27.0,11.6,57.0,3,2.42,106,Gold,Sách
-KH1473,Nam,33.0,12.6,42.0,5,0.39,23,Silver,Thực phẩm
-KH1474,Nữ,35.0,6.4,39.0,3,7.16,6,Bronze,Thể thao
-KH1475,Nam,25.0,7.9,46.0,4,1.91,55,Platinum,Mỹ phẩm
-KH1476,Nữ,42.0,5.6,82.0,5,0.36,15,Silver,Điện tử
-KH1477,Nữ,33.0,21.9,46.0,4,0.04,68,Silver,Mỹ phẩm
-KH1478,Nam,40.0,3.4,49.0,5,3.06,9,Silver,Mỹ phẩm
-KH1479,Nam,24.0,24.3,40.0,2,0.17,14,Bronze,Thể thao
-KH1480,Nữ,29.0,28.0,71.0,4,0.3,21,Gold,Thời trang
-KH1481,Nữ,43.0,10.2,89.0,5,1.71,66,Bronze,Gia dụng
-KH1482,Nữ,30.0,2.6,59.0,6,1.85,60,Bronze,Sách
-KH1483,Nữ,55.0,9.8,51.0,10,2.32,25,Bronze,Thể thao
-KH1484,Nữ,30.0,11.7,50.0,5,1.0,7,Silver,Mỹ phẩm
-KH1485,Nam,37.0,6.6,2.0,6,2.97,15,Silver,Sách
-KH1486,Nữ,46.0,8.9,64.0,7,7.33,111,Bronze,Thực phẩm
-KH1487,Nữ,18.0,30.5,52.0,4,0.63,28,Gold,Mỹ phẩm
-KH1488,Nữ,18.0,18.2,58.0,7,2.43,45,Bronze,Gia dụng
-KH1489,Nam,18.0,7.0,35.0,6,5.28,17,Silver,Sách
-KH1490,Nữ,50.0,4.7,42.0,2,2.32,22,Silver,Gia dụng
-KH1491,Nữ,28.0,10.0,41.0,3,2.29,16,Bronze,Gia dụng
-KH1492,Nữ,65.0,10.7,70.0,4,0.51,36,Silver,Gia dụng
-KH1493,Nam,28.0,16.4,42.0,4,1.53,57,Bronze,Gia dụng
-KH1494,Nam,37.0,8.8,91.0,5,1.65,21,Platinum,Sách
-KH1495,Nữ,53.0,16.6,58.0,7,2.41,19,Gold,Sách
-KH1496,Nữ,59.0,38.9,24.0,3,11.5,12,Bronze,Thể thao
-KH1497,Nam,59.0,19.9,47.0,3,0.07,5,Silver,Thời trang
-KH1498,Nam,49.0,11.8,36.0,6,0.13,84,Bronze,Gia dụng
-KH1499,Nam,47.0,10.9,6.0,3,0.16,11,Silver,Thời trang
-KH1500,Nữ,42.0,9.8,81.0,9,2.72,48,Gold,Mỹ phẩm
-KH1501,Nam,44.0,24.7,64.0,7,0.29,37,Gold,Mỹ phẩm
-KH1502,Nam,28.0,8.4,60.0,5,1.95,46,Platinum,Thể thao
-KH1503,Nam,25.0,12.5,53.0,6,0.79,82,Silver,Thời trang
-KH1504,Nam,34.0,12.6,22.0,6,1.22,29,Gold,Điện tử
-KH1505,Nữ,32.0,9.0,40.0,3,0.49,68,Silver,Gia dụng
-KH1506,Nữ,29.0,5.3,66.0,8,4.02,5,Silver,Gia dụng
-KH1507,Nữ,43.0,14.8,28.0,10,1.76,29,Silver,Mỹ phẩm
-KH1508,Nam,46.0,11.7,1.0,6,5.79,44,Bronze,Sách
-KH1509,Nam,36.0,16.4,45.0,7,1.71,9,Gold,Thời trang
-KH1510,Nữ,52.0,8.8,47.0,2,0.26,40,Gold,Gia dụng
-KH1511,Nữ,21.0,25.3,52.0,5,0.37,45,Gold,Mỹ phẩm
-KH1512,Nữ,32.0,7.2,64.0,8,9.03,53,Bronze,Gia dụng
-KH1513,Nữ,26.0,34.0,62.0,6,2.59,11,Gold,Thể thao
-KH1514,Nam,18.0,4.3,55.0,2,0.1,34,Silver,Sách
-KH1515,Nam,34.0,15.8,,3,2.43,10,Gold,Thời trang
-KH1516,Nữ,33.0,16.2,19.0,10,1.06,40,Bronze,Điện tử
-KH1517,Nữ,53.0,7.6,60.0,3,0.73,18,Silver,Thực phẩm
-KH1518,Nữ,42.0,15.7,62.0,4,0.33,27,Bronze,Mỹ phẩm
-KH1519,Nữ,22.0,26.3,25.0,9,3.66,16,Silver,Mỹ phẩm
-KH1520,Nam,57.0,3.2,19.0,2,0.13,5,Bronze,Thực phẩm
-KH1521,Nam,49.0,16.5,35.0,5,0.68,5,Bronze,Thể thao
-KH1522,Nam,41.0,2.7,36.0,1,0.73,2,Silver,Thể thao
-KH1523,Nam,32.0,6.8,65.0,5,0.35,28,Gold,Thực phẩm
-KH1524,Nữ,23.0,32.4,37.0,9,1.42,56,Silver,Mỹ phẩm
-KH1525,Nữ,30.0,8.6,32.0,2,0.02,0,Bronze,Điện tử
-KH1526,Nam,48.0,6.0,37.0,5,0.72,2,Bronze,Mỹ phẩm
-KH1527,Nữ,57.0,10.8,72.0,6,5.43,18,Gold,Thực phẩm
-KH1528,Nữ,53.0,42.1,50.0,7,0.74,40,Silver,Gia dụng
-KH1529,Nữ,29.0,4.1,46.0,3,0.89,5,Gold,Thời trang
-KH1530,Nam,21.0,6.5,47.0,7,1.28,9,Gold,Sách
-KH1531,Nữ,36.0,29.9,75.0,7,1.65,7,Silver,Gia dụng
-KH1532,Nữ,18.0,37.1,35.0,6,3.31,15,Bronze,Điện tử
-KH1533,Nam,38.0,11.4,76.0,4,0.42,7,Bronze,Mỹ phẩm
-KH1534,Nam,33.0,5.8,54.0,10,4.11,13,Bronze,Thể thao
-KH1535,Nam,29.0,42.8,46.0,6,2.83,39,Gold,Sách
-KH1536,Nam,18.0,31.7,100.0,8,2.56,28,Bronze,Mỹ phẩm
-KH1537,Nữ,41.0,18.3,28.0,3,0.18,2,Gold,Thời trang
-KH1538,Nam,28.0,7.5,42.0,6,0.04,30,Bronze,Sách
-KH1539,Nữ,20.0,11.8,25.0,9,1.8,19,Bronze,Gia dụng
-KH1540,Nam,18.0,11.1,69.0,3,3.98,81,Gold,Thời trang
-KH1541,Nữ,34.0,14.9,83.0,7,1.76,10,Bronze,Điện tử
-KH1542,Nữ,56.0,29.1,83.0,4,0.48,38,Silver,Thể thao
-KH1543,Nam,54.0,20.6,74.0,3,0.19,39,Silver,Gia dụng
-KH1544,Nữ,29.0,6.4,46.0,9,2.41,7,Bronze,Sách
-KH1545,Nữ,27.0,27.8,42.0,4,2.56,70,Gold,Gia dụng
-KH1546,Nam,40.0,14.7,16.0,4,0.38,20,Silver,Điện tử
-KH1547,Nam,23.0,18.4,90.0,3,,34,Silver,Mỹ phẩm
-KH1548,Nữ,,29.4,59.0,2,1.05,4,Silver,Mỹ phẩm
-KH1549,Nam,44.0,6.3,40.0,3,1.75,8,Platinum,Thực phẩm
-KH1550,Nam,49.0,11.9,76.0,6,2.45,26,Bronze,Mỹ phẩm
-KH1551,Nam,33.0,8.9,30.0,12,3.32,11,Gold,Thời trang
-KH1552,Nam,32.0,4.8,58.0,7,1.89,20,Silver,Điện tử
-KH1553,Nam,24.0,15.0,46.0,4,0.24,14,Silver,Mỹ phẩm
-KH1554,Nữ,,55.0,62.0,7,2.3,30,Silver,Gia dụng
-KH1555,Nam,32.0,4.0,48.0,5,8.29,20,Platinum,Sách
-KH1556,Nữ,39.0,11.9,20.0,8,4.72,0,Gold,Điện tử
-KH1557,Nữ,45.0,17.9,51.0,4,4.11,31,Platinum,Mỹ phẩm
-KH1558,Nữ,25.0,13.1,70.0,7,0.72,16,Silver,Thời trang
-KH1559,Nam,52.0,11.4,49.0,5,2.78,12,Bronze,Thực phẩm
-KH1560,Nam,31.0,5.6,65.0,2,3.81,2,Gold,Thực phẩm
-KH1561,Nam,34.0,14.0,29.0,4,2.27,7,Bronze,Sách
-KH1562,Nữ,26.0,7.7,49.0,6,0.58,7,Silver,Sách
-KH1563,Nữ,18.0,3.3,37.0,6,6.15,82,Silver,Sách
-KH1564,Nữ,45.0,24.9,64.0,4,1.2,16,Bronze,Thể thao
-KH1565,Nữ,43.0,21.7,50.0,3,0.28,1,Gold,Điện tử
-KH1566,Nữ,,12.6,63.0,4,0.23,4,Silver,Sách
-KH1567,Nam,35.0,14.0,71.0,5,2.09,2,Silver,Sách
-KH1568,Nam,41.0,23.2,63.0,7,1.15,26,Silver,Thời trang
-KH1569,Nữ,18.0,13.9,55.0,10,0.2,6,Bronze,Thời trang
-KH1570,Nam,,21.0,30.0,7,2.7,20,Bronze,Thời trang
-KH1571,Nữ,44.0,10.2,49.0,5,3.21,13,Bronze,Sách
-KH1572,Nữ,19.0,26.8,39.0,3,2.58,48,Bronze,Mỹ phẩm
-KH1573,Nữ,38.0,,43.0,4,0.45,11,Gold,Sách
-KH1574,Nam,18.0,13.7,42.0,4,2.34,18,Bronze,Thực phẩm
-KH1575,Nam,40.0,5.7,30.0,8,0.02,38,Silver,Thời trang
-KH1576,Nam,34.0,14.5,10.0,8,0.73,17,Gold,Gia dụng
-KH1577,Nữ,18.0,7.4,36.0,4,1.02,47,Silver,Sách
-KH1578,Nam,48.0,8.3,53.0,4,3.61,32,Gold,Mỹ phẩm
-KH1579,Nam,26.0,7.5,23.0,8,0.99,15,Silver,Sách
-KH1580,Nam,25.0,6.4,50.0,4,,21,Bronze,Thể thao
-KH1581,Nữ,37.0,43.6,88.0,6,0.87,102,Gold,Gia dụng
-KH1582,Nam,48.0,27.1,70.0,6,1.38,32,Silver,Gia dụng
-KH1583,Nam,22.0,38.6,82.0,1,5.95,70,Bronze,Điện tử
-KH1584,Nữ,35.0,5.8,57.0,5,5.66,5,Bronze,Mỹ phẩm
-KH1585,Nam,40.0,12.7,73.0,3,0.4,19,Gold,Gia dụng
-KH1586,Nữ,43.0,5.6,35.0,9,0.41,71,Silver,Mỹ phẩm
-KH1587,Nữ,37.0,8.0,37.0,4,0.36,11,Platinum,Thời trang
-KH1588,Nam,30.0,7.0,1.0,8,3.11,102,Bronze,Thể thao
-KH1589,Nữ,25.0,25.6,73.0,8,0.01,3,Gold,Điện tử
-KH1590,Nam,36.0,9.6,80.0,2,0.27,69,Platinum,Thực phẩm
-KH1591,Nữ,22.0,23.1,38.0,6,1.54,17,Bronze,Gia dụng
-KH1592,Nam,18.0,17.5,44.0,9,0.57,2,Silver,Thể thao
-KH1593,Nữ,40.0,48.5,34.0,4,0.19,63,Silver,Sách
-KH1594,Nam,45.0,5.0,57.0,4,0.89,8,Gold,Thể thao
-KH1595,Nam,18.0,25.9,72.0,6,0.64,0,Gold,Điện tử
-KH1596,Nam,22.0,24.2,15.0,13,1.43,4,Silver,Điện tử
-KH1597,Nam,42.0,6.8,58.0,6,7.75,32,Silver,Thể thao
-KH1598,Nữ,59.0,22.3,44.0,8,0.27,114,Platinum,Điện tử
-KH1599,Nam,35.0,14.9,52.0,8,0.93,3,Gold,Điện tử
-KH1600,Nam,26.0,10.6,59.0,1,5.38,18,Silver,Thể thao
-KH1601,Nam,32.0,7.4,46.0,8,4.19,5,Gold,Sách
-KH1602,Nam,51.0,7.9,47.0,4,1.0,40,Silver,Thời trang
-KH1603,Nữ,27.0,41.7,45.0,4,2.4,3,Gold,Mỹ phẩm
-KH1604,Nam,25.0,12.2,69.0,2,0.18,8,Silver,Thực phẩm
-KH1605,Nữ,29.0,19.5,58.0,6,2.49,6,Bronze,Thực phẩm
-KH1606,Nam,23.0,7.6,54.0,6,7.21,24,Bronze,Sách
-KH1607,Nữ,36.0,7.6,,3,1.54,61,Bronze,Thể thao
-KH1608,Nữ,54.0,23.3,42.0,5,1.38,21,Bronze,Mỹ phẩm
-KH1609,Nữ,38.0,5.4,67.0,8,0.41,1,Bronze,Thực phẩm
-KH1610,Nữ,31.0,9.5,50.0,9,2.01,24,Bronze,Sách
-KH1611,Nam,31.0,12.4,63.0,3,1.79,47,Gold,Điện tử
-KH1612,Nữ,18.0,13.0,85.0,2,2.11,4,Platinum,Thời trang
-KH1613,Nữ,45.0,10.9,,7,0.05,2,Silver,Điện tử
-KH1614,Nữ,34.0,15.4,51.0,6,1.59,6,Bronze,Điện tử
-KH1615,Nam,32.0,18.5,39.0,6,1.81,41,Bronze,Thời trang
-KH1616,Nam,70.0,,1.0,6,0.47,26,Gold,Gia dụng
-KH1617,Nam,38.0,6.7,46.0,4,0.47,23,Bronze,Thể thao
-KH1618,Nữ,25.0,10.3,43.0,6,0.65,8,Silver,Thực phẩm
-KH1619,Nữ,29.0,24.9,57.0,10,2.49,12,Bronze,Thời trang
-KH1620,Nữ,48.0,20.8,46.0,4,1.86,101,Silver,Mỹ phẩm
-KH1621,Nữ,36.0,5.3,43.0,3,3.74,8,Silver,Mỹ phẩm
-KH1622,Nam,18.0,15.0,14.0,0,0.7,69,Silver,Thể thao
-KH1623,Nữ,46.0,3.7,,8,4.86,26,Silver,Mỹ phẩm
-KH1624,Nam,26.0,12.5,59.0,3,2.72,3,Bronze,Gia dụng
-KH1625,Nữ,57.0,38.0,84.0,4,1.01,18,Silver,Thể thao
-KH1626,Nữ,47.0,6.9,48.0,5,0.2,89,Bronze,Thời trang
-KH1627,Nữ,29.0,7.4,56.0,3,0.59,16,Silver,Gia dụng
-KH1628,Nữ,50.0,19.3,69.0,2,6.28,59,Gold,Mỹ phẩm
-KH1629,Nam,35.0,4.8,33.0,8,0.74,8,Silver,Điện tử
-KH1630,Nữ,45.0,8.3,57.0,4,0.8,25,Silver,Điện tử
-KH1631,Nam,40.0,17.4,35.0,3,0.42,55,Bronze,Gia dụng
-KH1632,Nữ,24.0,8.3,,8,3.29,76,Bronze,Sách
-KH1633,Nam,27.0,10.6,53.0,5,0.64,19,Silver,Mỹ phẩm
-KH1634,Nữ,47.0,19.0,55.0,6,0.8,30,Gold,Mỹ phẩm
-KH1635,Nam,30.0,15.7,34.0,7,1.07,0,Silver,Mỹ phẩm
-KH1636,Nữ,30.0,14.3,64.0,10,1.14,8,Platinum,Mỹ phẩm
-KH1637,Nữ,23.0,9.9,91.0,7,1.06,9,Bronze,Thời trang
-KH1638,Nam,40.0,15.2,29.0,3,1.4,2,Gold,Gia dụng
-KH1639,Nam,59.0,11.3,43.0,3,3.37,9,Bronze,Gia dụng
-KH1640,Nam,22.0,16.0,54.0,7,3.42,11,Gold,Thời trang
-KH1641,Nam,35.0,9.0,65.0,3,3.2,103,Gold,Điện tử
-KH1642,Nữ,51.0,10.9,38.0,3,0.21,33,Silver,Gia dụng
-KH1643,Nữ,34.0,6.7,1.0,3,3.22,16,Bronze,Thực phẩm
-KH1644,Nữ,,11.9,77.0,8,0.26,132,Silver,Gia dụng
-KH1645,Nam,22.0,7.5,65.0,2,0.27,4,Gold,Sách
-KH1646,Nam,40.0,6.2,15.0,5,5.91,19,Bronze,Gia dụng
-KH1647,Nữ,32.0,14.2,37.0,4,3.42,31,Silver,Thể thao
-KH1648,Nữ,46.0,13.8,81.0,2,1.61,1,Gold,Thể thao
-KH1649,Nam,49.0,19.5,78.0,3,4.16,37,Bronze,Điện tử
-KH1650,Nam,66.0,9.4,68.0,2,9.09,3,Gold,Thời trang
-KH1651,Nữ,41.0,15.6,46.0,6,1.89,4,Bronze,Điện tử
-KH1652,Nữ,38.0,17.0,51.0,3,1.9,5,Silver,Điện tử
-KH1653,Nữ,37.0,15.9,47.0,6,2.81,79,Platinum,Thời trang
-KH1654,Nữ,30.0,7.4,72.0,5,0.53,34,Bronze,Sách
-KH1655,Nữ,39.0,13.3,32.0,4,0.37,31,Platinum,Thực phẩm
-KH1656,Nam,31.0,15.2,33.0,6,2.85,24,Gold,Thời trang
-KH1657,Nam,37.0,12.2,70.0,6,0.85,10,Bronze,Điện tử
-KH1658,Nữ,,3.5,49.0,6,0.29,29,Bronze,Thể thao
-KH1659,Nữ,22.0,13.4,77.0,7,0.76,15,Bronze,Thời trang
-KH1660,Nam,48.0,45.9,36.0,10,0.89,4,Bronze,Sách
-KH1661,Nam,50.0,9.8,48.0,12,6.72,35,Bronze,Gia dụng
-KH1662,Nữ,33.0,7.9,31.0,5,2.39,4,Gold,Thể thao
-KH1663,Nam,18.0,15.2,50.0,7,1.51,6,Bronze,Gia dụng
-KH1664,Nam,27.0,14.7,20.0,10,6.94,51,Silver,Thực phẩm
-KH1665,Nữ,,24.9,40.0,2,4.67,32,Platinum,Thực phẩm
-KH1666,Nữ,34.0,5.7,21.0,4,1.43,29,Bronze,Thời trang
-KH1667,Nữ,23.0,18.9,,6,4.72,16,Platinum,Thời trang
-KH1668,Nữ,28.0,17.4,64.0,4,,15,Silver,Thời trang
-KH1669,Nam,45.0,11.2,15.0,5,0.52,35,Gold,Mỹ phẩm
-KH1670,Nam,41.0,14.9,76.0,3,0.53,40,Silver,Điện tử
-KH1671,Nữ,32.0,22.6,99.0,3,2.17,21,Gold,Điện tử
-KH1672,Nam,30.0,20.6,50.0,3,1.39,104,Bronze,Sách
-KH1673,Nữ,30.0,6.1,37.0,6,2.15,93,Gold,Thực phẩm
-KH1674,Nữ,23.0,19.9,100.0,5,,15,Silver,Gia dụng
-KH1675,Nữ,,,23.0,9,0.05,51,Bronze,Sách
-KH1676,Nữ,31.0,12.7,50.0,1,0.11,23,Gold,Sách
-KH1677,Nam,49.0,12.7,53.0,5,1.52,21,Silver,Sách
-KH1678,Nữ,53.0,11.1,76.0,6,0.42,1,Platinum,Gia dụng
-KH1679,Nam,46.0,24.9,57.0,5,2.0,25,Silver,Gia dụng
-KH1680,Nam,29.0,11.6,40.0,8,,69,Gold,Thể thao
-KH1681,Nữ,39.0,6.2,30.0,4,1.76,45,Bronze,Gia dụng
-KH1682,Nữ,34.0,9.6,43.0,6,0.72,46,Silver,Điện tử
-KH1683,Nam,24.0,13.6,29.0,5,2.04,5,Silver,Mỹ phẩm
-KH1684,Nữ,38.0,25.5,50.0,7,,13,Bronze,Sách
-KH1685,Nữ,20.0,17.5,38.0,4,12.5,7,Gold,Gia dụng
-KH1686,Nữ,49.0,7.3,20.0,7,3.65,11,Silver,Thực phẩm
-KH1687,Nam,29.0,54.1,75.0,4,1.63,25,Bronze,Thời trang
-KH1688,Nam,37.0,14.3,40.0,5,0.43,13,Bronze,Thời trang
-KH1689,Nam,38.0,26.2,24.0,5,2.29,24,Platinum,Thể thao
-KH1690,Nữ,31.0,11.1,46.0,5,5.55,17,Silver,Thực phẩm
-KH1691,Nữ,42.0,16.8,51.0,6,0.48,10,Silver,Thực phẩm
-KH1692,Nữ,29.0,20.2,15.0,5,0.59,3,Silver,Thực phẩm
-KH1693,Nữ,45.0,25.3,56.0,3,0.32,66,Gold,Mỹ phẩm
-KH1694,Nam,18.0,23.0,29.0,3,2.67,0,Silver,Thể thao
-KH1695,Nam,36.0,20.6,84.0,5,1.04,0,Bronze,Thời trang
-KH1696,Nữ,58.0,10.1,60.0,4,0.13,52,Bronze,Thể thao
-KH1697,Nam,22.0,8.6,42.0,5,4.16,172,Bronze,Mỹ phẩm
-KH1698,Nam,26.0,14.9,35.0,2,1.63,38,Silver,Thể thao
-KH1699,Nam,41.0,21.3,47.0,8,0.8,0,Platinum,Gia dụng
-KH1700,Nam,37.0,10.7,62.0,4,0.84,7,Bronze,Thời trang
-KH1701,Nữ,39.0,23.1,49.0,1,0.69,107,Bronze,Thực phẩm
-KH1702,Nữ,40.0,29.1,45.0,3,1.22,49,Gold,Mỹ phẩm
-KH1703,Nữ,42.0,7.0,51.0,6,0.82,25,Bronze,Điện tử
-KH1704,Nam,48.0,7.4,37.0,7,1.59,8,Gold,Thời trang
-KH1705,Nam,39.0,11.2,43.0,5,2.97,0,Bronze,Sách
-KH1706,Nữ,32.0,14.7,8.0,3,2.24,0,Bronze,Thể thao
-KH1707,Nữ,43.0,8.9,69.0,5,0.7,28,Gold,Thực phẩm
-KH1708,Nam,57.0,27.4,55.0,4,1.5,0,Bronze,Thực phẩm
-KH1709,Nữ,33.0,15.7,34.0,4,3.67,151,Silver,Gia dụng
-KH1710,Nữ,23.0,12.5,87.0,2,0.14,6,Gold,Mỹ phẩm
-KH1711,Nữ,48.0,5.1,51.0,3,0.16,37,Silver,Gia dụng
-KH1712,Nữ,33.0,5.5,29.0,4,1.62,5,Silver,Điện tử
-KH1713,Nữ,,14.4,67.0,6,2.04,23,Silver,Sách
-KH1714,Nữ,45.0,3.4,57.0,8,,2,Bronze,Điện tử
-KH1715,Nam,28.0,22.4,57.0,5,2.73,43,Silver,Gia dụng
-KH1716,Nữ,33.0,11.1,41.0,2,2.08,26,Bronze,Thời trang
-KH1717,Nữ,38.0,85.3,59.0,3,5.14,2,Bronze,Thời trang
-KH1718,Nam,37.0,48.7,44.0,6,0.37,56,Bronze,Gia dụng
-KH1719,Nữ,43.0,10.9,61.0,6,2.78,23,Platinum,Sách
-KH1720,Nữ,29.0,11.4,11.0,9,0.17,76,Gold,Sách
-KH1721,Nam,41.0,22.1,41.0,5,1.67,74,Silver,Gia dụng
-KH1722,Nữ,31.0,33.8,84.0,3,1.61,75,Silver,Thời trang
-KH1723,Nữ,43.0,4.6,34.0,6,0.98,2,Bronze,Mỹ phẩm
-KH1724,Nam,42.0,4.2,37.0,4,3.72,3,Silver,Sách
-KH1725,Nam,23.0,8.4,41.0,5,0.01,131,Bronze,Sách
-KH1726,Nữ,48.0,17.3,25.0,4,1.47,20,Silver,Gia dụng
-KH1727,Nam,28.0,16.4,5.0,7,0.49,8,Gold,Thể thao
-KH1728,Nữ,44.0,23.1,45.0,9,2.72,44,Bronze,Sách
-KH1729,Nam,39.0,5.9,52.0,6,0.09,9,Gold,Thực phẩm
-KH1730,Nam,57.0,3.0,48.0,5,3.56,38,Gold,Mỹ phẩm
-KH1731,Nam,32.0,20.4,47.0,2,3.64,54,Gold,Gia dụng
-KH1732,Nam,30.0,7.4,50.0,7,3.58,46,Silver,Thể thao
-KH1733,Nam,34.0,,70.0,2,0.33,9,Gold,Thực phẩm
-KH1734,Nam,31.0,13.3,46.0,5,1.99,15,Bronze,Thực phẩm
-KH1735,Nữ,44.0,19.6,38.0,5,0.03,15,Silver,Gia dụng
-KH1736,Nữ,18.0,11.3,44.0,4,3.77,20,Bronze,Gia dụng
-KH1737,Nữ,22.0,9.3,61.0,2,2.57,5,Gold,Gia dụng
-KH1738,Nam,22.0,11.1,78.0,11,1.51,18,Bronze,Thực phẩm
-KH1739,Nữ,46.0,9.8,37.0,5,2.62,21,Bronze,Điện tử
-KH1740,Nam,55.0,5.4,51.0,8,0.2,22,Bronze,Gia dụng
-KH1741,Nữ,33.0,7.9,56.0,10,1.5,51,Bronze,Gia dụng
-KH1742,Nữ,32.0,16.7,30.0,10,0.69,21,Bronze,Mỹ phẩm
-KH1743,Nam,35.0,14.8,50.0,5,7.2,7,Gold,Gia dụng
-KH1744,Nam,48.0,13.5,20.0,2,3.89,32,Platinum,Sách
-KH1745,Nam,23.0,6.7,14.0,7,2.64,47,Silver,Sách
-KH1746,Nữ,37.0,10.9,57.0,7,5.43,11,Silver,Mỹ phẩm
-KH1747,Nữ,46.0,3.3,42.0,10,0.85,31,Silver,Mỹ phẩm
-KH1748,Nữ,41.0,13.6,54.0,3,4.62,4,Bronze,Thể thao
-KH1749,Nữ,37.0,28.7,49.0,7,0.79,12,Bronze,Điện tử
-KH1750,Nam,47.0,5.0,30.0,6,2.64,71,Bronze,Gia dụng
-KH1751,Nữ,18.0,8.6,49.0,2,2.67,72,Bronze,Điện tử
-KH1752,Nữ,43.0,14.8,25.0,2,0.04,25,Gold,Sách
-KH1753,Nữ,27.0,25.8,77.0,3,0.9,36,Bronze,Thực phẩm
-KH1754,Nữ,18.0,9.3,22.0,4,0.04,57,Gold,Điện tử
-KH1755,Nữ,41.0,8.0,46.0,2,11.68,95,Bronze,Thời trang
-KH1756,Nam,51.0,3.7,29.0,9,0.26,20,Gold,Thời trang
-KH1757,Nam,33.0,13.0,61.0,7,1.57,24,Bronze,Thời trang
-KH1758,Nữ,46.0,41.5,43.0,8,3.13,16,Silver,Mỹ phẩm
-KH1759,Nữ,54.0,14.4,39.0,3,0.45,2,Bronze,Sách
-KH1760,Nam,50.0,12.0,67.0,7,1.33,16,Silver,Thể thao
-KH1761,Nữ,54.0,14.8,50.0,3,1.87,46,Silver,Thời trang
-KH1762,Nữ,43.0,12.1,60.0,10,0.35,49,Bronze,Sách
-KH1763,Nam,35.0,,30.0,4,3.02,66,Platinum,Thể thao
-KH1764,Nữ,18.0,,21.0,7,0.71,1,Bronze,Điện tử
-KH1765,Nữ,32.0,13.9,52.0,2,0.47,22,Gold,Thể thao
-KH1766,Nữ,24.0,12.3,43.0,2,1.63,3,Bronze,Gia dụng
-KH1767,Nữ,61.0,6.8,62.0,5,1.06,6,Bronze,Mỹ phẩm
-KH1768,Nữ,32.0,26.6,48.0,10,5.06,69,Bronze,Mỹ phẩm
-KH1769,Nữ,36.0,18.2,54.0,6,4.24,20,Gold,Thời trang
-KH1770,Nam,41.0,8.7,17.0,4,1.32,42,Gold,Thực phẩm
-KH1771,Nữ,35.0,22.2,87.0,1,0.89,1,Gold,Thực phẩm
-KH1772,Nữ,55.0,9.0,46.0,8,0.79,16,Bronze,Gia dụng
-KH1773,Nữ,27.0,7.6,63.0,5,0.62,33,Silver,Thể thao
-KH1774,Nam,37.0,7.7,33.0,3,1.57,4,Bronze,Sách
-KH1775,Nữ,26.0,4.2,56.0,4,3.27,11,Gold,Điện tử
-KH1776,Nam,19.0,16.2,23.0,3,0.74,2,Platinum,Thời trang
-KH1777,Nữ,27.0,4.1,59.0,3,0.42,31,Gold,Sách
-KH1778,Nam,34.0,5.8,42.0,4,1.29,106,Silver,Điện tử
-KH1779,Nữ,29.0,3.5,50.0,4,0.14,52,Platinum,Sách
-KH1780,Nữ,26.0,11.6,63.0,5,2.42,110,Bronze,Thực phẩm
-KH1781,Nữ,18.0,11.1,25.0,3,1.46,56,Gold,Thực phẩm
-KH1782,Nữ,34.0,10.0,36.0,6,1.37,57,Bronze,Thể thao
-KH1783,Nam,18.0,6.5,59.0,4,0.71,25,Bronze,Thời trang
-KH1784,Nam,44.0,6.0,91.0,6,4.7,21,Silver,Thực phẩm
-KH1785,Nữ,35.0,16.1,47.0,6,0.19,15,Bronze,Thực phẩm
-KH1786,Nữ,18.0,8.8,61.0,5,4.08,51,Silver,Gia dụng
-KH1787,Nam,31.0,14.7,47.0,7,0.95,6,Bronze,Gia dụng
-KH1788,Nam,25.0,7.2,88.0,5,4.25,1,Bronze,Thực phẩm
-KH1789,Nam,38.0,13.6,15.0,6,2.61,88,Gold,Thể thao
-KH1790,Nam,51.0,26.6,51.0,4,0.22,0,Gold,Thời trang
-KH1791,Nam,18.0,17.3,17.0,8,3.56,112,Bronze,Thời trang
-KH1792,Nam,36.0,9.5,1.0,11,2.29,39,Platinum,Sách
-KH1793,Nam,33.0,14.2,55.0,6,0.07,11,Gold,Thực phẩm
-KH1794,Nam,43.0,10.5,52.0,3,0.29,35,Bronze,Thực phẩm
-KH1795,Nam,37.0,12.2,44.0,4,2.02,51,Bronze,Mỹ phẩm
-KH1796,Nữ,25.0,10.0,47.0,8,2.17,8,Silver,Sách
-KH1797,Nữ,31.0,11.0,100.0,6,2.75,44,Bronze,Gia dụng
-KH1798,Nữ,25.0,13.8,44.0,5,2.55,48,Bronze,Gia dụng
-KH1799,Nam,47.0,6.7,60.0,6,2.15,8,Silver,Thời trang
-KH1800,Nam,35.0,6.6,37.0,4,2.91,1,Silver,Thể thao
-KH1801,Nam,57.0,5.3,55.0,5,1.71,6,Bronze,Điện tử
-KH1802,Nam,34.0,4.7,45.0,14,0.6,6,Gold,Điện tử
-KH1803,Nữ,26.0,5.9,41.0,4,4.87,2,Platinum,Thực phẩm
-KH1804,Nữ,18.0,13.4,86.0,6,0.04,38,Silver,Thể thao
-KH1805,Nữ,18.0,7.1,73.0,2,0.91,14,Silver,Thực phẩm
-KH1806,Nam,18.0,16.6,52.0,5,2.61,64,Bronze,Sách
-KH1807,Nữ,38.0,12.4,3.0,5,1.11,8,Silver,Mỹ phẩm
-KH1808,Nữ,41.0,,42.0,4,0.05,18,Bronze,Mỹ phẩm
-KH1809,Nữ,18.0,18.0,100.0,3,0.14,30,Bronze,Thể thao
-KH1810,Nam,45.0,19.8,45.0,6,2.09,62,Silver,Thời trang
-KH1811,Nam,29.0,6.7,72.0,5,6.7,22,Platinum,Sách
-KH1812,Nam,36.0,15.7,78.0,7,1.61,14,Bronze,Điện tử
-KH1813,Nam,54.0,7.3,54.0,8,1.41,60,Silver,Mỹ phẩm
-KH1814,Nam,45.0,12.9,33.0,6,0.77,11,Bronze,Điện tử
-KH1815,Nữ,31.0,5.7,1.0,5,0.59,2,Bronze,Sách
-KH1816,Nam,24.0,4.2,63.0,8,0.04,17,Bronze,Mỹ phẩm
-KH1817,Nam,18.0,9.7,33.0,9,0.64,46,Bronze,Thể thao
-KH1818,Nữ,26.0,11.3,53.0,3,,0,Silver,Gia dụng
-KH1819,Nữ,32.0,9.6,25.0,5,0.44,26,Bronze,Thực phẩm
-KH1820,Nam,23.0,6.0,44.0,2,0.18,27,Silver,Mỹ phẩm
-KH1821,Nữ,33.0,9.6,50.0,6,2.53,79,Silver,Thể thao
-KH1822,Nam,35.0,14.3,55.0,9,4.5,10,Bronze,Thể thao
-KH1823,Nam,32.0,11.9,27.0,5,5.52,9,Silver,Mỹ phẩm
-KH1824,Nữ,27.0,13.6,73.0,7,1.92,17,Gold,Sách
-KH1825,Nam,37.0,8.1,38.0,7,0.11,13,Platinum,Thời trang
-KH1826,Nữ,40.0,24.6,16.0,3,2.7,39,Bronze,Thể thao
-KH1827,Nữ,21.0,6.0,47.0,5,0.23,30,Bronze,Gia dụng
-KH1828,Nữ,51.0,16.3,50.0,5,2.22,42,Gold,Thực phẩm
-KH1829,Nữ,33.0,24.8,53.0,4,3.02,51,Gold,Gia dụng
-KH1830,Nam,35.0,16.3,77.0,5,2.59,76,Silver,Sách
-KH1831,Nữ,43.0,10.8,45.0,4,6.07,16,Bronze,Sách
-KH1832,Nữ,37.0,8.9,47.0,8,2.68,125,Bronze,Thực phẩm
-KH1833,Nam,46.0,22.7,27.0,7,2.36,7,Silver,Gia dụng
-KH1834,Nam,38.0,5.2,66.0,6,0.61,37,Bronze,Gia dụng
-KH1835,Nữ,27.0,,53.0,7,5.17,22,Silver,Thời trang
-KH1836,Nam,39.0,9.6,41.0,10,0.4,50,Silver,Điện tử
-KH1837,Nữ,21.0,25.6,11.0,4,4.71,19,Gold,Gia dụng
-KH1838,Nữ,36.0,15.3,78.0,9,0.75,45,Silver,Sách
-KH1839,Nam,34.0,6.8,25.0,9,0.28,79,Bronze,Thực phẩm
-KH1840,Nam,32.0,10.1,38.0,9,3.51,39,Silver,Thể thao
-KH1841,Nữ,33.0,8.4,57.0,3,0.0,44,Bronze,Thể thao
-KH1842,Nữ,18.0,8.0,26.0,3,3.57,2,Bronze,Thực phẩm
-KH1843,Nam,28.0,21.9,20.0,8,0.61,6,Gold,Thời trang
-KH1844,Nam,36.0,5.3,7.0,6,4.32,109,Gold,Điện tử
-KH1845,Nữ,36.0,32.0,64.0,9,2.35,35,Bronze,Thực phẩm
-KH1846,Nữ,22.0,20.0,39.0,2,2.19,24,Gold,Thể thao
-KH1847,Nữ,50.0,23.4,100.0,6,0.91,13,Silver,Thời trang
-KH1848,Nam,24.0,9.2,30.0,2,0.12,1,Gold,Thực phẩm
-KH1849,Nữ,46.0,11.1,31.0,9,3.54,13,Gold,Mỹ phẩm
-KH1850,Nam,40.0,5.2,38.0,6,,20,Gold,Sách
-KH1851,Nam,27.0,8.9,54.0,1,0.93,7,Silver,Gia dụng
-KH1852,Nam,56.0,16.4,40.0,3,1.83,5,Gold,Thể thao
-KH1853,Nữ,20.0,26.5,62.0,4,1.32,21,Silver,Điện tử
-KH1854,Nữ,46.0,6.3,30.0,4,0.44,26,Gold,Gia dụng
-KH1855,Nam,47.0,9.8,22.0,6,0.3,8,Bronze,Gia dụng
-KH1856,Nam,26.0,11.1,14.0,8,0.26,26,Bronze,Mỹ phẩm
-KH1857,Nữ,51.0,5.3,5.0,5,3.98,69,Bronze,Điện tử
-KH1858,Nữ,31.0,17.4,39.0,11,0.06,19,Gold,Gia dụng
-KH1859,Nam,38.0,7.9,43.0,9,7.55,58,Silver,Thời trang
-KH1860,Nữ,38.0,10.8,37.0,5,0.44,78,Silver,Thể thao
-KH1861,Nữ,33.0,9.3,74.0,4,0.23,2,Bronze,Thể thao
-KH1862,Nữ,44.0,7.6,74.0,3,1.72,3,Bronze,Thể thao
-KH1863,Nữ,44.0,12.1,43.0,12,0.17,19,Gold,Thực phẩm
-KH1864,Nam,18.0,10.7,14.0,5,1.84,26,Silver,Sách
-KH1865,Nữ,50.0,9.7,38.0,12,3.8,16,Gold,Thể thao
-KH1866,Nữ,18.0,7.9,38.0,4,0.1,11,Bronze,Thực phẩm
-KH1867,Nam,47.0,14.8,36.0,5,3.22,30,Silver,Sách
-KH1868,Nam,48.0,32.9,36.0,3,1.0,0,Bronze,Thời trang
-KH1869,Nam,21.0,13.2,36.0,3,0.35,103,Bronze,Thực phẩm
-KH1870,Nữ,30.0,,42.0,5,0.39,7,Bronze,Mỹ phẩm
-KH1871,Nữ,21.0,5.3,37.0,3,5.02,74,Bronze,Thời trang
-KH1872,Nam,32.0,13.4,54.0,8,0.23,3,Platinum,Mỹ phẩm
-KH1873,Nữ,31.0,6.3,57.0,6,4.03,8,Platinum,Điện tử
-KH1874,Nữ,44.0,5.0,31.0,4,1.57,8,Silver,Thực phẩm
-KH1875,Nam,50.0,7.8,75.0,2,0.08,166,Gold,Mỹ phẩm
-KH1876,Nữ,51.0,24.9,30.0,8,1.25,0,Bronze,Thể thao
-KH1877,Nữ,28.0,21.5,17.0,7,3.4,30,Bronze,Thực phẩm
-KH1878,Nam,32.0,14.1,57.0,3,2.59,61,Silver,Điện tử
-KH1879,Nam,18.0,,33.0,3,1.34,33,Silver,Gia dụng
-KH1880,Nam,25.0,10.8,56.0,8,3.93,13,Gold,Thực phẩm
-KH1881,Nữ,46.0,14.6,1.0,5,0.26,95,Bronze,Điện tử
-KH1882,Nam,54.0,13.5,77.0,6,4.81,67,Gold,Thời trang
-KH1883,Nữ,20.0,4.0,63.0,9,3.75,17,Platinum,Thực phẩm
-KH1884,Nữ,,7.1,19.0,4,2.46,25,Bronze,Thể thao
-KH1885,Nữ,34.0,11.7,20.0,5,3.41,102,Gold,Thời trang
-KH1886,Nữ,38.0,16.8,83.0,6,1.57,121,Bronze,Thể thao
-KH1887,Nam,25.0,3.3,35.0,7,2.25,17,Bronze,Điện tử
-KH1888,Nam,40.0,11.1,33.0,3,1.64,56,Bronze,Thời trang
-KH1889,Nam,29.0,13.3,4.0,4,0.88,10,Silver,Mỹ phẩm
-KH1890,Nữ,,20.3,42.0,4,1.68,13,Silver,Gia dụng
-KH1891,Nữ,41.0,18.5,45.0,1,0.6,5,Gold,Thời trang
-KH1892,Nam,35.0,17.3,64.0,5,1.16,7,Bronze,Thể thao
-KH1893,Nam,29.0,7.5,22.0,4,0.66,32,Platinum,Mỹ phẩm
-KH1894,Nam,33.0,3.9,19.0,1,0.26,21,Gold,Gia dụng
-KH1895,Nam,33.0,9.6,59.0,3,0.78,7,Bronze,Điện tử
-KH1896,Nam,30.0,22.2,70.0,7,3.82,15,Silver,Điện tử
-KH1897,Nam,31.0,28.1,18.0,0,0.96,14,Bronze,Thực phẩm
-KH1898,Nữ,54.0,18.7,71.0,9,2.76,131,Platinum,Mỹ phẩm
-KH1899,Nữ,41.0,15.8,50.0,5,0.39,57,Silver,Sách
-KH1900,Nam,31.0,15.3,71.0,4,1.1,14,Bronze,Thể thao
-KH1901,Nam,43.0,8.7,48.0,0,0.24,73,Gold,Gia dụng
-KH1902,Nữ,30.0,11.3,1.0,6,0.3,12,Silver,Thực phẩm
-KH1903,Nam,49.0,33.2,46.0,6,1.92,33,Silver,Thể thao
-KH1904,Nữ,39.0,6.9,71.0,2,1.87,102,Bronze,Thực phẩm
-KH1905,Nam,33.0,32.1,32.0,3,0.48,14,Bronze,Điện tử
-KH1906,Nữ,40.0,10.0,42.0,5,1.29,34,Silver,Thể thao
-KH1907,Nam,18.0,27.0,46.0,7,,10,Gold,Thể thao
-KH1908,Nữ,21.0,5.2,1.0,5,0.38,9,Bronze,Thời trang
-KH1909,Nữ,20.0,17.3,83.0,5,0.04,25,Bronze,Thể thao
-KH1910,Nam,36.0,7.8,31.0,6,2.11,116,Platinum,Gia dụng
-KH1911,Nữ,55.0,5.2,60.0,3,0.11,18,Bronze,Sách
-KH1912,Nữ,61.0,13.9,48.0,5,7.82,83,Silver,Điện tử
-KH1913,Nam,42.0,22.3,75.0,4,1.88,73,Gold,Điện tử
-KH1914,Nữ,41.0,7.3,58.0,3,1.27,8,Bronze,Sách
-KH1915,Nữ,18.0,5.0,45.0,7,1.12,15,Gold,Thời trang
-KH1916,Nam,28.0,11.5,32.0,4,1.7,30,Gold,Mỹ phẩm
-KH1917,Nam,25.0,11.6,65.0,7,0.19,21,Bronze,Mỹ phẩm
-KH1918,Nam,27.0,16.9,12.0,6,5.32,3,Gold,Sách
-KH1919,Nam,32.0,21.5,62.0,4,1.97,152,Silver,Thể thao
-KH1920,Nữ,29.0,11.8,28.0,4,0.41,41,Bronze,Gia dụng
-KH1921,Nữ,18.0,37.1,75.0,3,1.65,17,Silver,Thời trang
-KH1922,Nam,43.0,13.9,53.0,5,0.29,28,Bronze,Thời trang
-KH1923,Nam,22.0,9.9,62.0,4,0.04,2,Bronze,Thực phẩm
-KH1924,Nam,37.0,4.6,51.0,10,1.99,20,Bronze,Thời trang
-KH1925,Nữ,59.0,10.4,14.0,8,2.09,80,Silver,Sách
-KH1926,Nam,23.0,10.0,32.0,2,1.75,68,Gold,Thể thao
-KH1927,Nữ,18.0,21.7,63.0,3,0.41,12,Silver,Gia dụng
-KH1928,Nữ,31.0,16.1,53.0,7,1.85,22,Silver,Thể thao
-KH1929,Nam,48.0,6.0,73.0,4,0.12,35,Bronze,Thời trang
-KH1930,Nam,58.0,13.5,58.0,6,1.88,12,Bronze,Thực phẩm
-KH1931,Nữ,20.0,18.2,30.0,4,1.61,2,Silver,Mỹ phẩm
-KH1932,Nữ,40.0,30.5,34.0,5,2.13,21,Silver,Thời trang
-KH1933,Nữ,29.0,20.7,52.0,5,4.52,27,Silver,Thời trang
-KH1934,Nữ,33.0,19.2,3.0,9,3.8,0,Silver,Gia dụng
-KH1935,Nữ,66.0,12.6,83.0,4,7.89,3,Silver,Thể thao
-KH1936,Nữ,18.0,15.4,58.0,1,7.48,6,Bronze,Sách
-KH1937,Nam,38.0,25.8,74.0,4,2.96,12,Bronze,Sách
-KH1938,Nam,40.0,5.5,18.0,6,6.27,23,Silver,Thực phẩm
-KH1939,Nữ,48.0,9.9,74.0,3,4.04,10,Bronze,Thời trang
-KH1940,Nam,36.0,7.7,94.0,4,2.6,9,Silver,Gia dụng
-KH1941,Nam,,15.3,23.0,10,0.16,61,Gold,Thể thao
-KH1942,Nữ,30.0,25.5,65.0,9,0.1,4,Bronze,Thực phẩm
-KH1943,Nam,38.0,8.5,50.0,6,3.64,20,Bronze,Sách
-KH1944,Nam,30.0,2.9,19.0,7,1.35,91,Platinum,Điện tử
-KH1945,Nam,42.0,9.5,59.0,0,3.37,29,Silver,Thực phẩm
-KH1946,Nam,30.0,21.1,66.0,6,0.75,37,Silver,Điện tử
-KH1947,Nữ,39.0,16.8,37.0,2,1.01,16,Platinum,Điện tử
-KH1948,Nữ,34.0,15.8,73.0,3,2.41,0,Silver,Thực phẩm
-KH1949,Nữ,48.0,10.3,16.0,13,4.94,31,Gold,Thực phẩm
-KH1950,Nữ,34.0,5.7,20.0,5,0.18,29,Gold,Gia dụng
-KH1951,Nam,18.0,16.6,52.0,2,3.95,3,Gold,Thực phẩm
-KH1952,Nam,50.0,7.4,50.0,6,3.15,18,Platinum,Thể thao
-KH1953,Nữ,24.0,45.2,35.0,6,0.76,74,Bronze,Mỹ phẩm
-KH1954,Nữ,27.0,17.2,66.0,4,0.88,6,Silver,Sách
-KH1955,Nam,27.0,8.6,60.0,8,0.1,18,Silver,Thời trang
-KH1956,Nữ,51.0,8.4,67.0,10,0.03,18,Silver,Thực phẩm
-KH1957,Nam,18.0,11.5,47.0,9,1.3,49,Bronze,Điện tử
-KH1958,Nam,70.0,10.6,62.0,4,,52,Silver,Điện tử
-KH1959,Nam,47.0,23.8,41.0,3,0.43,42,Bronze,Thực phẩm
-KH1960,Nữ,37.0,13.6,91.0,6,3.75,13,Silver,Thời trang
-KH1961,Nam,34.0,7.9,33.0,7,1.69,2,Gold,Thời trang
-KH1962,Nam,38.0,37.9,92.0,5,2.01,12,Silver,Gia dụng
-KH1963,Nam,41.0,12.5,50.0,4,0.42,34,Silver,Gia dụng
-KH1964,Nam,42.0,19.3,22.0,6,3.53,36,Bronze,Gia dụng
-KH1965,Nam,41.0,8.5,77.0,5,4.05,100,Silver,Thời trang
-KH1966,Nam,36.0,15.1,52.0,5,1.48,18,Platinum,Điện tử
-KH1967,Nữ,32.0,14.7,67.0,1,4.87,30,Silver,Gia dụng
-KH1968,Nam,33.0,3.9,74.0,6,3.73,23,Bronze,Thực phẩm
-KH1969,Nam,32.0,40.8,56.0,4,2.63,4,Bronze,Gia dụng
-KH1970,Nam,48.0,26.4,38.0,4,2.65,18,Bronze,Thực phẩm
-KH1971,Nữ,42.0,9.6,69.0,2,0.22,23,Bronze,Thực phẩm
-KH1972,Nữ,18.0,6.3,50.0,5,0.63,90,Silver,Điện tử
-KH1973,Nam,42.0,15.0,63.0,4,0.14,13,Platinum,Sách
-KH1974,Nam,37.0,12.8,6.0,9,0.02,117,Silver,Thể thao
-KH1975,Nam,34.0,15.1,58.0,4,0.34,23,Gold,Thực phẩm
-KH1976,Nam,30.0,13.7,37.0,0,4.25,8,Silver,Gia dụng
-KH1977,Nữ,48.0,16.5,83.0,11,0.55,6,Bronze,Điện tử
-KH1978,Nam,46.0,29.0,62.0,8,7.02,4,Platinum,Điện tử
-KH1979,Nữ,25.0,17.1,54.0,7,1.82,18,Silver,Thời trang
-KH1980,Nữ,39.0,6.5,59.0,6,0.54,0,Gold,Thực phẩm
-KH1981,Nam,23.0,27.6,30.0,3,1.37,17,Silver,Gia dụng
-KH1982,Nữ,18.0,32.6,82.0,5,0.49,133,Gold,Thực phẩm
-KH1983,Nam,27.0,80.7,89.0,6,8.27,33,Bronze,Gia dụng
-KH1984,Nam,45.0,6.2,57.0,3,3.76,42,Silver,Mỹ phẩm
-KH1985,Nữ,46.0,14.1,81.0,5,0.05,3,Platinum,Thời trang
-KH1986,Nữ,41.0,3.5,38.0,8,5.9,19,Silver,Điện tử
-KH1987,Nữ,43.0,17.0,34.0,6,2.55,10,Bronze,Thời trang
-KH1988,Nam,41.0,8.8,50.0,7,0.17,67,Platinum,Mỹ phẩm
-KH1989,Nam,27.0,38.6,58.0,4,2.22,6,Silver,Sách
-KH1990,Nữ,40.0,7.7,42.0,3,2.08,18,Silver,Thời trang
-KH1991,Nữ,44.0,4.4,60.0,8,0.49,26,Silver,Thời trang
-KH1992,Nam,44.0,9.2,56.0,1,2.84,21,Gold,Mỹ phẩm
-KH1993,Nữ,49.0,3.7,30.0,5,0.18,53,Silver,Thời trang
-KH1994,Nữ,43.0,19.1,60.0,6,1.34,7,Silver,Thời trang
-KH1995,Nữ,,3.5,,5,0.02,14,Platinum,Mỹ phẩm
-KH1996,Nữ,47.0,12.4,53.0,5,6.93,47,Silver,Mỹ phẩm
-KH1997,Nữ,34.0,3.5,73.0,5,2.79,22,Gold,Điện tử
-KH1998,Nam,24.0,10.1,25.0,5,0.35,15,Bronze,Sách
-KH1999,Nữ,33.0,32.7,59.0,6,0.84,0,Gold,Gia dụng
-KH2000,Nữ,26.0,15.1,26.0,5,0.35,41,Platinum,Gia dụng
-KH1861,Nữ,33.0,9.3,74.0,4,0.23,2,Bronze,Thể thao
-KH0354,Nam,33.0,5.4,16.0,2,2.71,47,Silver,Gia dụng
-KH1334,Nữ,52.0,17.2,73.0,2,3.47,56,Silver,Sách
-KH0906,Nữ,35.0,19.1,68.0,2,0.9,2,Silver,Điện tử
-KH1290,Nữ,,10.2,68.0,7,3.17,31,Bronze,Thời trang
-KH1274,Nữ,31.0,18.8,63.0,5,0.89,4,Silver,Gia dụng
-KH0939,Nữ,37.0,4.6,69.0,2,0.76,171,Gold,Thực phẩm
-KH1732,Nam,30.0,7.4,50.0,7,3.58,46,Silver,Thể thao
-KH0066,Nữ,51.0,8.6,37.0,6,2.92,36,Bronze,Thực phẩm
-KH1324,Nam,40.0,14.2,54.0,6,3.49,8,Bronze,Sách
-KH0057,Nữ,24.0,9.2,79.0,9,0.47,22,Bronze,Thể thao
-KH1293,Nam,34.0,26.2,20.0,6,7.05,19,Platinum,Sách
-KH1119,Nữ,37.0,22.9,18.0,10,0.12,3,Silver,Mỹ phẩm
-KH0585,Nữ,37.0,23.5,46.0,4,0.53,51,Gold,Mỹ phẩm
-KH0375,Nam,60.0,23.8,69.0,8,0.54,5,Platinum,Điện tử
-KH0276,Nam,40.0,6.4,47.0,4,0.89,41,Gold,Điện tử
-KH0747,Nữ,37.0,14.1,52.0,7,1.08,22,Bronze,Sách
-KH0129,Nam,36.0,18.7,35.0,3,1.43,3,Platinum,Sách
-KH1647,Nữ,32.0,14.2,37.0,4,3.42,31,Silver,Thể thao
-KH1853,Nữ,20.0,26.5,62.0,4,1.32,21,Silver,Điện tử
+﻿CustomerID,Gender,Age,Income,SpendingScore,PurchaseFrequency
+KH0001,Nam,40.0,21.4,46.0,2
+KH0002,Nam,33.0,8.9,77.0,5
+KH0003,Nữ,,12.9,37.0,1
+KH0004,Nam,53.0,9.2,34.0,6
+KH0005,Nam,32.0,9.4,40.0,6
+KH0006,Nam,32.0,10.1,30.0,6
+KH0007,Nam,53.0,13.9,52.0,6
+KH0008,Nam,44.0,9.1,82.0,3
+KH0009,Nữ,29.0,25.9,56.0,5
+KH0010,Nam,41.0,7.1,44.0,2
+KH0011,Nam,29.0,10.9,44.0,5
+KH0012,Nam,29.0,9.4,18.0,3
+KH0013,Nam,37.0,29.0,67.0,3
+KH0014,Nam,18.0,13.7,48.0,5
+KH0015,Nam,18.0,22.6,46.0,11
+KH0016,Nam,28.0,5.0,100.0,7
+KH0017,Nữ,22.0,14.3,55.0,7
+KH0018,Nam,38.0,20.8,34.0,4
+KH0019,Nữ,24.0,12.8,41.0,1
+KH0020,Nữ,18.0,23.1,72.0,4
+KH0021,Nam,52.0,8.9,52.0,5
+KH0022,Nam,32.0,28.4,21.0,4
+KH0023,Nữ,35.0,48.4,68.0,4
+KH0024,Nữ,18.0,9.8,36.0,7
+KH0025,Nữ,28.0,9.3,87.0,6
+KH0026,Nam,36.0,29.1,71.0,8
+KH0027,Nam,21.0,31.4,41.0,4
+KH0028,Nữ,39.0,8.9,75.0,3
+KH0029,Nam,27.0,9.5,51.0,0
+KH0030,Nam,31.0,10.3,67.0,4
+KH0031,Nữ,27.0,5.4,59.0,1
+KH0032,Nam,57.0,7.0,33.0,4
+KH0033,Nữ,34.0,6.7,37.0,3
+KH0034,Nữ,22.0,7.7,70.0,5
+KH0035,Nữ,44.0,11.9,43.0,6
+KH0036,Nam,20.0,14.0,41.0,6
+KH0037,Nữ,37.0,30.9,30.0,4
+KH0038,Nam,18.0,6.7,,4
+KH0039,Nữ,19.0,22.0,91.0,5
+KH0040,Nam,37.0,10.7,28.0,1
+KH0041,Nữ,43.0,11.8,50.0,9
+KH0042,Nữ,37.0,18.3,78.0,7
+KH0043,Nam,33.0,6.2,48.0,5
+KH0044,Nam,31.0,15.3,59.0,4
+KH0045,Nam,18.0,,28.0,5
+KH0046,Nam,26.0,16.4,58.0,4
+KH0047,Nữ,29.0,14.5,46.0,1
+KH0048,Nam,47.0,53.2,69.0,3
+KH0049,Nam,39.0,8.3,73.0,7
+KH0050,Nam,18.0,8.9,100.0,6
+KH0051,Nữ,38.0,8.4,61.0,10
+KH0052,Nữ,30.0,8.7,56.0,4
+KH0053,Nữ,26.0,8.3,53.0,5
+KH0054,Nữ,42.0,24.9,42.0,6
+KH0055,Nam,47.0,28.6,56.0,6
+KH0056,Nữ,46.0,8.6,44.0,8
+KH0057,Nữ,24.0,7.4,53.0,4
+KH0058,Nam,31.0,16.2,76.0,3
+KH0059,Nữ,38.0,8.7,29.0,3
+KH0060,Nam,46.0,17.8,72.0,9
+KH0061,Nam,29.0,13.8,76.0,7
+KH0062,Nam,32.0,4.9,47.0,2
+KH0063,Nam,21.0,30.8,7.0,2
+KH0064,Nữ,20.0,35.8,37.0,4
+KH0065,Nữ,44.0,8.4,75.0,6
+KH0066,Nữ,51.0,9.7,49.0,9
+KH0067,Nam,34.0,14.5,30.0,11
+KH0068,Nữ,47.0,14.9,39.0,4
+KH0069,Nam,39.0,18.1,66.0,7
+KH0070,Nam,27.0,40.7,60.0,7
+KH0071,Nam,39.0,11.0,45.0,3
+KH0072,Nữ,53.0,7.5,42.0,7
+KH0073,Nữ,34.0,5.3,42.0,5
+KH0074,Nữ,53.0,7.9,31.0,2
+KH0075,Nam,18.0,11.9,82.0,9
+KH0076,Nam,44.0,35.8,43.0,6
+KH0077,Nữ,36.0,8.9,74.0,3
+KH0078,Nam,31.0,13.9,80.0,6
+KH0079,Nữ,36.0,12.1,69.0,3
+KH0080,Nữ,18.0,24.9,41.0,2
+KH0081,Nữ,32.0,55.5,58.0,8
+KH0082,Nam,39.0,8.9,49.0,4
+KH0083,Nữ,52.0,9.1,31.0,5
+KH0084,Nam,28.0,22.8,56.0,4
+KH0085,Nam,25.0,18.3,26.0,3
+KH0086,Nữ,28.0,36.9,73.0,4
+KH0087,Nữ,45.0,17.3,40.0,3
+KH0088,Nữ,38.0,9.8,54.0,11
+KH0089,Nữ,28.0,17.4,55.0,6
+KH0090,Nam,41.0,23.7,44.0,5
+KH0091,Nam,36.0,19.9,61.0,5
+KH0092,Nữ,46.0,16.5,40.0,5
+KH0093,Nam,26.0,23.1,67.0,3
+KH0094,Nam,31.0,24.6,23.0,6
+KH0095,Nam,30.0,27.9,52.0,4
+KH0096,Nam,18.0,18.0,88.0,5
+KH0097,Nam,38.0,11.0,29.0,3
+KH0098,Nữ,38.0,13.3,36.0,7
+KH0099,Nam,35.0,25.1,60.0,3
+KH0100,Nữ,32.0,7.5,53.0,6
+KH0101,Nữ,18.0,15.2,57.0,7
+KH0102,Nữ,29.0,9.6,59.0,1
+KH0103,Nữ,30.0,12.4,,6
+KH0104,Nam,25.0,26.2,72.0,4
+KH0105,Nam,33.0,13.7,58.0,2
+KH0106,Nữ,39.0,12.5,45.0,2
+KH0107,Nữ,57.0,5.4,63.0,5
+KH0108,Nam,37.0,19.1,87.0,5
+KH0109,Nữ,38.0,17.9,47.0,3
+KH0110,Nữ,34.0,44.6,30.0,5
+KH0111,Nam,18.0,10.1,72.0,11
+KH0112,Nữ,34.0,13.9,47.0,2
+KH0113,Nam,35.0,14.1,6.0,6
+KH0114,Nữ,64.0,31.4,66.0,5
+KH0115,Nam,32.0,11.5,39.0,3
+KH0116,Nam,38.0,14.4,48.0,4
+KH0117,Nữ,34.0,17.5,56.0,10
+KH0118,Nam,20.0,13.6,53.0,1
+KH0119,Nam,48.0,9.3,64.0,8
+KH0120,Nữ,44.0,13.7,41.0,3
+KH0121,Nam,44.0,23.2,60.0,5
+KH0122,Nam,24.0,6.6,44.0,4
+KH0123,Nữ,51.0,13.2,64.0,11
+KH0124,Nữ,18.0,8.0,62.0,3
+KH0125,Nam,42.0,25.0,31.0,4
+KH0126,Nam,61.0,4.9,71.0,3
+KH0127,Nữ,23.0,8.7,39.0,3
+KH0128,Nữ,28.0,15.3,66.0,8
+KH0129,Nam,36.0,31.2,57.0,1
+KH0130,Nam,28.0,11.7,,5
+KH0131,Nam,18.0,8.7,45.0,7
+KH0132,Nam,35.0,37.7,43.0,3
+KH0133,Nam,22.0,5.1,49.0,7
+KH0134,Nữ,40.0,3.3,43.0,5
+KH0135,Nam,23.0,15.9,65.0,7
+KH0136,Nam,53.0,9.0,17.0,5
+KH0137,Nam,25.0,6.6,28.0,7
+KH0138,Nữ,31.0,18.6,28.0,5
+KH0139,Nam,44.0,14.1,69.0,4
+KH0140,Nữ,20.0,8.7,84.0,5
+KH0141,Nữ,37.0,5.7,47.0,11
+KH0142,Nam,50.0,20.6,46.0,7
+KH0143,Nam,18.0,18.0,51.0,6
+KH0144,Nữ,37.0,11.5,73.0,3
+KH0145,Nữ,38.0,36.9,31.0,0
+KH0146,Nữ,44.0,6.4,54.0,10
+KH0147,Nữ,20.0,4.9,69.0,5
+KH0148,Nữ,19.0,8.0,60.0,5
+KH0149,Nam,41.0,11.9,53.0,3
+KH0150,Nam,38.0,14.1,70.0,4
+KH0151,Nam,38.0,10.5,1.0,2
+KH0152,Nam,39.0,15.0,63.0,2
+KH0153,Nữ,,5.7,36.0,7
+KH0154,Nam,37.0,29.0,13.0,3
+KH0155,Nam,38.0,11.6,60.0,1
+KH0156,Nam,26.0,23.8,,3
+KH0157,Nam,57.0,15.0,47.0,7
+KH0158,Nam,40.0,16.0,69.0,5
+KH0159,Nam,20.0,17.1,82.0,5
+KH0160,Nam,42.0,15.9,76.0,4
+KH0161,Nam,23.0,17.9,82.0,5
+KH0162,Nam,44.0,27.0,64.0,5
+KH0163,Nữ,48.0,13.7,51.0,3
+KH0164,Nam,25.0,18.6,17.0,3
+KH0165,Nam,46.0,11.5,45.0,6
+KH0166,Nữ,39.0,28.9,33.0,6
+KH0167,Nữ,44.0,8.1,93.0,4
+KH0168,Nam,57.0,35.9,46.0,9
+KH0169,Nam,32.0,11.9,52.0,6
+KH0170,Nữ,25.0,5.2,61.0,5
+KH0171,Nam,24.0,13.2,50.0,5
+KH0172,Nữ,25.0,8.1,83.0,4
+KH0173,Nữ,34.0,20.2,37.0,10
+KH0174,Nam,39.0,8.2,53.0,6
+KH0175,Nam,38.0,9.3,35.0,2
+KH0176,Nam,44.0,3.9,23.0,4
+KH0177,Nữ,35.0,9.3,37.0,3
+KH0178,Nữ,52.0,2.8,49.0,2
+KH0179,Nữ,31.0,4.7,41.0,5
+KH0180,Nữ,65.0,19.2,36.0,6
+KH0181,Nữ,42.0,19.5,21.0,5
+KH0182,Nam,24.0,15.7,48.0,10
+KH0183,Nam,22.0,6.8,19.0,5
+KH0184,Nam,40.0,11.8,65.0,5
+KH0185,Nữ,32.0,12.2,51.0,4
+KH0186,Nữ,43.0,6.1,20.0,4
+KH0187,Nam,40.0,30.0,43.0,3
+KH0188,Nam,34.0,20.6,34.0,6
+KH0189,Nam,24.0,10.7,56.0,4
+KH0190,Nam,18.0,12.4,76.0,2
+KH0191,Nữ,29.0,13.8,12.0,9
+KH0192,Nam,45.0,3.6,52.0,5
+KH0193,Nữ,37.0,10.5,46.0,9
+KH0194,Nam,20.0,,63.0,5
+KH0195,Nữ,37.0,6.7,54.0,5
+KH0196,Nữ,39.0,10.3,34.0,1
+KH0197,Nam,24.0,35.8,43.0,5
+KH0198,Nam,36.0,17.9,34.0,8
+KH0199,Nữ,35.0,8.6,71.0,6
+KH0200,Nam,21.0,17.2,50.0,2
+KH0201,Nam,39.0,28.2,88.0,5
+KH0202,Nam,41.0,21.2,48.0,5
+KH0203,Nam,47.0,12.6,35.0,4
+KH0204,Nam,47.0,8.3,19.0,6
+KH0205,Nam,18.0,18.5,13.0,5
+KH0206,Nữ,23.0,15.4,18.0,6
+KH0207,Nữ,41.0,20.8,55.0,5
+KH0208,Nữ,41.0,17.8,60.0,4
+KH0209,Nam,41.0,22.9,18.0,7
+KH0210,Nữ,65.0,8.8,67.0,5
+KH0211,Nam,41.0,26.9,40.0,7
+KH0212,Nam,48.0,13.7,52.0,6
+KH0213,Nữ,46.0,42.3,82.0,4
+KH0214,Nam,42.0,8.1,67.0,8
+KH0215,Nữ,31.0,34.5,44.0,4
+KH0216,Nữ,44.0,13.7,32.0,3
+KH0217,Nữ,25.0,8.2,6.0,5
+KH0218,Nữ,32.0,9.1,35.0,10
+KH0219,Nữ,29.0,10.1,45.0,6
+KH0220,Nữ,35.0,15.7,30.0,4
+KH0221,Nam,62.0,16.7,47.0,3
+KH0222,Nam,18.0,8.6,51.0,3
+KH0223,Nữ,43.0,12.0,45.0,5
+KH0224,Nam,18.0,44.1,36.0,2
+KH0225,Nam,29.0,34.3,53.0,6
+KH0226,Nam,48.0,15.8,58.0,2
+KH0227,Nữ,35.0,12.5,28.0,5
+KH0228,Nam,22.0,13.1,78.0,2
+KH0229,Nam,26.0,17.6,48.0,6
+KH0230,Nữ,43.0,6.6,50.0,3
+KH0231,Nam,26.0,10.4,64.0,5
+KH0232,Nam,37.0,4.5,54.0,2
+KH0233,Nam,35.0,15.5,69.0,6
+KH0234,Nam,27.0,18.0,55.0,6
+KH0235,Nam,60.0,9.1,37.0,7
+KH0236,Nam,42.0,31.3,57.0,6
+KH0237,Nam,18.0,5.8,27.0,6
+KH0238,Nữ,37.0,5.1,52.0,4
+KH0239,Nam,27.0,13.9,49.0,4
+KH0240,Nam,45.0,,45.0,7
+KH0241,Nam,25.0,33.5,47.0,5
+KH0242,Nam,33.0,9.3,12.0,5
+KH0243,Nữ,41.0,23.3,39.0,8
+KH0244,Nữ,45.0,11.9,51.0,4
+KH0245,Nữ,20.0,,53.0,2
+KH0246,Nam,30.0,20.7,29.0,3
+KH0247,Nữ,29.0,18.0,75.0,4
+KH0248,Nam,27.0,4.7,32.0,6
+KH0249,Nữ,56.0,29.5,69.0,9
+KH0250,Nữ,39.0,27.9,58.0,3
+KH0251,Nam,19.0,8.4,37.0,5
+KH0252,Nữ,46.0,15.4,85.0,3
+KH0253,Nữ,60.0,16.4,26.0,2
+KH0254,Nữ,47.0,14.2,68.0,4
+KH0255,Nam,18.0,8.8,70.0,9
+KH0256,Nam,29.0,8.1,36.0,4
+KH0257,Nữ,50.0,12.0,77.0,5
+KH0258,Nam,26.0,24.6,44.0,8
+KH0259,Nam,40.0,16.9,55.0,8
+KH0260,Nam,44.0,9.8,55.0,5
+KH0261,Nữ,23.0,19.4,47.0,3
+KH0262,Nam,34.0,2.2,66.0,9
+KH0263,Nữ,18.0,24.3,65.0,2
+KH0264,Nam,22.0,4.3,15.0,8
+KH0265,Nam,31.0,9.8,76.0,7
+KH0266,Nữ,20.0,6.2,16.0,6
+KH0267,Nữ,54.0,5.6,70.0,9
+KH0268,Nam,18.0,24.4,72.0,3
+KH0269,Nữ,29.0,9.2,28.0,6
+KH0270,Nữ,36.0,15.0,41.0,7
+KH0271,Nam,52.0,11.8,27.0,7
+KH0272,Nữ,18.0,16.2,45.0,5
+KH0273,Nam,48.0,12.8,43.0,5
+KH0274,Nam,,5.6,65.0,1
+KH0275,Nữ,23.0,22.1,76.0,7
+KH0276,Nam,40.0,9.1,77.0,4
+KH0277,Nam,37.0,4.8,38.0,7
+KH0278,Nam,27.0,9.4,45.0,5
+KH0279,Nữ,35.0,30.0,16.0,5
+KH0280,Nữ,30.0,20.3,33.0,3
+KH0281,Nam,36.0,9.9,69.0,5
+KH0282,Nữ,42.0,9.9,82.0,5
+KH0283,Nam,54.0,10.0,25.0,4
+KH0284,Nữ,20.0,42.4,38.0,3
+KH0285,Nữ,60.0,15.3,49.0,3
+KH0286,Nữ,18.0,15.8,55.0,5
+KH0287,Nam,33.0,22.6,33.0,10
+KH0288,Nam,42.0,14.1,58.0,2
+KH0289,Nữ,38.0,10.4,40.0,5
+KH0290,Nữ,,10.8,49.0,3
+KH0291,Nam,32.0,11.7,60.0,4
+KH0292,Nam,29.0,11.9,50.0,6
+KH0293,Nữ,27.0,18.9,41.0,3
+KH0294,Nam,45.0,12.6,47.0,4
+KH0295,Nữ,39.0,18.9,48.0,4
+KH0296,Nam,26.0,11.6,42.0,5
+KH0297,Nữ,45.0,12.8,44.0,8
+KH0298,Nữ,38.0,3.7,81.0,5
+KH0299,Nam,44.0,21.1,61.0,6
+KH0300,Nam,42.0,15.0,44.0,3
+KH0301,Nam,25.0,22.2,63.0,4
+KH0302,Nam,28.0,2.1,43.0,5
+KH0303,Nam,43.0,42.6,73.0,6
+KH0304,Nữ,42.0,11.2,57.0,7
+KH0305,Nam,34.0,23.7,47.0,5
+KH0306,Nữ,,6.5,58.0,2
+KH0307,Nam,50.0,17.6,18.0,6
+KH0308,Nam,27.0,6.5,27.0,4
+KH0309,Nữ,41.0,8.4,26.0,2
+KH0310,Nữ,32.0,38.4,52.0,4
+KH0311,Nam,32.0,10.9,84.0,2
+KH0312,Nữ,48.0,13.9,94.0,3
+KH0313,Nam,44.0,20.5,62.0,4
+KH0314,Nam,44.0,16.4,60.0,7
+KH0315,Nam,50.0,13.3,13.0,5
+KH0316,Nữ,35.0,15.2,39.0,5
+KH0317,Nữ,43.0,51.5,34.0,7
+KH0318,Nam,31.0,11.8,37.0,9
+KH0319,Nam,38.0,13.7,46.0,7
+KH0320,Nam,33.0,22.9,40.0,6
+KH0321,Nam,36.0,23.6,10.0,6
+KH0322,Nữ,42.0,24.8,64.0,9
+KH0323,Nam,25.0,17.9,28.0,2
+KH0324,Nam,60.0,6.1,54.0,3
+KH0325,Nữ,22.0,32.5,91.0,9
+KH0326,Nữ,20.0,,31.0,3
+KH0327,Nam,48.0,14.6,1.0,8
+KH0328,Nữ,44.0,7.7,44.0,5
+KH0329,Nam,42.0,11.7,72.0,4
+KH0330,Nam,42.0,,89.0,9
+KH0331,Nữ,34.0,14.8,25.0,2
+KH0332,Nam,24.0,15.7,59.0,5
+KH0333,Nữ,35.0,32.1,40.0,10
+KH0334,Nam,26.0,16.0,47.0,5
+KH0335,Nam,46.0,10.5,100.0,4
+KH0336,Nữ,33.0,21.7,19.0,7
+KH0337,Nữ,25.0,24.9,55.0,3
+KH0338,Nữ,31.0,5.8,59.0,6
+KH0339,Nam,39.0,17.4,71.0,3
+KH0340,Nam,28.0,18.6,,3
+KH0341,Nam,,10.2,56.0,4
+KH0342,Nam,37.0,27.8,42.0,1
+KH0343,Nữ,37.0,11.1,55.0,2
+KH0344,Nữ,28.0,13.1,43.0,4
+KH0345,Nữ,29.0,11.0,62.0,5
+KH0346,Nam,37.0,12.3,42.0,8
+KH0347,Nữ,18.0,6.3,57.0,7
+KH0348,Nữ,18.0,5.1,49.0,7
+KH0349,Nữ,26.0,31.7,72.0,2
+KH0350,Nữ,32.0,7.3,48.0,6
+KH0351,Nam,38.0,6.7,14.0,8
+KH0352,Nam,52.0,3.3,75.0,6
+KH0353,Nữ,45.0,8.3,31.0,4
+KH0354,Nam,,5.5,36.0,4
+KH0355,Nữ,34.0,32.6,38.0,4
+KH0356,Nam,22.0,22.3,77.0,1
+KH0357,Nam,34.0,8.1,7.0,6
+KH0358,Nữ,31.0,47.1,100.0,8
+KH0359,Nữ,38.0,22.0,71.0,7
+KH0360,Nữ,25.0,10.0,54.0,7
+KH0361,Nữ,41.0,2.7,48.0,6
+KH0362,Nam,53.0,48.2,55.0,6
+KH0363,Nữ,33.0,5.3,60.0,4
+KH0364,Nam,39.0,4.5,62.0,3
+KH0365,Nữ,43.0,22.5,61.0,6
+KH0366,Nam,30.0,52.7,51.0,3
+KH0367,Nữ,37.0,28.0,46.0,10
+KH0368,Nam,35.0,17.1,46.0,5
+KH0369,Nam,36.0,17.4,46.0,6
+KH0370,Nữ,25.0,20.3,72.0,6
+KH0371,Nữ,35.0,19.2,61.0,4
+KH0372,Nam,40.0,14.4,1.0,6
+KH0373,Nữ,52.0,13.0,63.0,5
+KH0374,Nữ,46.0,11.7,53.0,3
+KH0375,Nam,60.0,7.7,49.0,2
+KH0376,Nữ,25.0,10.3,42.0,3
+KH0377,Nữ,45.0,4.4,72.0,2
+KH0378,Nữ,37.0,11.5,68.0,8
+KH0379,Nữ,61.0,6.7,34.0,7
+KH0380,Nữ,25.0,6.3,58.0,4
+KH0381,Nữ,24.0,13.6,30.0,3
+KH0382,Nam,27.0,28.1,22.0,3
+KH0383,Nam,18.0,21.1,37.0,6
+KH0384,Nữ,28.0,4.7,67.0,5
+KH0385,Nữ,25.0,6.7,69.0,1
+KH0386,Nam,36.0,21.4,60.0,8
+KH0387,Nữ,39.0,,64.0,9
+KH0388,Nữ,57.0,10.6,60.0,4
+KH0389,Nam,46.0,16.9,37.0,7
+KH0390,Nữ,28.0,6.8,58.0,3
+KH0391,Nữ,24.0,13.0,,7
+KH0392,Nam,40.0,5.5,65.0,5
+KH0393,Nữ,19.0,,73.0,6
+KH0394,Nữ,56.0,14.8,64.0,8
+KH0395,Nữ,49.0,4.7,57.0,2
+KH0396,Nữ,29.0,15.9,,4
+KH0397,Nữ,18.0,12.0,49.0,9
+KH0398,Nam,51.0,17.0,32.0,4
+KH0399,Nữ,33.0,13.9,46.0,4
+KH0400,Nam,49.0,27.6,35.0,3
+KH0401,Nam,18.0,13.1,36.0,4
+KH0402,Nữ,27.0,9.4,47.0,4
+KH0403,Nữ,35.0,13.1,34.0,6
+KH0404,Nam,35.0,16.9,43.0,7
+KH0405,Nam,29.0,12.5,12.0,3
+KH0406,Nữ,42.0,12.5,54.0,6
+KH0407,Nam,22.0,8.0,50.0,8
+KH0408,Nam,33.0,8.2,33.0,7
+KH0409,Nam,36.0,5.3,63.0,3
+KH0410,Nam,41.0,34.8,68.0,4
+KH0411,Nam,43.0,5.8,17.0,6
+KH0412,Nam,21.0,8.0,34.0,8
+KH0413,Nữ,18.0,7.9,34.0,3
+KH0414,Nam,50.0,20.8,31.0,4
+KH0415,Nữ,38.0,10.2,66.0,3
+KH0416,Nữ,26.0,25.8,46.0,8
+KH0417,Nam,53.0,8.1,44.0,1
+KH0418,Nữ,36.0,14.4,9.0,3
+KH0419,Nữ,49.0,7.4,62.0,7
+KH0420,Nữ,35.0,44.1,25.0,5
+KH0421,Nam,59.0,,51.0,9
+KH0422,Nam,56.0,14.7,55.0,5
+KH0423,Nam,32.0,17.8,77.0,4
+KH0424,Nam,46.0,15.6,23.0,5
+KH0425,Nữ,42.0,10.9,1.0,7
+KH0426,Nam,51.0,11.3,53.0,3
+KH0427,Nam,23.0,12.5,86.0,6
+KH0428,Nữ,43.0,11.2,74.0,7
+KH0429,Nam,47.0,21.7,54.0,4
+KH0430,Nam,18.0,45.9,40.0,4
+KH0431,Nam,20.0,8.7,66.0,4
+KH0432,Nữ,18.0,5.4,30.0,3
+KH0433,Nam,31.0,11.6,59.0,4
+KH0434,Nữ,43.0,57.3,60.0,2
+KH0435,Nữ,53.0,7.5,71.0,7
+KH0436,Nữ,35.0,32.6,100.0,6
+KH0437,Nữ,54.0,33.3,57.0,7
+KH0438,Nữ,18.0,8.7,39.0,5
+KH0439,Nam,18.0,17.1,49.0,4
+KH0440,Nữ,34.0,32.4,14.0,5
+KH0441,Nữ,39.0,9.7,36.0,4
+KH0442,Nữ,34.0,10.8,41.0,7
+KH0443,Nam,18.0,8.6,39.0,5
+KH0444,Nữ,33.0,6.6,53.0,6
+KH0445,Nữ,19.0,8.3,33.0,5
+KH0446,Nam,43.0,5.8,72.0,2
+KH0447,Nữ,39.0,12.4,50.0,4
+KH0448,Nữ,23.0,7.7,49.0,4
+KH0449,Nam,28.0,14.0,43.0,6
+KH0450,Nữ,22.0,4.8,53.0,11
+KH0451,Nam,34.0,14.9,,6
+KH0452,Nữ,46.0,20.1,32.0,8
+KH0453,Nữ,23.0,3.7,36.0,5
+KH0454,Nữ,41.0,15.2,43.0,3
+KH0455,Nam,28.0,25.4,23.0,5
+KH0456,Nam,25.0,5.9,33.0,1
+KH0457,Nam,33.0,33.2,40.0,8
+KH0458,Nam,,15.7,67.0,6
+KH0459,Nữ,28.0,8.0,55.0,4
+KH0460,Nam,20.0,11.8,53.0,7
+KH0461,Nam,58.0,17.0,67.0,1
+KH0462,Nam,35.0,12.8,47.0,7
+KH0463,Nữ,26.0,16.8,57.0,3
+KH0464,Nữ,37.0,7.0,47.0,9
+KH0465,Nữ,33.0,13.5,55.0,4
+KH0466,Nữ,32.0,5.2,38.0,2
+KH0467,Nữ,42.0,,1.0,4
+KH0468,Nam,44.0,7.1,47.0,6
+KH0469,Nam,28.0,7.8,78.0,2
+KH0470,Nữ,28.0,25.6,68.0,1
+KH0471,Nữ,31.0,23.4,69.0,7
+KH0472,Nam,18.0,17.6,74.0,7
+KH0473,Nữ,18.0,6.3,51.0,6
+KH0474,Nữ,51.0,10.1,53.0,8
+KH0475,Nam,54.0,25.2,37.0,7
+KH0476,Nữ,32.0,13.3,43.0,5
+KH0477,Nữ,41.0,49.0,62.0,6
+KH0478,Nữ,38.0,15.4,74.0,6
+KH0479,Nữ,65.0,13.7,47.0,7
+KH0480,Nam,48.0,10.1,40.0,6
+KH0481,Nữ,33.0,13.2,50.0,3
+KH0482,Nam,23.0,11.1,62.0,3
+KH0483,Nữ,18.0,18.6,21.0,1
+KH0484,Nữ,37.0,21.6,4.0,5
+KH0485,Nữ,25.0,7.6,,3
+KH0486,Nam,18.0,5.5,25.0,9
+KH0487,Nữ,27.0,4.0,39.0,8
+KH0488,Nữ,22.0,16.5,47.0,4
+KH0489,Nữ,55.0,6.3,40.0,2
+KH0490,Nam,45.0,3.3,79.0,3
+KH0491,Nữ,34.0,15.4,56.0,2
+KH0492,Nam,52.0,54.4,56.0,4
+KH0493,Nam,35.0,12.1,62.0,4
+KH0494,Nữ,24.0,20.1,27.0,5
+KH0495,Nam,53.0,12.8,70.0,8
+KH0496,Nam,,11.5,48.0,6
+KH0497,Nữ,22.0,21.1,63.0,3
+KH0498,Nam,32.0,10.2,28.0,5
+KH0499,Nữ,24.0,14.3,18.0,6
+KH0500,Nam,18.0,14.8,66.0,3
+KH0501,Nam,46.0,8.2,57.0,8
+KH0502,Nữ,,22.1,31.0,8
+KH0503,Nữ,18.0,11.0,32.0,5
+KH0504,Nữ,41.0,7.7,72.0,4
+KH0505,Nam,27.0,16.8,26.0,2
+KH0506,Nữ,29.0,7.1,82.0,6
+KH0507,Nữ,27.0,12.4,31.0,5
+KH0508,Nữ,24.0,12.1,,6
+KH0509,Nữ,35.0,23.4,43.0,7
+KH0510,Nữ,25.0,16.2,62.0,3
+KH0511,Nữ,38.0,12.0,39.0,9
+KH0512,Nữ,34.0,19.9,46.0,2
+KH0513,Nam,32.0,28.1,50.0,0
+KH0514,Nữ,24.0,17.0,29.0,6
+KH0515,Nam,28.0,12.3,,4
+KH0516,Nam,44.0,5.5,39.0,6
+KH0517,Nữ,41.0,6.4,45.0,4
+KH0518,Nam,23.0,10.1,30.0,5
+KH0519,Nam,36.0,8.5,1.0,2
+KH0520,Nam,,10.9,46.0,5
+KH0521,Nam,18.0,12.6,98.0,4
+KH0522,Nam,41.0,16.7,65.0,3
+KH0523,Nam,27.0,11.7,49.0,5
+KH0524,Nam,41.0,16.3,44.0,3
+KH0525,Nam,25.0,12.7,50.0,3
+KH0526,Nam,18.0,3.7,60.0,4
+KH0527,Nam,18.0,6.9,26.0,8
+KH0528,Nữ,35.0,11.2,72.0,5
+KH0529,Nam,38.0,5.9,64.0,4
+KH0530,Nam,24.0,17.5,64.0,4
+KH0531,Nữ,42.0,30.5,58.0,4
+KH0532,Nữ,18.0,25.3,50.0,4
+KH0533,Nữ,34.0,10.7,63.0,7
+KH0534,Nam,20.0,29.8,61.0,8
+KH0535,Nam,27.0,13.3,42.0,7
+KH0536,Nam,35.0,10.0,38.0,3
+KH0537,Nữ,24.0,8.4,52.0,6
+KH0538,Nam,30.0,10.2,80.0,6
+KH0539,Nam,47.0,9.7,25.0,4
+KH0540,Nữ,28.0,13.5,20.0,6
+KH0541,Nữ,45.0,13.4,53.0,9
+KH0542,Nữ,21.0,12.2,51.0,6
+KH0543,Nam,41.0,15.8,53.0,4
+KH0544,Nam,52.0,24.9,54.0,6
+KH0545,Nam,18.0,21.5,45.0,7
+KH0546,Nam,25.0,5.0,79.0,4
+KH0547,Nữ,41.0,2.6,17.0,3
+KH0548,Nam,32.0,21.3,33.0,4
+KH0549,Nam,39.0,5.4,47.0,5
+KH0550,Nữ,27.0,10.6,17.0,3
+KH0551,Nữ,36.0,6.0,46.0,5
+KH0552,Nữ,,4.1,83.0,3
+KH0553,Nam,49.0,16.9,50.0,5
+KH0554,Nữ,38.0,19.2,54.0,5
+KH0555,Nam,39.0,8.6,24.0,5
+KH0556,Nữ,30.0,2.6,37.0,6
+KH0557,Nữ,29.0,,42.0,6
+KH0558,Nam,29.0,15.4,43.0,6
+KH0559,Nữ,39.0,5.0,75.0,5
+KH0560,Nữ,29.0,13.6,61.0,7
+KH0561,Nữ,38.0,12.1,27.0,3
+KH0562,Nam,59.0,17.2,54.0,5
+KH0563,Nữ,45.0,13.1,59.0,7
+KH0564,Nam,31.0,6.8,72.0,2
+KH0565,Nữ,49.0,25.0,81.0,8
+KH0566,Nữ,30.0,,29.0,4
+KH0567,Nữ,18.0,12.0,33.0,2
+KH0568,Nữ,22.0,7.0,24.0,5
+KH0569,Nữ,18.0,9.3,45.0,5
+KH0570,Nữ,30.0,7.2,59.0,4
+KH0571,Nam,35.0,11.0,69.0,6
+KH0572,Nam,55.0,34.0,48.0,8
+KH0573,Nữ,38.0,5.3,43.0,4
+KH0574,Nữ,32.0,4.6,53.0,3
+KH0575,Nam,44.0,29.5,33.0,6
+KH0576,Nữ,18.0,10.7,91.0,4
+KH0577,Nữ,37.0,8.2,17.0,2
+KH0578,Nữ,44.0,22.7,53.0,3
+KH0579,Nam,18.0,8.5,90.0,1
+KH0580,Nữ,48.0,36.4,50.0,9
+KH0581,Nữ,39.0,18.3,46.0,5
+KH0582,Nam,30.0,9.1,42.0,3
+KH0583,Nữ,42.0,44.5,46.0,4
+KH0584,Nam,62.0,8.5,77.0,3
+KH0585,Nữ,37.0,19.0,5.0,4
+KH0586,Nữ,37.0,,80.0,6
+KH0587,Nữ,29.0,26.6,21.0,4
+KH0588,Nữ,24.0,31.1,44.0,2
+KH0589,Nữ,44.0,12.4,41.0,6
+KH0590,Nam,24.0,7.8,61.0,3
+KH0591,Nam,35.0,16.1,18.0,6
+KH0592,Nam,29.0,8.1,59.0,2
+KH0593,Nam,40.0,40.8,90.0,8
+KH0594,Nữ,,13.2,22.0,3
+KH0595,Nữ,47.0,9.8,53.0,6
+KH0596,Nam,28.0,13.6,36.0,4
+KH0597,Nữ,31.0,5.4,58.0,5
+KH0598,Nữ,23.0,6.8,50.0,6
+KH0599,Nữ,29.0,25.0,37.0,1
+KH0600,Nam,39.0,8.2,59.0,5
+KH0601,Nam,44.0,6.5,86.0,7
+KH0602,Nữ,,16.8,46.0,6
+KH0603,Nam,45.0,24.8,64.0,6
+KH0604,Nữ,51.0,18.8,24.0,7
+KH0605,Nam,39.0,22.1,,4
+KH0606,Nữ,57.0,7.7,59.0,3
+KH0607,Nữ,25.0,5.2,79.0,8
+KH0608,Nữ,20.0,30.0,57.0,4
+KH0609,Nữ,18.0,10.0,43.0,5
+KH0610,Nữ,52.0,10.5,49.0,5
+KH0611,Nữ,42.0,27.0,24.0,3
+KH0612,Nữ,34.0,17.0,62.0,9
+KH0613,Nữ,38.0,16.0,67.0,8
+KH0614,Nữ,21.0,44.7,40.0,6
+KH0615,Nữ,64.0,8.3,40.0,3
+KH0616,Nữ,36.0,21.3,55.0,5
+KH0617,Nam,36.0,12.6,41.0,5
+KH0618,Nam,43.0,14.3,48.0,5
+KH0619,Nam,40.0,30.5,91.0,3
+KH0620,Nữ,37.0,16.5,45.0,7
+KH0621,Nam,25.0,16.8,42.0,3
+KH0622,Nam,40.0,23.2,37.0,0
+KH0623,Nam,57.0,9.8,64.0,6
+KH0624,Nam,51.0,7.4,46.0,6
+KH0625,Nữ,54.0,6.5,37.0,4
+KH0626,Nữ,28.0,3.7,76.0,5
+KH0627,Nữ,23.0,41.8,78.0,9
+KH0628,Nam,33.0,6.3,37.0,5
+KH0629,Nam,35.0,10.7,12.0,4
+KH0630,Nữ,48.0,10.3,70.0,3
+KH0631,Nam,18.0,14.7,36.0,6
+KH0632,Nữ,53.0,19.9,65.0,2
+KH0633,Nam,33.0,20.4,10.0,6
+KH0634,Nữ,29.0,8.6,67.0,6
+KH0635,Nam,22.0,11.0,25.0,6
+KH0636,Nam,18.0,14.4,64.0,5
+KH0637,Nữ,44.0,10.5,50.0,3
+KH0638,Nam,35.0,32.0,30.0,4
+KH0639,Nam,19.0,16.4,41.0,4
+KH0640,Nữ,19.0,18.9,63.0,5
+KH0641,Nam,30.0,18.1,52.0,4
+KH0642,Nữ,55.0,24.6,61.0,4
+KH0643,Nam,31.0,13.6,89.0,5
+KH0644,Nam,18.0,5.6,18.0,5
+KH0645,Nữ,32.0,15.5,82.0,5
+KH0646,Nữ,31.0,8.2,52.0,7
+KH0647,Nữ,18.0,8.9,32.0,3
+KH0648,Nữ,34.0,17.3,23.0,2
+KH0649,Nữ,32.0,25.6,46.0,4
+KH0650,Nam,43.0,12.3,68.0,4
+KH0651,Nam,57.0,14.7,47.0,6
+KH0652,Nữ,48.0,33.8,80.0,3
+KH0653,Nữ,31.0,14.1,20.0,5
+KH0654,Nam,21.0,58.0,49.0,5
+KH0655,Nam,65.0,17.1,24.0,5
+KH0656,Nữ,35.0,4.2,57.0,5
+KH0657,Nữ,35.0,19.1,67.0,3
+KH0658,Nam,34.0,15.3,41.0,10
+KH0659,Nam,37.0,26.4,1.0,5
+KH0660,Nam,33.0,18.2,53.0,4
+KH0661,Nam,28.0,11.2,58.0,4
+KH0662,Nữ,28.0,5.8,58.0,7
+KH0663,Nam,34.0,10.7,74.0,3
+KH0664,Nam,28.0,7.3,28.0,6
+KH0665,Nam,26.0,8.6,63.0,2
+KH0666,Nữ,36.0,17.3,73.0,4
+KH0667,Nam,31.0,33.2,14.0,4
+KH0668,Nữ,53.0,15.4,,4
+KH0669,Nữ,18.0,5.9,39.0,8
+KH0670,Nữ,48.0,15.9,48.0,5
+KH0671,Nữ,49.0,25.0,56.0,8
+KH0672,Nữ,18.0,8.4,40.0,5
+KH0673,Nữ,30.0,11.2,36.0,7
+KH0674,Nam,30.0,12.3,50.0,8
+KH0675,Nam,18.0,7.6,28.0,3
+KH0676,Nam,,18.0,28.0,4
+KH0677,Nam,21.0,11.3,63.0,6
+KH0678,Nữ,56.0,15.7,27.0,4
+KH0679,Nam,46.0,7.2,63.0,4
+KH0680,Nam,50.0,9.4,,6
+KH0681,Nam,43.0,18.8,15.0,2
+KH0682,Nam,21.0,9.7,36.0,4
+KH0683,Nam,28.0,34.3,73.0,2
+KH0684,Nam,40.0,9.6,30.0,8
+KH0685,Nam,20.0,13.9,40.0,7
+KH0686,Nữ,43.0,21.3,59.0,2
+KH0687,Nữ,32.0,5.2,65.0,5
+KH0688,Nữ,30.0,4.2,44.0,6
+KH0689,Nữ,43.0,4.9,38.0,7
+KH0690,Nam,40.0,26.0,78.0,7
+KH0691,Nam,30.0,8.7,84.0,7
+KH0692,Nữ,48.0,56.5,69.0,6
+KH0693,Nữ,22.0,8.7,51.0,5
+KH0694,Nữ,42.0,13.6,33.0,5
+KH0695,Nam,42.0,30.7,33.0,8
+KH0696,Nam,31.0,40.6,60.0,7
+KH0697,Nữ,38.0,42.0,58.0,4
+KH0698,Nam,19.0,25.2,78.0,5
+KH0699,Nữ,46.0,22.5,63.0,8
+KH0700,Nam,32.0,17.4,19.0,5
+KH0701,Nam,28.0,19.4,71.0,2
+KH0702,Nam,47.0,8.8,30.0,3
+KH0703,Nữ,26.0,7.5,42.0,7
+KH0704,Nam,18.0,12.2,55.0,3
+KH0705,Nam,18.0,11.0,89.0,8
+KH0706,Nam,42.0,9.3,100.0,1
+KH0707,Nam,19.0,18.5,62.0,5
+KH0708,Nữ,56.0,21.6,46.0,3
+KH0709,Nữ,18.0,12.8,60.0,5
+KH0710,Nữ,55.0,29.6,67.0,5
+KH0711,Nam,37.0,6.1,43.0,2
+KH0712,Nữ,33.0,10.8,85.0,7
+KH0713,Nữ,28.0,7.9,54.0,2
+KH0714,Nữ,39.0,4.0,59.0,4
+KH0715,Nữ,34.0,,63.0,5
+KH0716,Nữ,48.0,11.3,58.0,4
+KH0717,Nữ,36.0,30.2,66.0,4
+KH0718,Nam,36.0,17.8,37.0,5
+KH0719,Nam,30.0,6.6,38.0,4
+KH0720,Nữ,34.0,37.1,27.0,4
+KH0721,Nữ,38.0,25.3,58.0,5
+KH0722,Nữ,18.0,17.3,65.0,7
+KH0723,Nam,18.0,10.6,,6
+KH0724,Nam,43.0,6.9,83.0,6
+KH0725,Nam,37.0,9.7,49.0,8
+KH0726,Nam,32.0,23.4,63.0,5
+KH0727,Nữ,35.0,37.7,28.0,2
+KH0728,Nam,39.0,30.8,42.0,4
+KH0729,Nam,28.0,9.1,63.0,6
+KH0730,Nữ,25.0,6.2,66.0,3
+KH0731,Nữ,37.0,13.3,44.0,3
+KH0732,Nữ,23.0,4.2,48.0,5
+KH0733,Nam,39.0,14.8,19.0,5
+KH0734,Nữ,18.0,11.1,42.0,6
+KH0735,Nữ,47.0,9.2,67.0,2
+KH0736,Nam,40.0,4.7,61.0,6
+KH0737,Nữ,38.0,16.6,60.0,4
+KH0738,Nữ,46.0,8.8,50.0,3
+KH0739,Nữ,54.0,6.0,50.0,4
+KH0740,Nữ,47.0,2.2,36.0,2
+KH0741,Nữ,18.0,12.0,63.0,6
+KH0742,Nam,19.0,35.3,58.0,8
+KH0743,Nam,27.0,33.0,59.0,5
+KH0744,Nữ,,9.3,39.0,6
+KH0745,Nữ,41.0,8.5,6.0,5
+KH0746,Nữ,26.0,16.1,71.0,5
+KH0747,Nữ,37.0,6.7,40.0,6
+KH0748,Nữ,25.0,14.6,32.0,4
+KH0749,Nam,27.0,19.3,63.0,4
+KH0750,Nữ,18.0,25.4,42.0,5
+KH0751,Nam,23.0,11.5,71.0,5
+KH0752,Nữ,18.0,10.8,62.0,4
+KH0753,Nữ,23.0,7.2,63.0,4
+KH0754,Nữ,47.0,7.4,22.0,7
+KH0755,Nam,23.0,10.6,74.0,5
+KH0756,Nữ,65.0,15.2,55.0,4
+KH0757,Nam,40.0,21.1,42.0,3
+KH0758,Nữ,37.0,7.5,52.0,9
+KH0759,Nữ,24.0,29.8,14.0,6
+KH0760,Nam,43.0,10.4,58.0,6
+KH0761,Nam,28.0,12.0,29.0,4
+KH0762,Nữ,36.0,7.8,22.0,7
+KH0763,Nữ,65.0,2.8,,6
+KH0764,Nữ,33.0,20.7,72.0,6
+KH0765,Nam,48.0,19.0,37.0,2
+KH0766,Nam,26.0,10.3,80.0,6
+KH0767,Nữ,34.0,12.7,39.0,4
+KH0768,Nam,56.0,16.6,15.0,7
+KH0769,Nữ,27.0,4.8,27.0,8
+KH0770,Nữ,56.0,8.9,74.0,6
+KH0771,Nữ,43.0,19.6,46.0,3
+KH0772,Nam,28.0,5.7,39.0,4
+KH0773,Nam,42.0,14.5,53.0,5
+KH0774,Nam,46.0,5.4,60.0,3
+KH0775,Nam,42.0,16.1,72.0,5
+KH0776,Nữ,18.0,11.9,78.0,8
+KH0777,Nam,26.0,4.6,42.0,8
+KH0778,Nữ,32.0,24.5,23.0,5
+KH0779,Nam,34.0,7.8,41.0,5
+KH0780,Nam,42.0,7.5,55.0,8
+KH0781,Nam,37.0,13.7,30.0,5
+KH0782,Nữ,18.0,,30.0,4
+KH0783,Nam,39.0,6.6,56.0,3
+KH0784,Nam,42.0,12.6,49.0,7
+KH0785,Nữ,41.0,15.8,50.0,4
+KH0786,Nữ,47.0,18.5,34.0,4
+KH0787,Nữ,45.0,13.5,45.0,5
+KH0788,Nữ,40.0,9.8,31.0,3
+KH0789,Nữ,34.0,7.4,67.0,5
+KH0790,Nữ,18.0,12.8,70.0,4
+KH0791,Nam,40.0,6.4,13.0,6
+KH0792,Nữ,37.0,2.1,31.0,5
+KH0793,Nam,38.0,15.8,20.0,5
+KH0794,Nữ,19.0,21.0,36.0,2
+KH0795,Nam,22.0,,48.0,5
+KH0796,Nam,47.0,6.6,21.0,3
+KH0797,Nam,34.0,17.7,31.0,3
+KH0798,Nữ,43.0,41.9,29.0,5
+KH0799,Nữ,35.0,12.3,54.0,4
+KH0800,Nữ,35.0,7.9,51.0,3
+KH0697,Nữ,38.0,42.0,58.0,4
+KH0668,Nữ,53.0,15.4,,4
+KH0064,Nữ,20.0,35.8,37.0,4
+KH0534,Nam,20.0,29.8,61.0,8
+KH0067,Nam,34.0,14.5,30.0,11
+KH0622,Nam,40.0,23.2,37.0,0
+KH0347,Nữ,18.0,6.3,57.0,7
+KH0491,Nữ,34.0,15.4,56.0,2
