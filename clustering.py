@@ -11,10 +11,24 @@
 import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score
+from sklearn.metrics import calinski_harabasz_score, davies_bouldin_score, silhouette_score
 import warnings
+import sys
 
 warnings.filterwarnings('ignore')
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
+
+
+def get_valid_k_range(X_scaled, min_k=2, max_k=10):
+    """Tra ve khoang K hop le cho KMeans va silhouette."""
+    n_samples = len(X_scaled)
+    if n_samples < 3:
+        raise ValueError("Cần ít nhất 3 dòng dữ liệu để đánh giá KMeans bằng Silhouette.")
+    return range(min_k, min(max_k, n_samples - 1) + 1)
 
 
 def elbow_method(X_scaled, k_range=range(2, 11)):
@@ -26,6 +40,12 @@ def elbow_method(X_scaled, k_range=range(2, 11)):
     """
     print("\n📊 Elbow Method:")
     print("-" * 40)
+
+    k_range = list(k_range)
+    max_valid_k = len(X_scaled) - 1
+    k_range = [k for k in k_range if 2 <= k <= max_valid_k]
+    if not k_range:
+        raise ValueError("Không có giá trị K hợp lệ. Cần ít nhất 3 dòng dữ liệu.")
 
     inertias = []
     sil_scores = []
@@ -61,11 +81,21 @@ def kmeans_clustering(X_scaled, n_clusters=4):
     print(f"\n🔵 KMeans Clustering (K={n_clusters}):")
     print("-" * 40)
 
+    if n_clusters < 2 or n_clusters >= len(X_scaled):
+        raise ValueError(
+            f"K={n_clusters} không hợp lệ với {len(X_scaled)} dòng dữ liệu. "
+            "K phải >= 2 và nhỏ hơn số dòng dữ liệu."
+        )
+
     model = KMeans(n_clusters=n_clusters, random_state=42, n_init=10, max_iter=300)
     labels = model.fit_predict(X_scaled)
     sil_score = silhouette_score(X_scaled, labels)
+    db_score = davies_bouldin_score(X_scaled, labels)
+    ch_score = calinski_harabasz_score(X_scaled, labels)
 
     print(f"   - Silhouette Score: {sil_score:.4f}")
+    print(f"   - Davies-Bouldin Index: {db_score:.4f}")
+    print(f"   - Calinski-Harabasz Score: {ch_score:.2f}")
     print(f"   - Inertia: {model.inertia_:.2f}")
 
     unique, counts = np.unique(labels, return_counts=True)
@@ -76,6 +106,8 @@ def kmeans_clustering(X_scaled, n_clusters=4):
         'labels': labels,
         'model': model,
         'silhouette': sil_score,
+        'davies_bouldin': db_score,
+        'calinski_harabasz': ch_score,
         'inertia': model.inertia_
     }
 
@@ -128,6 +160,6 @@ if __name__ == '__main__':
     else:
         df = load_data(data_path)
         result = preprocess_pipeline(df)
-        elbow_result = elbow_method(result['X_scaled'])
+        elbow_result = elbow_method(result['X_scaled'], get_valid_k_range(result['X_scaled']))
         km_result = kmeans_clustering(result['X_scaled'], n_clusters=elbow_result['best_k'])
         df_clustered = analyze_clusters(result['df_cleaned'], km_result['labels'])

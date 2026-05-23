@@ -10,6 +10,12 @@ import pandas as pd
 import numpy as np
 import random
 import os
+import sys
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
 
 # Đặt seed để kết quả có thể tái tạo (reproducible)
 np.random.seed(42)

@@ -12,6 +12,12 @@ import matplotlib.pyplot as plt
 import matplotlib
 import seaborn as sns
 import numpy as np
+import sys
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
 
 # Cấu hình
 matplotlib.rcParams['font.family'] = 'DejaVu Sans'

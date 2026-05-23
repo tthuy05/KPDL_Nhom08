@@ -6,7 +6,6 @@
 #         - Chọn số cụm K
 #         - Hiển thị biểu đồ: Histogram, Heatmap, Scatter Plot
 #         - Hiển thị bảng dữ liệu và mô tả nhóm khách hàng
-# Tác giả: Nhóm 08 - Môn Khai Phá Dữ Liệu
 # =============================================================================
 
 import streamlit as st
@@ -14,18 +13,19 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score
+from sklearn.metrics import calinski_harabasz_score, davies_bouldin_score, silhouette_score
 import warnings
 import os
+
+from clustering import get_valid_k_range
+from preprocessing import preprocess_pipeline
 
 warnings.filterwarnings('ignore')
 
 # ======================== CẤU HÌNH TRANG ========================
 st.set_page_config(
-    page_title="Phân Cụm Khách Hàng - KMeans | Nhóm 08",
-    page_icon="📊",
+    page_title="Phân Cụm Khách Hàng - KMeans Nhóm 08",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -104,30 +104,6 @@ def load_default_data():
     if os.path.exists(path):
         return pd.read_csv(path)
     return None
-
-
-def preprocess(df):
-    """Tiền xử lý đơn giản: missing values, duplicates, encode Gender"""
-    df = df.copy()
-    # Điền missing values
-    for col in df.select_dtypes(include=[np.number]).columns:
-        df[col].fillna(df[col].median(), inplace=True)
-    for col in df.select_dtypes(include=['object']).columns:
-        df[col].fillna(df[col].mode()[0], inplace=True)
-    # Xóa trùng lặp
-    df = df.drop_duplicates().reset_index(drop=True)
-    # Encode Gender
-    if 'Gender' in df.columns:
-        le = LabelEncoder()
-        df['Gender_Encoded'] = le.fit_transform(df['Gender'])
-    return df
-
-
-def get_features(df):
-    """Lấy danh sách features cho clustering"""
-    cols = ['Age', 'Income', 'SpendingScore', 'PurchaseFrequency']
-    return [c for c in cols if c in df.columns]
-
 
 def assign_cluster_names(df):
     """Gán tên mô tả cho từng cụm khách hàng"""
@@ -210,7 +186,16 @@ if df_raw is None:
     st.stop()
 
 # Tiền xử lý
-df = preprocess(df_raw)
+try:
+    preprocess_result = preprocess_pipeline(df_raw)
+except ValueError as exc:
+    st.error(f"Không thể tiền xử lý dữ liệu: {exc}")
+    st.info("CSV cần có các cột: CustomerID, Gender, Age, Income, SpendingScore, PurchaseFrequency.")
+    st.stop()
+
+df = preprocess_result['df_cleaned']
+X_scaled = preprocess_result['X_scaled']
+feature_cols = preprocess_result['feature_cols']
 
 # ---- TỔNG QUAN DỮ LIỆU ----
 st.markdown('<div class="section-header">📋 Tổng Quan Dữ Liệu</div>', unsafe_allow_html=True)
@@ -231,7 +216,7 @@ with st.expander("🔍 Xem dữ liệu mẫu", expanded=False):
 # ---- BIỂU ĐỒ KHÁM PHÁ ----
 st.markdown('<div class="section-header">📈 Khám Phá Dữ Liệu (EDA)</div>', unsafe_allow_html=True)
 
-num_cols = [c for c in ['Age', 'Income', 'SpendingScore', 'PurchaseFrequency'] if c in df.columns]
+num_cols = feature_cols
 
 if show_hist:
     st.markdown("#### 📊 Histogram — Phân phối dữ liệu")
@@ -264,13 +249,22 @@ if show_heatmap:
 if run_btn:
     st.markdown('<div class="section-header">🤖 Kết Quả Phân Cụm KMeans</div>', unsafe_allow_html=True)
 
-    features = get_features(df)
-    scaler = StandardScaler()
-    X = scaler.fit_transform(df[features])
+    features = feature_cols
+    X = X_scaled
+
+    try:
+        k_values = list(get_valid_k_range(X))
+    except ValueError as exc:
+        st.error(str(exc))
+        st.stop()
+
+    selected_k = min(k, max(k_values))
+    if selected_k != k:
+        st.warning(f"K={k} không hợp lệ với số dòng hiện tại. Đã dùng K={selected_k}.")
 
     # --- Elbow Method ---
     st.markdown("#### 📐 Elbow Method & Silhouette Score")
-    k_range = range(2, 11)
+    k_range = k_values
     inertias, sil_scores = [], []
     for ki in k_range:
         km = KMeans(n_clusters=ki, random_state=42, n_init=10)
@@ -280,12 +274,12 @@ if run_btn:
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5))
     ax1.plot(list(k_range), inertias, 'bo-', linewidth=2, markersize=8)
-    ax1.axvline(k, color='red', linestyle='--', label=f'K={k}')
+    ax1.axvline(selected_k, color='red', linestyle='--', label=f'K={selected_k}')
     ax1.set_xlabel('K'); ax1.set_ylabel('Inertia')
     ax1.set_title('Elbow Method', fontweight='bold')
     ax1.legend(); ax1.grid(True, alpha=0.3)
 
-    bar_colors = ['#FF6B6B' if ki == k else '#4ECDC4' for ki in k_range]
+    bar_colors = ['#FF6B6B' if ki == selected_k else '#4ECDC4' for ki in k_range]
     ax2.bar(list(k_range), sil_scores, color=bar_colors, edgecolor='white')
     ax2.set_xlabel('K'); ax2.set_ylabel('Silhouette Score')
     ax2.set_title('Silhouette Score', fontweight='bold')
@@ -296,21 +290,28 @@ if run_btn:
 
     # --- Chạy KMeans ---
     with st.spinner("⏳ Đang chạy KMeans..."):
-        model = KMeans(n_clusters=k, random_state=42, n_init=10)
+        model = KMeans(n_clusters=selected_k, random_state=42, n_init=10)
         labels = model.fit_predict(X)
 
+    df = df.copy()
     df['Cluster'] = labels
     df = assign_cluster_names(df)
 
     # Metrics
     n_clusters = len(set(labels))
     sil = silhouette_score(X, labels)
+    db_score = davies_bouldin_score(X, labels)
+    ch_score = calinski_harabasz_score(X, labels)
 
-    mc1, mc2 = st.columns(2)
+    mc1, mc2, mc3, mc4 = st.columns(4)
     with mc1:
         st.markdown(f'<div class="metric-card"><div class="metric-value">{n_clusters}</div><div class="metric-label">Số cụm</div></div>', unsafe_allow_html=True)
     with mc2:
         st.markdown(f'<div class="metric-card"><div class="metric-value">{sil:.4f}</div><div class="metric-label">Silhouette Score</div></div>', unsafe_allow_html=True)
+    with mc3:
+        st.markdown(f'<div class="metric-card"><div class="metric-value">{db_score:.4f}</div><div class="metric-label">Davies-Bouldin</div></div>', unsafe_allow_html=True)
+    with mc4:
+        st.markdown(f'<div class="metric-card"><div class="metric-value">{ch_score:.1f}</div><div class="metric-label">Calinski-Harabasz</div></div>', unsafe_allow_html=True)
 
     # --- Scatter Plot phân cụm ---
     st.markdown("#### 🗺️ Scatter Plot — Phân cụm theo Income & SpendingScore")
@@ -367,5 +368,5 @@ if run_btn:
     st.dataframe(df[display_cols], use_container_width=True, height=400)
 
     # Download
-    csv = df[display_cols].to_csv(index=False, encoding='utf-8-sig')
+    csv = df[display_cols].to_csv(index=False, sep=';', encoding='utf-8-sig')
     st.download_button("⬇️ Tải kết quả CSV", csv, "ket_qua_phan_cum.csv", "text/csv", use_container_width=True)

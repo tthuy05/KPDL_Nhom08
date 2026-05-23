@@ -13,8 +13,36 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 import warnings
+import sys
 
 warnings.filterwarnings('ignore')
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
+
+
+FEATURE_COLUMNS = ['Age', 'Income', 'SpendingScore', 'PurchaseFrequency']
+
+
+def validate_required_columns(df, required_cols=None):
+    """Kiem tra cac cot bat buoc truoc khi tien xu ly/phan cum."""
+    required_cols = required_cols or FEATURE_COLUMNS
+    missing_cols = [col for col in required_cols if col not in df.columns]
+    if missing_cols:
+        raise ValueError(
+            "Dataset thiếu cột bắt buộc: "
+            + ", ".join(missing_cols)
+            + ". Cần có các cột: "
+            + ", ".join(required_cols)
+        )
+
+
+def validate_not_empty(df):
+    """Dam bao dataset con du lieu sau khi lam sach."""
+    if df.empty:
+        raise ValueError("Dataset rỗng, không thể tiền xử lý hoặc phân cụm.")
 
 
 def load_data(filepath):
@@ -47,6 +75,11 @@ def handle_missing_values(df):
     print("\n🔧 Xử lý Missing Values:")
     print("-" * 40)
 
+    df = df.copy()
+    for col in FEATURE_COLUMNS:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+
     missing_before = df.isnull().sum()
     missing_cols = missing_before[missing_before > 0]
 
@@ -56,16 +89,26 @@ def handle_missing_values(df):
 
     for col in missing_cols.index:
         count = missing_cols[col]
-        if df[col].dtype in ['float64', 'int64']:
+        if pd.api.types.is_numeric_dtype(df[col]):
             # Cột số → điền median
             median_val = df[col].median()
-            df[col].fillna(median_val, inplace=True)
+            if pd.isna(median_val):
+                raise ValueError(
+                    f"Cột {col} toàn missing, không thể điền bằng median. "
+                    "Hãy bổ sung dữ liệu hợp lệ hoặc bỏ cột này khỏi feature."
+                )
+            df[col] = df[col].fillna(median_val)
             print(f"   - {col}: {count} missing → điền median = {median_val}")
         else:
             # Cột chữ → điền mode
-            mode_val = df[col].mode()[0]
-            df[col].fillna(mode_val, inplace=True)
+            mode_series = df[col].mode(dropna=True)
+            mode_val = mode_series.iloc[0] if not mode_series.empty else 'Unknown'
+            df[col] = df[col].fillna(mode_val)
             print(f"   - {col}: {count} missing → điền mode = '{mode_val}'")
+
+    missing_after = df.isnull().sum().sum()
+    if missing_after > 0:
+        raise ValueError(f"Vẫn còn {missing_after} missing values sau tiền xử lý.")
 
     print(f"   ✅ Đã xử lý xong {missing_before.sum()} missing values!")
     return df
@@ -82,6 +125,7 @@ def remove_duplicates(df):
         return df
 
     df = df.drop_duplicates().reset_index(drop=True)
+    validate_not_empty(df)
     print(f"   - Đã xóa {n_dup} dòng trùng lặp")
     print(f"   - Kích thước mới: {df.shape[0]} dòng")
     return df
@@ -97,6 +141,8 @@ def encode_gender(df):
 
     le = LabelEncoder()
     if 'Gender' in df.columns:
+        df = df.copy()
+        df['Gender'] = df['Gender'].astype(str)
         df['Gender_Encoded'] = le.fit_transform(df['Gender'])
         mapping = dict(zip(le.classes_, le.transform(le.classes_)))
         print(f"   - Gender: {mapping}")
@@ -115,9 +161,20 @@ def scale_features(df):
     print("\n🔧 Chuẩn hóa dữ liệu (StandardScaler):")
     print("-" * 40)
 
-    # Các cột dùng để clustering
-    feature_cols = ['Age', 'Income', 'SpendingScore', 'PurchaseFrequency']
-    feature_cols = [c for c in feature_cols if c in df.columns]
+    validate_required_columns(df, FEATURE_COLUMNS)
+    validate_not_empty(df)
+
+    feature_cols = FEATURE_COLUMNS.copy()
+    for col in feature_cols:
+        df[col] = pd.to_numeric(df[col], errors='coerce')
+
+    if df[feature_cols].isnull().sum().sum() > 0:
+        missing_detail = df[feature_cols].isnull().sum()
+        missing_detail = missing_detail[missing_detail > 0]
+        raise ValueError(
+            "Các feature dùng để phân cụm còn missing hoặc không phải số: "
+            + missing_detail.to_dict().__repr__()
+        )
 
     print(f"   - Features: {feature_cols}")
 
@@ -148,6 +205,10 @@ def preprocess_pipeline(df):
     print("🚀 BẮT ĐẦU TIỀN XỬ LÝ DỮ LIỆU")
     print("=" * 50)
 
+    df = df.copy()
+    validate_required_columns(df, FEATURE_COLUMNS)
+    validate_not_empty(df)
+
     df = handle_missing_values(df)
     df = remove_duplicates(df)
     df, encoder = encode_gender(df)
@@ -162,7 +223,8 @@ def preprocess_pipeline(df):
         'df_cleaned': df,
         'X_scaled': X_scaled,
         'scaler': scaler,
-        'feature_cols': feature_cols
+        'feature_cols': feature_cols,
+        'encoder': encoder
     }
 
 
