@@ -12,8 +12,8 @@
 ```
 KPDL_Nhom08/
 ├── data/
-│   └── customers.csv          # Dataset khách hàng (~800 dòng)
-├── generate_data.py           # Tạo dataset giả lập
+│   ├── customer_data_with_churn.csv # Dataset Kaggle gốc (~2000 dòng)
+│   └── customers_kaggle.csv         # Dataset đã chuẩn hóa, dùng mặc định
 ├── preprocessing.py           # Tiền xử lý dữ liệu
 ├── clustering.py              # Thuật toán KMeans
 ├── visualization.py           # Trực quan hóa (Histogram, Heatmap, Scatter)
@@ -32,19 +32,23 @@ KPDL_Nhom08/
 pip install -r requirements.txt
 ```
 
-### Bước 2: Tạo dataset
-
-```bash
-python generate_data.py
-```
-
-### Bước 3: Chạy Dashboard
+### Bước 2: Chạy Dashboard
 
 ```bash
 streamlit run app.py
 ```
 
 → Mở trình duyệt tại `http://localhost:8501`
+
+---
+
+## 📂 Nguồn dữ liệu
+
+Dataset được lấy từ **Kaggle**. File `customer_data_with_churn.csv` là dữ liệu gốc; file
+`customers_kaggle.csv` là dữ liệu đã chọn thuộc tính và đổi tên cột để dùng mặc định.
+
+Dashboard sử dụng file đã chuẩn hóa hoặc CSV có các cột:
+`CustomerID`, `Gender`, `Age`, `Income`, `SpendingScore`, `PurchaseFrequency`.
 
 ---
 
@@ -67,8 +71,8 @@ streamlit run app.py
 |-----|--------|------|
 | CustomerID | Mã khách hàng | String |
 | Gender | Giới tính (Nam/Nữ) | Categorical |
-| Age | Tuổi (18-65) | Numeric |
-| Income | Thu nhập hàng tháng (triệu VNĐ) | Numeric |
+| Age | Tuổi (18-69) | Numeric |
+| Income | Thu nhập hàng tháng | Numeric |
 | SpendingScore | Điểm chi tiêu (1-100) | Numeric |
 | PurchaseFrequency | Tần suất mua (lần/tháng) | Numeric |
 
@@ -82,7 +86,8 @@ streamlit run app.py
 3. Cập nhật tâm cụm = trung bình các điểm trong cụm
 4. Lặp lại bước 2-3 cho đến khi hội tụ
 
-**Tìm K tối ưu:** Sử dụng Elbow Method + Silhouette Score
+**Tìm K phù hợp:** Khảo sát `K=2..10` bằng Elbow Method và Silhouette Score.
+Với dataset mặc định, `K=8` đạt Silhouette Score cao nhất trong phạm vi khảo sát.
 
 ---
 
@@ -111,5 +116,5 @@ streamlit run app.py
 
 | STT | Họ tên | MSSV |
 |-----|--------|------|
-| 1 | [Tên SV 1] | [MSSV] |
-| 2 | [Tên SV 2] | [MSSV] |
+| 1 | Trần Lê Anh Tuấn | 2001230858 |
+| 2 | Nguyễn Đẩu Thủy | 2001230951 |

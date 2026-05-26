@@ -2,7 +2,7 @@
 # app.py - Dashboard Streamlit đơn giản
 # =============================================================================
 # Mô tả: Giao diện web phân cụm khách hàng bằng KMeans
-#         - Upload CSV hoặc dùng dataset mặc định
+#         - Upload CSV hoặc dùng dataset Kaggle mặc định
 #         - Chọn số cụm K
 #         - Hiển thị biểu đồ: Histogram, Heatmap, Scatter Plot
 #         - Hiển thị bảng dữ liệu và mô tả nhóm khách hàng
@@ -13,12 +13,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.cluster import KMeans
-from sklearn.metrics import calinski_harabasz_score, davies_bouldin_score, silhouette_score
 import warnings
 import os
 
-from clustering import get_valid_k_range
+from clustering import analyze_clusters, elbow_method, get_valid_k_range, kmeans_clustering
 from preprocessing import preprocess_pipeline
 
 warnings.filterwarnings('ignore')
@@ -100,37 +98,10 @@ st.markdown("""
 @st.cache_data
 def load_default_data():
     """Tải dataset mặc định từ thư mục data/"""
-    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'customers.csv')
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'customers_kaggle.csv')
     if os.path.exists(path):
         return pd.read_csv(path)
     return None
-
-def assign_cluster_names(df):
-    """Gán tên mô tả cho từng cụm khách hàng"""
-    df = df.copy()
-    inc_med = df['Income'].median() if 'Income' in df.columns else 0
-    spe_med = df['SpendingScore'].median() if 'SpendingScore' in df.columns else 0
-    freq_med = df['PurchaseFrequency'].median() if 'PurchaseFrequency' in df.columns else 0
-
-    cluster_names = {}
-    for cid in sorted(df['Cluster'].unique()):
-        s = df[df['Cluster'] == cid]
-        inc = s['Income'].mean() if 'Income' in s.columns else 0
-        spe = s['SpendingScore'].mean() if 'SpendingScore' in s.columns else 0
-        freq = s['PurchaseFrequency'].mean() if 'PurchaseFrequency' in s.columns else 0
-
-        if inc > inc_med * 1.2 and spe > spe_med * 1.2:
-            cluster_names[cid] = "💎 Khách VIP"
-        elif inc > inc_med * 0.8 and spe > spe_med * 0.8:
-            cluster_names[cid] = "⭐ Khách tiềm năng"
-        elif freq < freq_med * 0.7:
-            cluster_names[cid] = "🛒 Khách ít mua hàng"
-        else:
-            cluster_names[cid] = "💰 Khách chi tiêu thấp"
-
-    df['ClusterName'] = df['Cluster'].map(cluster_names)
-    return df
-
 
 # ======================== SIDEBAR ========================
 with st.sidebar:
@@ -140,18 +111,18 @@ with st.sidebar:
     # Upload hoặc dùng mặc định
     st.markdown("### 📁 Dữ liệu")
     upload = st.file_uploader("Upload file CSV", type=['csv'])
-    use_default = st.checkbox("Dùng dataset mặc định", value=True)
+    use_default = st.checkbox("Dùng dataset Kaggle mặc định", value=True)
 
     st.markdown("---")
     st.markdown("### ⚙️ Cài đặt KMeans")
-    k = st.slider("Số cụm (K)", 2, 8, 4)
+    k = st.slider("Số cụm (K)", 2, 10, 8)
 
     st.markdown("---")
     st.markdown("### 📊 Biểu đồ")
     show_hist = st.checkbox("Histogram", value=True)
     show_heatmap = st.checkbox("Heatmap", value=True)
 
-    run_btn = st.button("🚀 Chạy Phân Cụm", use_container_width=True, type="primary")
+    run_btn = st.button("🚀 Chạy Phân Cụm", width="stretch", type="primary")
 
     st.markdown("---")
     st.markdown("""
@@ -178,9 +149,9 @@ if upload is not None:
 elif use_default:
     df_raw = load_default_data()
     if df_raw is not None:
-        st.info(f"📂 Đang dùng dataset mặc định ({len(df_raw)} dòng)")
+        st.info(f"📂 Đang dùng dataset Kaggle mặc định ({len(df_raw)} dòng)")
     else:
-        st.warning("⚠️ Chưa có dataset mặc định. Hãy chạy `python generate_data.py` hoặc upload CSV.")
+        st.warning("⚠️ Chưa có dataset mặc định. Hãy đặt file `customers_kaggle.csv` vào thư mục `data/` hoặc upload CSV.")
 
 if df_raw is None:
     st.stop()
@@ -190,10 +161,11 @@ try:
     preprocess_result = preprocess_pipeline(df_raw)
 except ValueError as exc:
     st.error(f"Không thể tiền xử lý dữ liệu: {exc}")
-    st.info("CSV cần có các cột: CustomerID, Gender, Age, Income, SpendingScore, PurchaseFrequency.")
+    st.info("Hãy upload file đã chuẩn hóa có các cột: CustomerID, Gender, Age, Income, SpendingScore, PurchaseFrequency.")
     st.stop()
 
 df = preprocess_result['df_cleaned']
+df_input = preprocess_result['df_input']
 X_scaled = preprocess_result['X_scaled']
 feature_cols = preprocess_result['feature_cols']
 
@@ -203,15 +175,15 @@ c1, c2, c3 = st.columns(3)
 with c1:
     st.markdown(f'<div class="metric-card"><div class="metric-value">{len(df):,}</div><div class="metric-label">Khách hàng</div></div>', unsafe_allow_html=True)
 with c2:
-    missing = df_raw.isnull().sum().sum()
-    st.markdown(f'<div class="metric-card"><div class="metric-value">{missing}</div><div class="metric-label">Missing (gốc)</div></div>', unsafe_allow_html=True)
+    missing = df_input.isnull().sum().sum()
+    st.markdown(f'<div class="metric-card"><div class="metric-value">{missing}</div><div class="metric-label">Missing (trước xử lý)</div></div>', unsafe_allow_html=True)
 with c3:
-    dup = df_raw.duplicated().sum()
-    st.markdown(f'<div class="metric-card"><div class="metric-value">{dup}</div><div class="metric-label">Duplicates (gốc)</div></div>', unsafe_allow_html=True)
+    dup = df_input.duplicated().sum()
+    st.markdown(f'<div class="metric-card"><div class="metric-value">{dup}</div><div class="metric-label">Duplicates (trước xử lý)</div></div>', unsafe_allow_html=True)
 
 # Dữ liệu mẫu
 with st.expander("🔍 Xem dữ liệu mẫu", expanded=False):
-    st.dataframe(df.head(15), use_container_width=True)
+    st.dataframe(df.head(15), width="stretch")
 
 # ---- BIỂU ĐỒ KHÁM PHÁ ----
 st.markdown('<div class="section-header">📈 Khám Phá Dữ Liệu (EDA)</div>', unsafe_allow_html=True)
@@ -249,7 +221,6 @@ if show_heatmap:
 if run_btn:
     st.markdown('<div class="section-header">🤖 Kết Quả Phân Cụm KMeans</div>', unsafe_allow_html=True)
 
-    features = feature_cols
     X = X_scaled
 
     try:
@@ -265,12 +236,11 @@ if run_btn:
     # --- Elbow Method ---
     st.markdown("#### 📐 Elbow Method & Silhouette Score")
     k_range = k_values
-    inertias, sil_scores = [], []
-    for ki in k_range:
-        km = KMeans(n_clusters=ki, random_state=42, n_init=10)
-        km.fit(X)
-        inertias.append(km.inertia_)
-        sil_scores.append(silhouette_score(X, km.labels_))
+    elbow_result = elbow_method(X, k_range)
+    inertias = elbow_result['inertias']
+    sil_scores = elbow_result['silhouette_scores']
+    best_k = elbow_result['best_k']
+    st.info(f"K đề xuất theo Silhouette Score: K={best_k} (điểm {max(sil_scores):.4f}).")
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5))
     ax1.plot(list(k_range), inertias, 'bo-', linewidth=2, markersize=8)
@@ -290,18 +260,16 @@ if run_btn:
 
     # --- Chạy KMeans ---
     with st.spinner("⏳ Đang chạy KMeans..."):
-        model = KMeans(n_clusters=selected_k, random_state=42, n_init=10)
-        labels = model.fit_predict(X)
+        km_result = kmeans_clustering(X, selected_k)
+        labels = km_result['labels']
 
-    df = df.copy()
-    df['Cluster'] = labels
-    df = assign_cluster_names(df)
+    df = analyze_clusters(df, labels)
 
     # Metrics
     n_clusters = len(set(labels))
-    sil = silhouette_score(X, labels)
-    db_score = davies_bouldin_score(X, labels)
-    ch_score = calinski_harabasz_score(X, labels)
+    sil = km_result['silhouette']
+    db_score = km_result['davies_bouldin']
+    ch_score = km_result['calinski_harabasz']
 
     mc1, mc2, mc3, mc4 = st.columns(4)
     with mc1:
@@ -365,8 +333,8 @@ if run_btn:
     # --- Bảng dữ liệu ---
     st.markdown("#### 📋 Bảng dữ liệu phân cụm")
     display_cols = [c for c in ['CustomerID', 'Gender', 'Age', 'Income', 'SpendingScore', 'PurchaseFrequency', 'Cluster', 'ClusterName'] if c in df.columns]
-    st.dataframe(df[display_cols], use_container_width=True, height=400)
+    st.dataframe(df[display_cols], width="stretch", height=400)
 
     # Download
     csv = df[display_cols].to_csv(index=False, sep=';', encoding='utf-8-sig')
-    st.download_button("⬇️ Tải kết quả CSV", csv, "ket_qua_phan_cum.csv", "text/csv", use_container_width=True)
+    st.download_button("⬇️ Tải kết quả CSV", csv, "ket_qua_phan_cum.csv", "text/csv", width="stretch")

@@ -24,11 +24,12 @@ if hasattr(sys.stderr, 'reconfigure'):
 
 
 FEATURE_COLUMNS = ['Age', 'Income', 'SpendingScore', 'PurchaseFrequency']
+REQUIRED_COLUMNS = ['CustomerID', 'Gender'] + FEATURE_COLUMNS
 
 
 def validate_required_columns(df, required_cols=None):
     """Kiem tra cac cot bat buoc truoc khi tien xu ly/phan cum."""
-    required_cols = required_cols or FEATURE_COLUMNS
+    required_cols = required_cols or REQUIRED_COLUMNS
     missing_cols = [col for col in required_cols if col not in df.columns]
     if missing_cols:
         raise ValueError(
@@ -206,7 +207,9 @@ def preprocess_pipeline(df):
     print("=" * 50)
 
     df = df.copy()
-    validate_required_columns(df, FEATURE_COLUMNS)
+    validate_required_columns(df, REQUIRED_COLUMNS)
+    df = df[REQUIRED_COLUMNS].copy()
+    df_input = df.copy()
     validate_not_empty(df)
 
     df = handle_missing_values(df)
@@ -221,6 +224,7 @@ def preprocess_pipeline(df):
 
     return {
         'df_cleaned': df,
+        'df_input': df_input,
         'X_scaled': X_scaled,
         'scaler': scaler,
         'feature_cols': feature_cols,
@@ -234,11 +238,11 @@ def preprocess_pipeline(df):
 if __name__ == '__main__':
     import os
 
-    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'customers.csv')
+    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'customers_kaggle.csv')
 
     if not os.path.exists(data_path):
-        print("⚠️ Chưa có file customers.csv!")
-        print("   Hãy chạy: python generate_data.py")
+        print("⚠️ Chưa có file customers_kaggle.csv!")
+        print("   Hãy đặt file customers_kaggle.csv vào thư mục data/")
     else:
         df = load_data(data_path)
         result = preprocess_pipeline(df)

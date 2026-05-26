@@ -129,9 +129,9 @@ def plot_elbow(elbow_result, selected_k=None, figsize=(13, 5)):
 
 if __name__ == '__main__':
     import os
-    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'customers.csv')
+    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'customers_kaggle.csv')
     if not os.path.exists(data_path):
-        print("⚠️ Chưa có file customers.csv! Hãy chạy: python generate_data.py")
+        print("⚠️ Chưa có file customers_kaggle.csv! Hãy đặt file vào thư mục data/")
     else:
         from preprocessing import load_data, preprocess_pipeline
         from clustering import kmeans_clustering, elbow_method

@@ -154,9 +154,9 @@ if __name__ == '__main__':
     import os
     from preprocessing import load_data, preprocess_pipeline
 
-    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'customers.csv')
+    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'customers_kaggle.csv')
     if not os.path.exists(data_path):
-        print("⚠️ Chưa có file customers.csv! Hãy chạy: python generate_data.py")
+        print("⚠️ Chưa có file customers_kaggle.csv! Hãy đặt file vào thư mục data/")
     else:
         df = load_data(data_path)
         result = preprocess_pipeline(df)
