@@ -138,13 +138,13 @@ def analyze_clusters(df, labels):
         freq = s.get('PurchaseFrequency', 0)
 
         if inc > inc_med * 1.2 and spe > spe_med * 1.2:
-            cluster_names[cid] = "💎 Khách VIP"
+            cluster_names[cid] = "Khách VIP"
         elif inc > inc_med * 0.8 and spe > spe_med * 0.8:
-            cluster_names[cid] = "⭐ Khách tiềm năng"
+            cluster_names[cid] = "Khách tiềm năng"
         elif freq < freq_med * 0.7:
-            cluster_names[cid] = "🛒 Khách ít mua hàng"
+            cluster_names[cid] = "Khách ít mua hàng"
         else:
-            cluster_names[cid] = "💰 Khách chi tiêu thấp"
+            cluster_names[cid] = "Khách chi tiêu thấp"
 
     df_result['ClusterName'] = df_result['Cluster'].map(cluster_names)
     return df_result

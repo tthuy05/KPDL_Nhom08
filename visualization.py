@@ -20,9 +20,26 @@ if hasattr(sys.stderr, 'reconfigure'):
     sys.stderr.reconfigure(encoding='utf-8')
 
 # Cấu hình
-matplotlib.rcParams['font.family'] = 'DejaVu Sans'
-matplotlib.rcParams['axes.unicode_minus'] = False
+matplotlib.rcParams.update({
+    'font.family': 'sans-serif',
+    'font.sans-serif': ['Segoe UI', 'Helvetica Neue', 'Arial', 'sans-serif'],
+    'axes.unicode_minus': False,
+    'figure.facecolor': '#FFFFFF',
+    'axes.facecolor':   '#FAFBFC',
+    'axes.edgecolor':   '#D1D5DB',
+    'axes.labelcolor':  '#374151',
+    'axes.grid':        True,
+    'grid.color':       '#E5E7EB',
+    'grid.alpha':       0.6,
+    'grid.linewidth':   0.5,
+    'xtick.color':      '#6B7280',
+    'ytick.color':      '#6B7280',
+})
 sns.set_style("whitegrid")
+
+CLUSTER_COLORS = ['#2563EB', '#7C3AED', '#059669', '#D97706',
+                  '#DC2626', '#0891B2', '#4F46E5', '#CA8A04']
+HIST_COLORS = ['#3B82F6', '#8B5CF6', '#10B981', '#F59E0B']
 
 
 def plot_histograms(df, figsize=(14, 5)):
@@ -35,7 +52,7 @@ def plot_histograms(df, figsize=(14, 5)):
     fig, axes = plt.subplots(1, n, figsize=figsize)
     if n == 1:
         axes = [axes]
-    colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4']
+    colors = HIST_COLORS
 
     for i, col in enumerate(num_cols):
         axes[i].hist(df[col].dropna(), bins=25, color=colors[i], edgecolor='white', alpha=0.85)
@@ -78,7 +95,7 @@ def plot_scatter(df, x_col='Income', y_col='SpendingScore', hue_col=None, figsiz
     fig, ax = plt.subplots(figsize=figsize)
 
     if hue_col and hue_col in df.columns:
-        palette = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD', '#98D8C8', '#F7DC6F']
+        palette = CLUSTER_COLORS
         for i, cluster in enumerate(sorted(df[hue_col].unique())):
             subset = df[df[hue_col] == cluster]
             ax.scatter(subset[x_col], subset[y_col],
@@ -116,7 +133,7 @@ def plot_elbow(elbow_result, selected_k=None, figsize=(13, 5)):
     ax1.grid(True, alpha=0.3)
 
     # Silhouette Chart
-    bar_colors = ['#FF6B6B' if k == show_k else '#4ECDC4' for k in k_values]
+    bar_colors = ['#2563EB' if k == show_k else '#BFDBFE' for k in k_values]
     ax2.bar(k_values, sil_scores, color=bar_colors, edgecolor='white')
     ax2.set_xlabel('So cum (K)')
     ax2.set_ylabel('Silhouette Score')
